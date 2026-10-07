@@ -87,7 +87,9 @@ const bowAt = (drumDeg: number, bow: number) =>
 /** Both states in one chain: the ring terms fall away as `m` reaches the drum,
     and the drum terms are still zero while the ring is up. The bow is applied
     first, in the wheel's own plane, so it slides the card sideways rather than
-    turning with it - and perspective still shrinks it with distance. */
+    turning with it - and perspective still shrinks it with distance. The lead
+    -50%/-50% pins the card's centre on its layout point, which keeps the
+    geometry identical in RTL documents (no reliance on static position). */
 function place(
   ringDeg: number,
   drumDeg: number,
@@ -97,7 +99,8 @@ function place(
   m: number,
 ) {
   return (
-    `translateX(${m * bowAt(drumDeg, bow)}px)` +
+    `translate(-50%, -50%)` +
+    ` translateX(${m * bowAt(drumDeg, bow)}px)` +
     ` rotateZ(${(1 - m) * ringDeg}deg) translateY(${-(1 - m) * ringR}px)` +
     ` rotateX(${m * drumDeg}deg) translateZ(${m * drumR}px)`
   );
@@ -122,6 +125,9 @@ export function WorksWheel({
   const target = React.useRef(0);
   const [active, setActive] = React.useState(0);
   const [stage, setStage] = React.useState<Stage>({ w: 0, h: 0 });
+
+  /** Restarts the rAF loop; assigned by the draw effect below. */
+  const kickRef = React.useRef<() => void>(() => {});
 
   const count = items.length;
   const last = Math.max(count - 1, 0);
@@ -150,7 +156,11 @@ export function WorksWheel({
 
   const metrics = React.useMemo(() => {
     const { w, h } = stage;
-    const cardW = Math.min(h * CARD_H * CARD_RATIO, w * CARD_MAX_W);
+    // A phone-stage card capped at desktop proportions nearly disappears;
+    // narrow stages let the card take most of the width so the drum keeps
+    // its presence and the type stays readable.
+    const maxWf = w > 0 && w < 640 ? 0.58 : CARD_MAX_W;
+    const cardW = Math.min(h * CARD_H * CARD_RATIO, w * maxWf);
     const cardH = cardW / CARD_RATIO;
     const drumR = cardH * DRUM;
     const ringR = cardH * RING_R;
@@ -167,19 +177,22 @@ export function WorksWheel({
       drumR,
       bow: cardH * BOW,
       depth: cardH * LENS,
-      title: cardH * TITLE,
-      index: cardH * INDEX,
+      title: Math.max(cardH * TITLE, 14),
+      index: Math.max(cardH * INDEX, 11),
     };
   }, [stage, count]);
 
-  // One pass per frame: ease toward the target, then write every transform.
+  // One pass per frame while the wheel is in motion: ease toward the target,
+  // write every transform, then park the loop once the wheel has settled.
+  // Turning, dragging or resizing kicks it back to life, so an idle wheel
+  // costs the page nothing.
   React.useEffect(() => {
     if (!stage.h) return;
     let frame = 0;
+    let running = false;
     const { ringR, ringScale, drumR, bow } = metrics;
 
     const draw = () => {
-      frame = requestAnimationFrame(draw);
       const gap = target.current - turn.current;
       if (Math.abs(gap) < 0.0005) turn.current = target.current;
       else turn.current += gap * (reduced ? 1 : EASE);
@@ -222,15 +235,32 @@ export function WorksWheel({
       if (titleRef.current) titleRef.current.style.opacity = String(m);
       const near = clamp(Math.round(pos), 0, last);
       setActive((prev) => (prev === near ? prev : near));
+
+      if (turn.current === target.current) {
+        running = false; // settled — park the loop
+        return;
+      }
+      frame = requestAnimationFrame(draw);
     };
 
-    frame = requestAnimationFrame(draw);
-    return () => cancelAnimationFrame(frame);
+    const ensure = () => {
+      if (running) return;
+      running = true;
+      frame = requestAnimationFrame(draw);
+    };
+    kickRef.current = ensure;
+    ensure();
+
+    return () => {
+      running = false;
+      cancelAnimationFrame(frame);
+    };
   }, [metrics, stage.h, count, last, reduced]);
 
   const to = React.useCallback(
     (next: number) => {
       target.current = clamp(next, 0, last + 1);
+      kickRef.current();
     },
     [last],
   );
@@ -262,7 +292,11 @@ export function WorksWheel({
     };
   }, [to, last]);
 
-  const drag = React.useRef<number | null>(null);
+  const drag = React.useRef<{
+    x: number;
+    y: number;
+    touch: boolean;
+  } | null>(null);
   const settling = React.useRef(0);
 
   return (
@@ -280,21 +314,34 @@ export function WorksWheel({
         role="listbox"
         aria-label={label}
         aria-activedescendant={`works-wheel-${active}`}
-        className="focus-visible:outline-white absolute inset-0 cursor-grab touch-pan-x outline-none focus-visible:outline-2 focus-visible:-outline-offset-4 active:cursor-grabbing"
+        className="focus-visible:outline-white absolute inset-0 cursor-grab touch-pan-y outline-none focus-visible:outline-2 focus-visible:-outline-offset-4 active:cursor-grabbing"
         style={{ perspective: `${metrics.depth}px` }}
         onPointerDown={(event) => {
-          drag.current = event.clientY;
+          drag.current = {
+            x: event.clientX,
+            y: event.clientY,
+            touch: event.pointerType === "touch",
+          };
           event.currentTarget.setPointerCapture(event.pointerId);
         }}
         onPointerMove={(event) => {
-          if (drag.current === null) return;
-          to(target.current + (drag.current - event.clientY) / DRAG_UNITS);
-          drag.current = event.clientY;
+          const d = drag.current;
+          if (!d) return;
+          // Touch swipes horizontally - vertical swipes scroll the page (see
+          // touch-action above); mouse and pen keep the vertical drag.
+          const delta = d.touch ? d.x - event.clientX : d.y - event.clientY;
+          if (!delta) return;
+          to(target.current + delta / DRAG_UNITS);
+          d.x = event.clientX;
+          d.y = event.clientY;
         }}
         onPointerUp={() => {
           // Land on an item rather than between two.
           drag.current = null;
           if (target.current > 1) to(Math.round(target.current));
+        }}
+        onPointerCancel={() => {
+          drag.current = null;
         }}
         onKeyDown={(event) => {
           if (event.key === "ArrowDown") to(Math.round(target.current) + 1);
@@ -319,12 +366,10 @@ export function WorksWheel({
                   ref={(node: HTMLElement | null) => {
                     cardRefs.current[i] = node;
                   }}
-                  className="group absolute [backface-visibility:hidden]"
+                  className="group absolute top-0 left-0 [backface-visibility:hidden]"
                   style={{
                     width: metrics.cardW,
                     height: metrics.cardH,
-                    marginLeft: -metrics.cardW / 2,
-                    marginTop: -metrics.cardH / 2,
                   }}
                 >
                   <span className="relative block size-full overflow-hidden rounded-lg bg-[#0e0e11] ring-1 ring-white/15 shadow-[0_18px_40px_-18px_rgb(0_0_0/0.65)]">
@@ -332,6 +377,8 @@ export function WorksWheel({
                       src={item.image}
                       alt={item.title}
                       draggable={false}
+                      loading="lazy"
+                      decoding="async"
                       className="size-full object-cover"
                     />
                     {action && item.href ? (
@@ -373,14 +420,14 @@ export function WorksWheel({
       </div>
       <div
         ref={titleRef}
-        className="pointer-events-none absolute top-1/2 left-[8%] -translate-y-1/2 tracking-tight opacity-0"
+        className="pointer-events-none absolute top-[4.5%] left-1/2 -translate-x-1/2 text-center tracking-tight opacity-0 sm:top-1/2 sm:left-[8%] sm:translate-x-0 sm:-translate-y-1/2 sm:text-right"
         style={{ fontSize: metrics.title }}
       >
         {items[active]?.title}
       </div>
 
       <ol
-        className="absolute top-[7.5%] right-[2.5%] text-right leading-[1.75] text-white/55"
+        className="absolute top-[7.5%] right-[2.5%] hidden text-right leading-[1.75] text-white/55 sm:block"
         style={{ fontSize: metrics.index }}
       >
         {items.map((item, i) => (

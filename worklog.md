@@ -114,3 +114,22 @@ Stage Summary:
 - Site fully pushed to https://github.com/vahidaskari1365/drkermani (branch main, upstream set)
 - Token NOT persisted in any file; user advised to revoke/rotate it since it was shared in chat
 - .env, dev.log, node_modules, .next remain gitignored (correct)
+
+---
+Task ID: 9
+Agent: Super Z (main)
+Task: Make site responsive for mobile/tablet/desktop + fix lag (user request, Persian)
+
+Work Log:
+- Audited all components; identified lag sources: two never-sleeping rAF loops, canvas DPR-2 backing store (up to 8MP), 151 frames decoded at once, 28px backdrop-blur stacked over fixed video on mobile, nested blur-on-hover rows, touch-pan-x trap on wheel stage
+- ScrollVideoHero: pixel-budget canvas (1.5MP cap, imageSmoothingQuality medium), progressive 2-wave frame preload (stride-4 wave + idle-callback gap fill), idle-parking scrub loop (kick on scroll/resize), ease 0.14->0.18, fetchPriority high on poster
+- works-wheel: idle-parking draw loop via kickRef dirty-park pattern; RTL centering bug fixed (translate(-50%,-50%) in place() + top-0 left-0, no more static-position reliance) — offset now exactly 0; mobile card width factor 0.58 (<640px stages); touch drag now horizontal (touch-pan-y so vertical swipe scrolls page); pointerCancel handler; title top-center on mobile, index list hidden <sm; fonts clamped min 14/11px; lazy+async images
+- globals.css: mobile perf pass (<767px) — glass-28 14px, glass-18 10px, gold 12px, higher bg opacity, 2-layer text shadows
+- Navbar: scrolled blur backdrop-blur-lg mobile / 2xl desktop; mobile menu blur removed (95% opaque bg)
+- Nested-blur hover rows replaced with plain hover:bg-white/10 in Pricing price rows, Contact channels, Services minor pills
+- QA via agent-browser: desktop 1440x900 (hero/about/services/ring/drum/pricing/contact), iPhone 14 390x844 (hero/ring/drum/pricing/menu), tablet 820x1180 (hero/ring/service page). Canvas 780x1688 on DPR3 phone (was 2.96MP -> 1.32MP). Scrub verified (--p advances). Zero console errors. bun run lint clean.
+
+Stage Summary:
+- Site now responsive + significantly faster on all three classes of devices
+- Major incidental fix: WorksWheel was systematically mis-centered by half a card width in RTL (both ring and drum) on ALL viewports; now pixel-perfect
+- All changes committed and pushed to GitHub main

@@ -24,6 +24,12 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 const FRAME_COUNT = 151;
 const frameSrc = (i: number) => `/frames/f_${String(i + 1).padStart(3, '0')}.jpg`;
 
+/* Backing-store pixel budget: the source frames are only 1152×648 (~0.75MP),
+   so rendering at full DPR² on a phone or a 1440p display just burns GPU
+   time upscaling them. The cap keeps every real pixel of detail at a
+   fraction of the composite cost. */
+const MAX_CANVAS_PIXELS = 1_500_000; // ~1.5MP (≈ 1550×965)
+
 export default function ScrollVideoHero({
   heroCopy = true,
 }: {
@@ -61,38 +67,83 @@ export default function ScrollVideoHero({
     const canvas = canvasRef.current;
     if (!canvas) return;
     const dpr = Math.min(window.devicePixelRatio || 1, 2);
-    const w = Math.round(canvas.clientWidth * dpr);
-    const h = Math.round(canvas.clientHeight * dpr);
+    let w = Math.round(canvas.clientWidth * dpr);
+    let h = Math.round(canvas.clientHeight * dpr);
+    const px = w * h;
+    if (px > MAX_CANVAS_PIXELS) {
+      const k = Math.sqrt(MAX_CANVAS_PIXELS / px);
+      w = Math.round(w * k);
+      h = Math.round(h * k);
+    }
     if (canvas.width !== w || canvas.height !== h) {
       canvas.width = w;
       canvas.height = h;
+      const ctx = canvas.getContext('2d');
+      if (ctx) ctx.imageSmoothingQuality = 'medium';
       drawnRef.current = -1; // force redraw after resize
     }
   }, []);
 
-  /* ---------------- frame preloading (guarded, runs once) -------------- */
+  /* ------- frame preloading — progressive, in two waves (runs once) -----
+     Wave 1 loads every 4th frame so the whole scroll range can scrub
+     immediately (31 requests instead of 151 — the loader clears fast and
+     mobile decoding pressure drops). Wave 2 fills the gaps in idle time,
+     in small chunks, so the main thread never stalls. */
   useEffect(() => {
     if (imagesRef.current.length) return; // images already queued
+    const imgs: HTMLImageElement[] = new Array(FRAME_COUNT);
+    imagesRef.current = imgs;
     let done = 0;
 
-    const imgs: HTMLImageElement[] = new Array(FRAME_COUNT);
     const mark = () => {
       done++;
       setPct(Math.round((done / FRAME_COUNT) * 100));
-      if (done >= FRAME_COUNT) setReady(true);
     };
-    for (let i = 0; i < FRAME_COUNT; i++) {
+    const load = (i: number) => {
       const im = new Image();
       im.decoding = 'async';
+      im.onload = im.onerror = mark;
       im.src = frameSrc(i);
-      if (im.complete) mark();
-      else {
-        im.onload = mark;
-        im.onerror = mark;
-      }
       imgs[i] = im;
+    };
+
+    const idle = (cb: () => void) => {
+      const w = window as unknown as {
+        requestIdleCallback?: (cb: () => void, o?: { timeout: number }) => number;
+      };
+      if (typeof w.requestIdleCallback === 'function')
+        w.requestIdleCallback(cb, { timeout: 1200 });
+      else setTimeout(cb, 120);
+    };
+
+    // --- wave 1: stride 4, parallel -------------------------------------
+    const stride = 4;
+    let wave1Left = 0;
+    for (let i = 0; i < FRAME_COUNT; i += stride) {
+      wave1Left++;
+      load(i);
     }
-    imagesRef.current = imgs;
+    const onWave1 = () => {
+      wave1Left--;
+      if (wave1Left === 0) {
+        setReady(true); // full-range scrub available — hide the loader
+        // --- wave 2: the gaps, chunked in idle time ---------------------
+        const gaps: number[] = [];
+        for (let i = 0; i < FRAME_COUNT; i++) if (!imgs[i]) gaps.push(i);
+        let k = 0;
+        const pump = () => {
+          const end = Math.min(k + 8, gaps.length);
+          for (; k < end; k++) load(gaps[k]);
+          if (k < gaps.length) idle(pump);
+        };
+        idle(pump);
+      }
+    };
+    for (let i = 0; i < FRAME_COUNT; i += stride) {
+      const im = imgs[i];
+      if (im.complete) onWave1();
+      else im.addEventListener('load', onWave1, { once: true });
+    }
 
     // first paint as soon as the opening frame is available
     const boot = () => {
@@ -105,10 +156,14 @@ export default function ScrollVideoHero({
     else imgs[0].addEventListener('load', boot, { once: true });
   }, [draw]);
 
-  /* ---------------- scrub engine (page scroll → frame mapping) --------- */
+  /* ------------- scrub engine (page scroll → frame mapping) -------------
+     Idle-aware: the rAF loop runs only while the frame is still gliding
+     toward the scroll target and parks itself once settled, so reading
+     any section costs zero animation work (no battery drain, no jank).
+     Scroll/resize kick it back to life. */
   useEffect(() => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    const ease = reduced ? 1 : 0.14; // lerp factor (1 = direct, no smoothing)
+    const ease = reduced ? 1 : 0.18; // lerp factor (1 = direct, no smoothing)
 
     let raf = 0;
     const loop = () => {
@@ -121,7 +176,14 @@ export default function ScrollVideoHero({
         drawnRef.current = idx;
         draw(idx);
       }
+      if (n === t) {
+        raf = 0; // settled — park the loop until the next scroll
+        return;
+      }
       raf = requestAnimationFrame(loop);
+    };
+    const kick = () => {
+      if (!raf) raf = requestAnimationFrame(loop);
     };
 
     const compute = () => {
@@ -140,22 +202,29 @@ export default function ScrollVideoHero({
       }
     };
 
+    const onScroll = () => {
+      compute();
+      kick();
+    };
     const onResize = () => {
       sizeCanvas();
       compute();
+      kick();
     };
 
     sizeCanvas();
     compute();
-    draw(Math.round(currentRef.current)); // immediate first paint
+    drawnRef.current = Math.round(currentRef.current);
+    draw(drawnRef.current); // immediate first paint
+    kick();
 
-    window.addEventListener('scroll', compute, { passive: true });
+    window.addEventListener('scroll', onScroll, { passive: true });
     window.addEventListener('resize', onResize);
-    raf = requestAnimationFrame(loop);
 
     return () => {
-      cancelAnimationFrame(raf);
-      window.removeEventListener('scroll', compute);
+      if (raf) cancelAnimationFrame(raf);
+      raf = 0;
+      window.removeEventListener('scroll', onScroll);
       window.removeEventListener('resize', onResize);
     };
   }, [draw, sizeCanvas]);
@@ -171,6 +240,7 @@ export default function ScrollVideoHero({
         <img
           src="/frames/poster.jpg"
           alt=""
+          fetchPriority="high"
           className="absolute inset-0 h-full w-full object-cover"
           draggable={false}
         />

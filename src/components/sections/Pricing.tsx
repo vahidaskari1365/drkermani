@@ -44,7 +44,7 @@ function PriceList({
           {rows.map(([name, price]) => (
             <li
               key={name}
-              className="row-blur group flex items-baseline justify-between gap-6 rounded-lg px-3 py-4 last:border-b-0"
+              className="group flex items-baseline justify-between gap-6 rounded-lg border-b border-white/12 px-3 py-4 transition-colors duration-500 last:border-b-0 hover:bg-white/10"
             >
               <span className="text-[13px] font-normal leading-7 text-white/85 transition-colors duration-500 group-hover:text-white">
                 {name}

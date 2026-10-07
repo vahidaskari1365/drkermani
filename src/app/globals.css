@@ -340,3 +340,52 @@ body {
   .cine-img { transition: none; }
   .row-blur { transition: none; }
 }
+
+/* ============================================================
+   Mobile performance pass (<768px)
+   backdrop-filter over a fixed full-screen film is the single
+   most expensive effect on phone GPUs, so small screens get
+   lighter blur radii compensated with slightly more opaque
+   backgrounds — the same visual depth at a fraction of the cost.
+   Text shadows drop to two layers for cheaper repaints.
+   ============================================================ */
+@media (max-width: 767px) {
+  .glass-28 {
+    background: rgb(8 8 10 / 0.68);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 14px 34px rgb(0 0 0 / 0.3);
+  }
+  .glass-18 {
+    background: rgb(8 8 10 / 0.6);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .glass-gold {
+    background: linear-gradient(
+      120deg,
+      rgb(181 154 114 / 0.5),
+      rgb(181 154 114 / 0.3) 55%,
+      rgb(181 154 114 / 0.42)
+    );
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 14px 34px rgb(0 0 0 / 0.28);
+  }
+  .row-blur:hover {
+    background: rgb(8 8 10 / 0.62);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 10px 26px rgb(0 0 0 / 0.24);
+  }
+  body {
+    text-shadow:
+      0 1px 2px rgb(0 0 0 / 0.9),
+      0 2px 12px rgb(0 0 0 / 0.5);
+  }
+  .display {
+    text-shadow:
+      0 2px 10px rgb(0 0 0 / 0.9),
+      0 6px 24px rgb(0 0 0 / 0.45);
+  }
+}

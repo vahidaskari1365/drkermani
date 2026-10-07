@@ -35,7 +35,7 @@ export default function Navbar() {
       <header
         className={`fixed inset-x-0 top-0 z-50 transition-all duration-700 ${
           scrolled
-            ? 'border-b border-white/12 bg-ink/45 backdrop-blur-2xl'
+            ? 'border-b border-white/12 bg-ink/55 backdrop-blur-lg md:bg-ink/45 md:backdrop-blur-2xl'
             : 'border-b border-transparent bg-transparent'
         }`}
       >
@@ -93,9 +93,10 @@ export default function Navbar() {
         </nav>
       </header>
 
-      {/* fullscreen editorial menu (mobile) */}
+      {/* fullscreen editorial menu (mobile) — the 95% ink veil already
+          covers the film, so it needs no backdrop blur (cheaper paint) */}
       <div
-        className={`fixed inset-0 z-[60] flex flex-col bg-ink/95 text-white backdrop-blur-2xl transition-all duration-700 lg:hidden ${
+        className={`fixed inset-0 z-[60] flex flex-col bg-ink/95 text-white transition-all duration-700 lg:hidden ${
           open ? 'visible opacity-100' : 'invisible opacity-0'
         }`}
       >

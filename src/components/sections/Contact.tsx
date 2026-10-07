@@ -97,7 +97,7 @@ export default function Contact() {
                       href={c.href}
                       target={c.href.startsWith('http') ? '_blank' : undefined}
                       rel="noreferrer"
-                      className="row-blur group flex items-baseline justify-between gap-4 rounded-lg px-2 py-3.5"
+                      className="group flex items-baseline justify-between gap-4 rounded-lg px-2 py-3.5 transition-colors duration-500 hover:bg-white/10"
                     >
                       <span className="text-[12px] font-normal text-white/70 transition-colors duration-500 group-hover:text-white">
                         {c.label}

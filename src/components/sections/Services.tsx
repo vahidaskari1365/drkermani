@@ -127,7 +127,7 @@ export default function Services() {
                   e.preventDefault();
                   goService(m.slug);
                 }}
-                className="row-blur flex items-center gap-3 rounded-lg px-2 py-1 transition-colors duration-500 hover:text-gold"
+                className="flex items-center gap-3 rounded-lg px-2 py-1 transition-colors duration-500 hover:bg-white/10 hover:text-gold"
               >
                 <span>{m.label}</span>
                 <span className="h-1 w-1 rotate-45 bg-white/35" />

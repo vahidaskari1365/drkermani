@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "surgeon consulting patient examination room"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "surgeon consulting patient examination room",
+  "count": 8,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/18031a4d5521.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/aa76a517dcdc.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "957px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6034dfee1240.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "867px",
+      "original_height": "1390px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7f22db7e7cd0.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9b825a7ecd38.jpg",
+      "caption": "",
+      "source": "Unsplash",
+      "original_width": "3000px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5eafbec04208.jpg",
+      "caption": "",
+      "source": "Hygenius",
+      "original_width": "2500px",
+      "original_height": "1406px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a520a3027bcf.jpg",
+      "caption": "",
+      "source": "Sketchup CGtips",
+      "original_width": "1600px",
+      "original_height": "1014px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/01f55d170611.jpg",
+      "caption": "",
+      "source": "Volosan",
+      "original_width": "1752px",
+      "original_height": "936px"
+    }
+  ]
+}

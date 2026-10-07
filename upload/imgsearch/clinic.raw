@@ -1,0 +1,61 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "modern dental clinic interior treatment room"
+✅ Got 7 images
+{
+  "success": true,
+  "query": "modern dental clinic interior treatment room",
+  "count": 7,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e28088e00c63.jpeg",
+      "caption": "",
+      "source": "Design Ergonomics",
+      "original_width": "7360px",
+      "original_height": "4912px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/930acc960e59.jpg",
+      "caption": "",
+      "source": "nashvilleperio.com",
+      "original_width": "1920px",
+      "original_height": "694px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4e3bd8d5af61.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/04e7083323ef.jpg",
+      "caption": "",
+      "source": "Dentec NZ",
+      "original_width": "4523px",
+      "original_height": "3063px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/9504f37b3ad0.jpg",
+      "caption": "",
+      "source": "Coastal Dental Arts",
+      "original_width": "1920px",
+      "original_height": "962px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f4334362c74f.jpg",
+      "caption": "",
+      "source": "Peerspace",
+      "original_width": "3840px",
+      "original_height": "3011px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8e969cccba05.jpg",
+      "caption": "",
+      "source": "Metropolitan Dental Arts",
+      "original_width": "2560px",
+      "original_height": "1707px"
+    }
+  ]
+}

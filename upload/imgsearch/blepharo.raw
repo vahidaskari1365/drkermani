@@ -1,0 +1,54 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "blepharoplasty cosmetic eyelid surgery"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "blepharoplasty cosmetic eyelid surgery",
+  "count": 6,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/266e3b16915d.jpg",
+      "caption": "",
+      "source": "",
+      "original_width": "1000px",
+      "original_height": "969px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3461e07d8717.jpg",
+      "caption": "",
+      "source": "",
+      "original_width": "1500px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/939cf43f95c0.jpg",
+      "caption": "",
+      "source": "",
+      "original_width": "968px",
+      "original_height": "960px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/44268b04da25.jpg",
+      "caption": "",
+      "source": "",
+      "original_width": "2400px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b07702dbc059.jpg",
+      "caption": "",
+      "source": "",
+      "original_width": "1024px",
+      "original_height": "1024px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/040e723ba78b.jpg",
+      "caption": "",
+      "source": "",
+      "original_width": "1080px",
+      "original_height": "800px"
+    }
+  ]
+}

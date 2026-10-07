@@ -1,0 +1,54 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "dental surgery team professionals"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "dental surgery team professionals",
+  "count": 6,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5a1f0a44f8bb.jpg",
+      "caption": "",
+      "source": "Unsplash",
+      "original_width": "3000px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/206dc29bee42.jpeg",
+      "caption": "",
+      "source": "Lisa Miller Oral Facial Surgery",
+      "original_width": "2560px",
+      "original_height": "1829px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a736514fdd84.jpg",
+      "caption": "",
+      "source": "Inspiria Dental",
+      "original_width": "1624px",
+      "original_height": "816px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/774b6b62629e.jpg",
+      "caption": "",
+      "source": "Mason Periodontics",
+      "original_width": "1280px",
+      "original_height": "853px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b7698b7bc086.jpg",
+      "caption": "",
+      "source": "Dr. Nathan Thompson",
+      "original_width": "1600px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1a07f17dfc99.jpg",
+      "caption": "",
+      "source": "Sway Dental I Periodontist I Cranford & West Caldwell NJ",
+      "original_width": "1536px",
+      "original_height": "1536px"
+    }
+  ]
+}

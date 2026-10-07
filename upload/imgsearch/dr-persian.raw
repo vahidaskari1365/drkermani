@@ -1,0 +1,54 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "دکتر جراح فک و صورت مطب"
+✅ Got 6 images
+{
+  "success": true,
+  "query": "دکتر جراح فک و صورت مطب",
+  "count": 6,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/dcb0754afd26.jpg",
+      "caption": "",
+      "source": "پذیرش ۲۴",
+      "original_width": "1142px",
+      "original_height": "1280px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/29db14adf916.jpg",
+      "caption": "",
+      "source": "118 ایران",
+      "original_width": "1810px",
+      "original_height": "2560px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/03005569760c.jpg",
+      "caption": "",
+      "source": "دکترتو",
+      "original_width": "909px",
+      "original_height": "910px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0cad45eeb95f.jpg",
+      "caption": "",
+      "source": "118 ایران",
+      "original_width": "1810px",
+      "original_height": "2560px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/28f8b531789d.jpg",
+      "caption": "",
+      "source": "بلد",
+      "original_width": "1080px",
+      "original_height": "1920px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3c075dd87383.jpg",
+      "caption": "",
+      "source": "دکتر میلاد سلیمانی",
+      "original_width": "1600px",
+      "original_height": "750px"
+    }
+  ]
+}

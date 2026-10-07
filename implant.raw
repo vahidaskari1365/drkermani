@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "dental implant surgery close up"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "dental implant surgery close up",
+  "count": 8,
+  "ranked": false,
+  "captioned_count": 0,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cf14ff52c7fd.jpg",
+      "caption": "",
+      "source": "ITI Blog",
+      "original_width": "2560px",
+      "original_height": "1130px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6089eb83a6f8.jpg",
+      "caption": "",
+      "source": "Nashville Dental Implants",
+      "original_width": "2000px",
+      "original_height": "1333px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/7ae704ff13b4.jpg",
+      "caption": "",
+      "source": "Odontologie Dental Care",
+      "original_width": "2560px",
+      "original_height": "1707px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/55f6dc42e0cf.jpg",
+      "caption": "",
+      "source": "Pan-Am Dental Laboratory",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/01a4549c359f.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "975px",
+      "original_height": "1390px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a716cc7dfde2.jpg",
+      "caption": "",
+      "source": "Bauer Dentistry and Orthodontics",
+      "original_width": "2048px",
+      "original_height": "683px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d5fdb0c980bf.png",
+      "caption": "",
+      "source": "PANDA Perio",
+      "original_width": "1280px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/888cf2b5f1d5.jpg",
+      "caption": "",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    }
+  ]
+}

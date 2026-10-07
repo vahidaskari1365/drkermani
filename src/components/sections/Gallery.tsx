@@ -39,9 +39,9 @@ export default function Gallery() {
                     className="cine-img h-full w-full object-cover"
                   />
                 </div>
-                <figcaption className="pointer-events-none absolute inset-x-3 bottom-3 flex items-center justify-between rounded-xl bg-black/45 px-4 py-2.5 text-[11px] font-light tracking-wider text-white/90 opacity-0 backdrop-blur-md transition-opacity duration-700 group-hover:opacity-100">
+                <figcaption className="pointer-events-none absolute inset-x-3 bottom-3 flex items-center justify-between rounded-xl bg-black/55 px-4 py-2.5 text-[11px] font-normal tracking-wider text-white opacity-0 backdrop-blur-md transition-opacity duration-700 group-hover:opacity-100">
                   <span>{it.cap}</span>
-                  <span className="label-num text-white/55">
+                  <span className="label-num text-white/70">
                     {String(i + 1).padStart(2, '0')}
                   </span>
                 </figcaption>
@@ -51,7 +51,7 @@ export default function Gallery() {
         </div>
 
         <Reveal delay={150}>
-          <p className="mt-8 text-[11px] font-light leading-6 text-white/45">
+          <p className="mt-8 text-[11px] font-normal leading-6 text-white/65">
             تصاویر گالری صرفاً جهت نمایش الگوی نتایج درمانی است؛ نتیجه هر جراحی به
             شرایط فردی بیمار بستگی دارد و پس از معاینه تعیین می‌شود.
           </p>

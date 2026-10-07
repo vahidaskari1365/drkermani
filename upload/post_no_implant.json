@@ -1,0 +1,51 @@
+{
+  "code": 200,
+  "data": {
+    "description": "ایمپلنت نکنید اگر...",
+    "external": {
+      "canonical": {
+        "https://dromfs.com/do_not_implant/": {}
+      }
+    },
+    "html": "<html dir=\"rtl\" lang=\"fa-IR\" prefix=\"og: https://ogp.me/ns#\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0\"><title>ایمپلنت نکنید اگر ... - دکتر حامد کرمانی</title><meta name=\"description\" content=\"ایمپلنت نکنید اگر...\"><meta name=\"robots\" content=\"follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large\"><link rel=\"canonical\" href=\"https://dromfs.com/do_not_implant/\"><meta property=\"og:locale\" content=\"fa_IR\"><meta property=\"og:type\" content=\"article\"><meta property=\"og:title\" content=\"ایمپلنت نکنید اگر ... - دکتر حامد کرمانی\"><meta property=\"og:description\" content=\"ایمپلنت نکنید اگر...\"><meta property=\"og:url\" content=\"https://dromfs.com/do_not_implant/\"><meta property=\"og:site_name\" content=\"دکتر حامد کرمانی\"><meta property=\"article:tag\" content=\"آموزش های جراحی فک و صورت\"><meta property=\"article:tag\" content=\"دکتر حامد کرمانی\"><meta property=\"article:tag\" content=\"کاشت دندان\"><meta property=\"article:tag\" content=\"مقاله\"><meta property=\"article:section\" content=\"آموزش\"><meta property=\"og:updated_time\" content=\"2021-11-16T05:31:26+03:30\"></head><body></body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "metadata": {
+      "article:section": "آموزش",
+      "article:tag": [
+        "آموزش های جراحی فک و صورت",
+        "دکتر حامد کرمانی",
+        "کاشت دندان",
+        "مقاله"
+      ],
+      "description": "ایمپلنت نکنید اگر...",
+      "lang": "fa-IR",
+      "og:description": "ایمپلنت نکنید اگر...",
+      "og:locale": "fa_IR",
+      "og:site_name": "دکتر حامد کرمانی",
+      "og:title": "ایمپلنت نکنید اگر ... - دکتر حامد کرمانی",
+      "og:type": "article",
+      "og:updated_time": "2021-11-16T05:31:26+03:30",
+      "og:url": "https://dromfs.com/do_not_implant/",
+      "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+      "viewport": "width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    },
+    "title": "ایمپلنت نکنید اگر ... - دکتر حامد کرمانی",
+    "url": "https://dromfs.com/do_not_implant/",
+    "usage": {
+      "measuredTokens": 14,
+      "outputTokens": 14,
+      "scaledTokens": 441,
+      "tokens": 441
+    }
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 14,
+      "outputTokens": 14,
+      "scaledTokens": 441,
+      "tokens": 441
+    }
+  },
+  "status": 20000
+}

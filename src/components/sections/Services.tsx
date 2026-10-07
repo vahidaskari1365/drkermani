@@ -1,9 +1,11 @@
 import Reveal from '@/components/Reveal';
 import SectionHeader from '@/components/SectionHeader';
+import { goService } from '@/lib/router';
 
 const SERVICES = [
   {
     num: '01',
+    slug: 'jaw-one',
     title: 'جراحی یک فک',
     en: 'SINGLE JAW',
     desc: 'ارتوسرجری فک بالا یا پایین برای اصلاح گازگیر، تقارن و تنفس.',
@@ -11,6 +13,7 @@ const SERVICES = [
   },
   {
     num: '02',
+    slug: 'jaw-two',
     title: 'جراحی دو فک',
     en: 'BIMAX SURGERY',
     desc: 'جراحی هم‌زمان دو فک برای بازسازی کامل تعادل چهره و عملکرد.',
@@ -18,6 +21,7 @@ const SERVICES = [
   },
   {
     num: '03',
+    slug: 'genioplasty',
     title: 'جنیوپلاستی',
     en: 'GENIOPLASTY',
     desc: 'جراحی چانه برای هارمونی خط پروفایل و فرم پایین صورت.',
@@ -25,6 +29,7 @@ const SERVICES = [
   },
   {
     num: '04',
+    slug: 'blepharoplasty',
     title: 'بلفاروپلاستی',
     en: 'BLEPHAROPLASTY',
     desc: 'جوان‌سازی و فرم‌دهی پلک‌ها با ظریف‌ترین خطوط جراحی.',
@@ -32,6 +37,7 @@ const SERVICES = [
   },
   {
     num: '05',
+    slug: 'implant',
     title: 'ایمپلنت دندان',
     en: 'IMPLANT',
     desc: 'کاشت دندان با سیستم‌های اشترومن، SPI، BICON، DXL و Cis.',
@@ -39,6 +45,7 @@ const SERVICES = [
   },
   {
     num: '06',
+    slug: 'reconstruction',
     title: 'بازسازی فک',
     en: 'RECONSTRUCTION',
     desc: 'بازسازی ساختاری فک با گرافت استخوانی و پروتزهای سفارشی.',
@@ -46,12 +53,12 @@ const SERVICES = [
   },
 ];
 
-const MINOR = [
-  'پروتز و جراحی مفاصل گیجگاهی (TMJ)',
-  'سینوس لیفت باز',
-  'GBR',
-  'جراحی دندان عقل',
-  'جراحی اکسپوز دندان نهفته',
+const MINOR: { label: string; slug: string }[] = [
+  { label: 'پروتز و جراحی مفاصل گیجگاهی (TMJ)', slug: 'reconstruction' },
+  { label: 'سینوس لیفت باز', slug: 'implant' },
+  { label: 'GBR', slug: 'reconstruction' },
+  { label: 'جراحی دندان عقل', slug: 'implant' },
+  { label: 'جراحی اکسپوز دندان نهفته', slug: 'implant' },
 ];
 
 export default function Services() {
@@ -62,7 +69,7 @@ export default function Services() {
           index="02"
           label="خدمات"
           title="هر جراحی، یک تصمیم سینمایی درباره چهره شماست"
-          lead="فهرست زیر، نقشه کامل درمان‌های تخصصی مطب است؛ از اصلاح اسکلتی فک تا ظریف‌ترین جزئیات اطراف چشم."
+          lead="فهرست زیر، نقشه کامل درمان‌های تخصصی مطب است؛ برای دیدن جزئیات، مراقبت‌ها و هزینه هر دسته، روی آن کلیک کنید."
         />
 
         {/* editorial index — transparent rows that take glass blur on hover */}
@@ -70,22 +77,30 @@ export default function Services() {
           {SERVICES.map((s, i) => (
             <Reveal key={s.num} delay={i * 60}>
               <a
-                href="#pricing"
+                href={`#/services/${s.slug}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  goService(s.slug);
+                }}
+                aria-label={`صفحه ${s.title}`}
                 className="row-blur group relative grid grid-cols-[auto_1fr_auto] items-center gap-x-5 gap-y-3 px-3 py-8 md:grid-cols-[80px_1fr_1fr_180px] md:gap-x-10 md:py-9"
               >
-                <span className="label-num text-xs text-white/45 transition-colors duration-500 group-hover:text-gold">
+                <span className="label-num text-xs text-white/55 transition-colors duration-500 group-hover:text-gold">
                   {s.num}
                 </span>
                 <span className="flex flex-col">
                   <span className="display text-2xl text-white transition-transform duration-700 group-hover:-translate-x-2 md:text-4xl">
                     {s.title}
                   </span>
-                  <span className="label-num mt-2 text-[10px] tracking-[0.35em] text-white/40">
+                  <span className="label-num mt-2 text-[10px] tracking-[0.35em] text-white/55">
                     {s.en}
                   </span>
                 </span>
-                <span className="col-span-3 max-w-sm text-[13px] font-light leading-7 text-white/60 md:col-span-1">
+                <span className="col-span-3 max-w-sm text-[13px] font-normal leading-7 text-white/80 md:col-span-1">
                   {s.desc}
+                  <span className="mt-2 block text-[11px] font-medium text-gold opacity-0 transition-opacity duration-500 group-hover:opacity-100">
+                    مشاهده صفحه ←
+                  </span>
                 </span>
                 <span className="pointer-events-none relative hidden h-24 w-[180px] overflow-hidden rounded-xl border border-white/15 md:block">
                   <img
@@ -102,13 +117,21 @@ export default function Services() {
 
         {/* secondary treatments — quiet inline flow */}
         <Reveal delay={120}>
-          <div className="glass-28 mt-8 flex flex-wrap items-center gap-x-3 gap-y-4 rounded-2xl px-6 py-5 text-[12px] font-light text-white/60">
-            <span className="tracking-[0.25em] text-white/40">همچنین:</span>
+          <div className="glass-28 mt-8 flex flex-wrap items-center gap-x-3 gap-y-4 rounded-2xl px-6 py-5 text-[12px] font-normal text-white/85">
+            <span className="tracking-[0.25em] text-white/60">همچنین:</span>
             {MINOR.map((m) => (
-              <span key={m} className="flex items-center gap-3">
-                <span>{m}</span>
+              <a
+                key={m.label}
+                href={`#/services/${m.slug}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  goService(m.slug);
+                }}
+                className="row-blur flex items-center gap-3 rounded-lg px-2 py-1 transition-colors duration-500 hover:text-gold"
+              >
+                <span>{m.label}</span>
                 <span className="h-1 w-1 rotate-45 bg-white/35" />
-              </span>
+              </a>
             ))}
           </div>
         </Reveal>

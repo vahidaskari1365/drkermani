@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><title>Sitemap</title><meta name=\"description\" content=\"\"></head><body><div><a href=\"https://dromfs.com/\">https://dromfs.com/</a><br /><time>2026-06-09T05:50:16+00:00</time></div>\n<div><a href=\"https://dromfs.com/contact/\">https://dromfs.com/contact/</a><br /><time>2025-09-23T08:36:14+00:00</time></div>\n<div><a href=\"https://dromfs.com/home/d9-87-d8-b2-db-8c-d9-86-d9-87-d8-ac-d8-b1-d8-a7-d8-ad-db-8c-d9-81-da-a9/\">https://dromfs.com/home/d9-87-d8-b2-db-8c-d9-86-d9-87-d8-ac-d8-b1-d8-a7-d8-ad-db-8c-d9-81-da-a9/</a><br /><time>2025-08-07T14:06:25+00:00</time></div>\n<div><a href=\"https://dromfs.com/orthosurgery/\">https://dromfs.com/orthosurgery/</a><br /><time>2025-08-07T14:03:08+00:00</time></div>\n<div><a href=\"https://dromfs.com/wishlist/\">https://dromfs.com/wishlist/</a><br /><time>2025-07-13T22:28:06+00:00</time></div>\n<div><a href=\"https://dromfs.com/products-compare/\">https://dromfs.com/products-compare/</a><br /><time>2025-07-13T22:28:06+00:00</time></div>\n<div><a href=\"https://dromfs.com/appointment/\">https://dromfs.com/appointment/</a><br /><time>2023-09-03T11:50:13+00:00</time></div>\n<div><a href=\"https://dromfs.com/about/\">https://dromfs.com/about/</a><br /><time>2022-02-02T20:59:39+00:00</time></div>\n<div><a href=\"https://dromfs.com/services/\">https://dromfs.com/services/</a><br /><time>2021-11-06T19:49:17+00:00</time></div>\n<div><a href=\"https://dromfs.com/gallery/\">https://dromfs.com/gallery/</a><br /><time>2018-01-13T08:26:43+00:00</time></div>\n<div><a href=\"https://dromfs.com/footer-widget/\">https://dromfs.com/footer-widget/</a><br /><time>2017-08-02T18:03:36+00:00</time></div>\n<div><a href=\"https://dromfs.com/faq/\">https://dromfs.com/faq/</a><br /><time>2017-06-10T08:34:22+00:00</time></div></body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "metadata": {},
+    "title": "Sitemap",
+    "url": "https://dromfs.com/page-sitemap.xml",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 719,
+      "tokens": 719
+    }
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 719,
+      "tokens": 719
+    }
+  },
+  "status": 20000
+}

@@ -24,7 +24,11 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 const FRAME_COUNT = 151;
 const frameSrc = (i: number) => `/frames/f_${String(i + 1).padStart(3, '0')}.jpg`;
 
-export default function ScrollVideoHero() {
+export default function ScrollVideoHero({
+  heroCopy = true,
+}: {
+  heroCopy?: boolean;
+}) {
   const heroRef = useRef<HTMLElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
@@ -205,6 +209,8 @@ export default function ScrollVideoHero() {
       </div>
 
       {/* ================= hero copy — floats over the film ============== */}
+      {/* rendered on the home view only; the film layer itself always stays */}
+      {heroCopy ? (
       <section
         ref={heroRef}
         id="hero"
@@ -231,7 +237,7 @@ export default function ScrollVideoHero() {
             </p>
             <span className="hidden h-px w-10 bg-white/60 md:block" />
           </div>
-          <p className="mt-8 max-w-xl text-[13px] font-light leading-7 text-white/80 md:text-sm">
+          <p className="mt-8 max-w-xl text-[13px] font-normal leading-7 text-white/90 md:text-sm">
             ارتوسرجری · جراحی دو فک · جنیوپلاستی · بلفاروپلاستی · ایمپلنت و بازسازی فک
           </p>
 
@@ -244,7 +250,13 @@ export default function ScrollVideoHero() {
             </a>
             <a
               href="#services"
-              className="glass-18 rounded-full px-8 py-3.5 text-sm text-white/90 transition-all duration-500 hover:border-white/35 hover:bg-white/15"
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById('services')
+                  ?.scrollIntoView({ behavior: 'smooth' });
+              }}
+              className="glass-18 rounded-full px-8 py-3.5 text-sm text-white transition-all duration-500 hover:border-white/35 hover:bg-white/15"
             >
               مشاهده خدمات
             </a>
@@ -273,6 +285,7 @@ export default function ScrollVideoHero() {
           <span className="scroll-cue" aria-hidden="true" />
         </div>
       </section>
+      ) : null}
     </>
   );
 }

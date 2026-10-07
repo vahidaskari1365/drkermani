@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><title>Sitemap Index</title><meta name=\"description\" content=\"\"></head><body><div><a href=\"https://dromfs.com/post-sitemap.xml\">https://dromfs.com/post-sitemap.xml</a><br /><time>2022-09-03T21:39:15+00:00</time></div>\n<div><a href=\"https://dromfs.com/page-sitemap.xml\">https://dromfs.com/page-sitemap.xml</a><br /><time>2026-06-09T05:50:16+00:00</time></div>\n<div><a href=\"https://dromfs.com/portfolio-sitemap.xml\">https://dromfs.com/portfolio-sitemap.xml</a><br /><time>2017-06-12T21:36:15+00:00</time></div>\n<div><a href=\"https://dromfs.com/category-sitemap.xml\">https://dromfs.com/category-sitemap.xml</a><br /><time>2022-09-03T21:39:15+00:00</time></div>\n<div><a href=\"https://dromfs.com/portfolio_cat-sitemap.xml\">https://dromfs.com/portfolio_cat-sitemap.xml</a><br /><time>2017-06-12T21:36:15+00:00</time></div>\n<div><a href=\"https://dromfs.com/portfolio_tags-sitemap.xml\">https://dromfs.com/portfolio_tags-sitemap.xml</a><br /><time>2017-06-12T21:36:15+00:00</time></div></body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "metadata": {},
+    "title": "Sitemap Index",
+    "url": "https://dromfs.com/wp-sitemap.xml",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 354,
+      "tokens": 354
+    }
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 354,
+      "tokens": 354
+    }
+  },
+  "status": 20000
+}

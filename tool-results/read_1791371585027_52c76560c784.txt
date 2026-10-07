@@ -1,0 +1,302 @@
+    50→    50→جراحی دو فک ( جراحی بایمکس) 190 تا 200 میلیون تومان
+    51→    51→جراحی دو فک و چانه ( بایمکس + جنیوپلاستی) 210 تا 240 میلیون تومان
+    52→    52→جراحی رویژن (مجدد ) فک …
+    53→    53→اطلاعات بیشتر اطلاعات بیشتر
+    54→    54→فیلم های جراحی
+    55→    55→گالری باز سازی فک و کاشت دندان (ایمپلنت)
+    56→    56→_ وبلاگ های آموزشی
+    57→    57→جراحی فک و صورت
+    58→    58→پروتز و جراحی مفاصل گیجگاهی
+    59→    59→ایپملنت و جراحی های دندانی
+    60→    60→هزینه های ایمپلنت ( کاشت دندان ) و بازسازی فک
+    61→    61→ایمپلنت DXL آلمان
+    62→    62→هر واحد ۳۱ میلیون تومان
+    63→    63→ایمپلنت cis کره
+    64→    64→هر واحد ۲۴ میلیون تومان
+    65→    65→ایمپلنت SPI سوییس
+    66→    66→هر واحد ۸۵ میلیون تومان
+    67→    67→ایمپلنت BICON آمریکا
+    68→    68→هر واحد 110 میلیون تومان
+    69→    69→سینوس لیفت باز
+    70→    70→بین ۲۵ تا ۳۵ میلیون تومان
+    71→    71→GBR
+    72→    72→وابسته به وسعت
+    73→    73→جراحی دندان عقل
+    74→    74→از ۱۸ میلیون تومان تا ۲۳ میلیون تومان
+    75→    75→جراحی اکسپوز دندان نهفته
+    76→    76→از ۱۷ میلیون تومان تا ۲۹ میلیون تومان
+    77→    77→1067 جراحی فک و صورت
+    78→    78→248 اصلاح چانه
+    79→    79→347 پیوند استخوان
+    80→    80→۵۰۰۰ واحد ایملپنت
+    81→    81→اعضای مجموعه
+    82→    82→_ اعضای مجموعه
+    83→    83→دکتر حامد کرمانی
+    84→    84→متخصص جراحی فک و صورت
+    85→    85→دکتر فاطمه رستم خانی
+    86→    86→متخصص پروتز های دندانی
+    87→    87→خانم منیره کاظمی
+    88→    88→سوپروایزر
+    89→    89→آقای پوریا هاشم پور
+    90→    90→تولید محتوا
+    91→    91→مشاوره تلفنی در تمام ایام هفته
+    92→    92→_ ساعات کاری
+    93→    93→شنبه ، دکتر رستم خانی ۱۵:۰۰ تا ۱۹:۰۰
+    94→    94→یکشنبه ، دکتر کرمانی ۱۵:۰۰ تا ۱۹:۰۰
+    95→    95→دوشنبه ، دکتر رستم خانی ۱۵:۰۰ تا ۱۹:۰۰
+    96→    96→سه شنبه ، دکتر کرمانی ۱۵:۰۰ تا ۱۹:۰۰
+    97→    97→چهارشنبه ، دکتر کرمانی ۱۵:۰۰ تا ۱۹:۰۰
+    98→    98→پنج شنبه و جمعه تعطیل
+    99→    99→رزرو نوبت: 02166921500 رزرو نوبت: 02166921500
+   100→   100→تماس اینستگرام لوکیشن
+   101→   101→
+   102→   102→IMAGES:
+   103→   103→https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png
+   104→   104→http://dromfs.com/wp-content/uploads/2022/04/dr-kermani-omfs-xl.png
+   105→   105→https://dromfs.com/wp-content/uploads/2022/04/dr-kermani-omfs-xl.png
+   106→   106→//dromfs.com/wp-content/uploads/2021/07/DSC_0476-scaled.jpg
+   107→   107→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-bimax-surgery-1.jpg
+   108→   108→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-omfs-bimax-surgery-2-1.jpg
+   109→   109→https://dromfs.com/wp-content/uploads/2022/08/JHNAJAFZADEH-600x600.jpg
+   110→   110→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_-600x600.jpg
+   111→   111→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_11-600x600.jpg
+   112→   112→https://dromfs.com/wp-content/uploads/2021/10/axsa508-600x600.jpg
+   113→   113→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_5-600x600.jpg
+   114→   114→https://dromfs.com/wp-content/uploads/2022/01/جراحی-فک-و-صورت-قبل-و-بعد-600x600.jpg
+   115→   115→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-omfs-بلفاروپلاستی-۱.jpg
+   116→   116→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-omfs-بلفاروپلاستی-۲.jpg
+   117→   117→https://dromfs.com/wp-content/uploads/2021/11/فول-ایمپلنت-300x300.jpg
+   118→   118→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_37-300x300.jpg
+   119→   119→https://dromfs.com/wp-content/uploads/2021/11/hgjhgjhg508-300x300.jpg
+   120→   120→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--300x300.jpg
+   121→   121→https://dromfs.com/wp-content/uploads/2021/11/کاشت-دندان-بدون-برش-جراحی-300x300.jpg
+   122→   122→https://dromfs.com/wp-content/uploads/2021/11/کاشت-دندان-های-جلو-300x300.jpg
+   123→   123→https://dromfs.com/wp-content/uploads/2021/11/کاشت-دندان-در-بهترین-مطب-تهران-300x300.jpg
+   124→   124→https://dromfs.com/wp-content/uploads/2021/11/بازسازی-کامل-فک-بالا-با-ایمپلنت-300x300.jpg
+   125→   125→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_.jpg
+   126→   126→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_39.jpg
+   127→   127→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_37.jpg
+   128→   128→https://dromfs.com/wp-content/uploads/2021/11/هزینه-کاشت-دندان-802x1024.jpg
+   129→   129→https://dromfs.com/wp-content/uploads/2022/01/DSC_0149-Recovered-scaled.jpg
+   130→   130→https://dromfs.com/wp-content/plugins/codevz-plus/assets/img/p.svg
+   131→   131→
+   132→   132→======================================================================
+   133→   133→PAGE: services  |  TITLE: خدمات - دکتر حامد کرمانی
+   134→   134→======================================================================
+   135→   135→خدمات - دکتر حامد کرمانی
+   136→   136→خانه
+   137→   137→خدمات
+   138→   138→گالری
+   139→   139→تماس با ما
+   140→   140→وبلاگ
+   141→   141→درباره ما
+   142→   142→خانه
+   143→   143→خدمات
+   144→   144→گالری
+   145→   145→تماس با ما
+   146→   146→وبلاگ
+   147→   147→درباره ما
+   148→   148→Facebook Twitter Instagram Linkedin aparat
+   149→   149→کپی رایت © 2026
+   150→   150→خدمات
+   151→   151→صفحه اصلی خدمات
+   152→   152→تمام خدمات ما
+   153→   153→کارهایی که انجام می دهیم
+   154→   154→_ خدمات ما
+   155→   155→جراحی یک فک
+   156→   156→برای اطلاعات بیشتر کلیک کنید
+   157→   157→جراحی دو فک
+   158→   158→برای اطلاعات بیشتر کلیک کنید
+   159→   159→بلفاروپلاستی
+   160→   160→برای اطلاعات بیشتر کلیک کنید
+   161→   161→جنیوپلاستی ( جراحی چانه )
+   162→   162→برای اطلاعات بیشتر کلیک کنید
+   163→   163→ایمپلنت ( کاشت دندان )
+   164→   164→برای اطلاعات بیشتر کلیک کنید
+   165→   165→بازسازی فک
+   166→   166→برای اطلاعات بیشتر کلیک کنید
+   167→   167→نمایش گالری ما یا
+   168→   168→رزرو آنلاین نوبت
+   169→   169→div{position:relative;}#cz_18825 > div{position:relative;}#cz_94775 > div{position:relative;}#cz_61242 > div{position:relative;}#cz_57313 > div{position:relative;}#cz_108345 > div{position:relative;}#cz_107285 > div{position:relative;}#cz_85238 > div{position:relative;}#cz_64558 .cz_shape_1{font-size:70px;color:#f5f5f5;font-family:Roboto;font-weight:700;z-index:-1;top:40px}#cz_64558 .cz_shape_2{color:rgba(0,0,0,0.33);background-color:rgba(255,255,255,0.22)}#cz_64558 .cz_title_line{height:4px;top:5px}#cz_64558 .cz_title_line span,#cz_64558 .cz_line_side_solo{background-color:#323333;width:150px;height:4px;top:4px;left:1px}#cz_14429 h4{font-size:42px;color:#ffffff;font-weight:700;letter-spacing:0px;padding-top:30%;text-shadow:1px 1px 2px rgba(0,0,0,0.41)}#cz_14429 figure{background-color:#323333;border-radius:0px}#cz_14429 img{opacity:0.2}#cz_14429:hover img{opacity:0.5}#cz_40607 h4{font-size:42px;color:#ffffff;font-weight:700;letter-spacing:0px;padding-top:30%;text-shadow:1px 1px 2px rgba(0,0,0,0.41)}#cz_40607 figure{background-color:#323333;border-radius:0px}#cz_40607 img{opacity:0.2}#cz_40607:hover img{opacity:0.5}#cz_73774 h4{font-size:42px;color:#ffffff;font-weight:700;letter-spacing:0px;padding-top:30%;text-shadow:2px 2px 5px rgba(43,43,43,0.41)}#cz_73774 figure{background-color:#323333;border-radius:0px}#cz_73774 img{opacity:0.5}#cz_73774:hover img{opacity:0.5}#cz_14507{animation:fadeInLeft}#cz_14507 h3,#cz_14507 h3 a{font-size:24px}#cz_31543{animation:fadeInLeft}#cz_31543 h3,#cz_31543 h3 a{font-size:24px}#cz_89913{animation:fadeInLeft}#cz_89913 h3,#cz_89913 h3 a{font-size:24px}#cz_25696{animation:fadeInLeft}#cz_25696 h3,#cz_25696 h3 a{font-size:24px}#cz_89063 > div{position:relative;}#cz_87161{animation:fadeInLeft}#cz_87161 h3,#cz_87161 h3 a{font-size:24px}#cz_56376{animation:fadeInLeft}#cz_56376 h3,#cz_56376 h3 a{font-size:24px}#cz_59344{animation:fadeInLeft}#cz_59344 h3,#cz_59344 h3 a{font-size:24px}#cz_42569{animation:fadeInLeft}#cz_42569 h3,#cz_42569 h3 a{font-size:24px}#cz_75575 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_49634 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_49634 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_45448 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_37057 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_37057 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_90451 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_92007 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_92007 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_90793 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_38342 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_38342 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_54819 .cz_shape_1{font-size:70px;color:#f5f5f5;font-family:Roboto;font-weight:700;z-index:-1;top:40px}#cz_54819 .cz_title_line{height:4px;top:5px}#cz_54819 .cz_title_line span,#cz_54819 .cz_line_side_solo{background-color:#323333;width:150px;height:4px;top:4px;left:1px}#cz_94616 .cz_team_social a{color:#000000}#cz_94616 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_94616:hover .cz_team_img img{opacity:0.3}#cz_47903 .cz_team_social a{color:#000000}#cz_47903 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_47903:hover .cz_team_img img{opacity:0.3}#cz_29142 .cz_team_social a{color:#000000}#cz_29142 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_29142:hover .cz_team_img img{opacity:0.3}#cz_108379 .cz_team_social a{color:#000000}#cz_108379 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_108379:hover .cz_team_img img{opacity:0.3}#cz_27153 .cz_shape_1{font-size:70px;color:#f5f5f5;font-family:Roboto;font-weight:700;z-index:-1;top:40px}#cz_27153 .cz_title_line{height:4px;top:5px}#cz_27153 .cz_title_line span,#cz_27153 .cz_line_side_solo{background-color:#323333;width:150px;height:4px;top:4px;left:1px}#cz_26543 .cz_wh_left{font-size:18px;color:#323333;font-weight:700;padding-top:0px;padding-bottom:0px;margin-top:0px;margin-bottom:0px}#cz_26543 .cz_wh_right{font-weight:400;color:#323333}#cz_26543 small{background-color:rgba(0,0,0,0.25);padding-bottom:0px;padding-top:0px;font-size:11px}#cz_26543 .cz_wh_line{border-color:rgba(0,0,0,0.19)}#cz_103093, #cz_103093:before{font-size:24px;color:#323333;text-align:center;letter-spacing:1px;background-color:rgba(50,51,51,0.1);padding-top:30px;padding-bottom:30px}#cz_103093:hover, #cz_103093:after{color:#ffffff;letter-spacing:6px;background-color:rgba(50,51,51,0.85)}#cz_103093 i{color:#262626;background-color:#ffffff;padding:10px;border-radius:100px}@media screen and (max-width:768px){#cz_43872 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_50087 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_67979 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_87620 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_23027 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_95305 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_43872 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_54397 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_14429 h4{font-size:30px;line-height:36px;padding-top:30px}}@media screen and (max-width:768px){#cz_40607 h4{font-size:30px;line-height:36px;padding-top:50px}}@media screen and (max-width:768px){#cz_73774 h4{font-size:32px;line-height:36px;padding-top:30px}}@media screen and (max-width:768px){#cz_103093, #cz_103093:before{font-size:18px}}@media screen and (max-width:480px){#cz_43872 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_50087 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_67979 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_87620 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_23027 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_95305 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_43872 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_54397 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_14429 h4{font-size:42px;line-height:42px;padding-top:30%}#cz_14429 figure{margin-bottom:30px}}@media screen and (max-width:480px){#cz_40607 h4{font-size:42px;line-height:42px;padding-top:30%}#cz_40607 figure{margin-bottom:30px}}@media screen and (max-width:480px){#cz_73774 h4{font-size:42px;line-height:42px;padding-top:30%}}@media screen and (max-width:480px){#cz_103093, #cz_103093:before{font-size:14px}}">
+   170→   170→dr-hamed-kermani-surger
+   171→   171→پروتز مفصل فک
+   172→   172→و پروتز های شخصی سازی شد
+   173→   173→جراحی های فک
+   174→   174→ارتروسرجری (جراحی یک فک و دو فک) جراحی چانه
+   175→   175→ایمپلنت های زایگوماتیک
+   176→   176→اشترومن ، ایمپلنت سوییس و ...
+   177→   177→جراحی های داخل دهان
+   178→   178→ایمپلنت ، دندان های نهفته ، دندان عقل
+   179→   179→دکتر حامد کرمانی
+   180→   180→متخصص جراحی فک و صورت
+   181→   181→فلوشیپ جراحی های کرانیوفیشال
+   182→   182→نمونه جراحی های انجام شده
+   183→   183→After Before
+   184→   184→جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید
+   185→   185→تجربیات آکادمیک
+   186→   186→مدرک دندانپزشکی از دانشگاه علوم پزشکی مشهد
+   187→   187→مدرک تخصص جراحی فک و صورت از دانشگاه علوم پزشکی مشهد
+   188→   188→مدرک فلوشیپ جراحی کرانیوفاسیال از دانشگاه علوم پزشکی تهران
+   189→   189→اطلاعات بیشتر اطلاعات بیشتر
+   190→   190→گالری جراحی های فک (ارتوسرجری)
+   191→   191→انجام درمان موفق منوط به تجربیات آکادمیک  و میدانی مناسب ، پایداری به اصول علمی، و فارغ از توجه به زوایای مالی میباشد
+   192→   192→دکتر حامد کرمانی متخصص جراحی فک و صورت
+   193→   193→نمونه بلفاروپلاستی های انجام شده
+   194→   194→After Before
+   195→   195→جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید
+   196→   196→هزینه جراحی های فک و صورت
+   197→   197→جراحی چانه (‌جنیوپلاستی) 90 تا 110 میلیون تومان
+   198→   198→جراحی یک فک   170 تا 180 میلیون تومان
+   199→   199→جراحی یک فک و چانه (مونو مکس + جنیوپلاستی) 180 تا 190 میلیون تومان
+   200→   200→جراحی دو فک ( جراحی بایمکس) 190 تا 200 میلیون تومان
+   201→   201→جراحی دو فک و چانه ( بایمکس + جنیوپلاستی) 210 تا 240 میلیون تومان
+   202→   202→جراحی رویژن (مجدد ) فک ...
+   203→   203→اطلاعات بیشتر اطلاعات بیشتر
+   204→   204→فیلم های جراحی
+   205→   205→گالری باز سازی فک و کاشت دندان (ایمپلنت)
+   206→   206→_ وبلاگ های آموزشی
+   207→   207→جراحی فک و صورت
+   208→   208→پروتز و جراحی مفاصل گیجگاهی
+   209→   209→ایپملنت و جراحی های دندانی
+   210→   210→هزینه های ایمپلنت ( کاشت دندان ) و بازسازی فک
+   211→   211→ایمپلنت DXL آلمان
+   212→   212→هر واحد ۳۱ میلیون تومان
+   213→   213→ایمپلنت cis کره
+   214→   214→هر واحد ۲۴ میلیون تومان
+   215→   215→ایمپلنت SPI سوییس
+   216→   216→هر واحد ۸۵ میلیون تومان
+   217→   217→ایمپلنت BICON آمریکا
+   218→   218→هر واحد 110 میلیون تومان
+   219→   219→سینوس لیفت باز
+   220→   220→بین ۲۵ تا ۳۵ میلیون تومان
+   221→   221→GBR
+   222→   222→وابسته به وسعت
+   223→   223→جراحی دندان عقل
+   224→   224→از ۱۸ میلیون تومان تا ۲۳ میلیون تومان
+   225→   225→جراحی اکسپوز دندان نهفته
+   226→   226→از ۱۷ میلیون تومان تا ۲۹ میلیون تومان
+   227→   227→1067 جراحی فک و صورت
+   228→   228→248 اصلاح چانه
+   229→   229→347 پیوند استخوان
+   230→   230→۵۰۰۰ واحد ایملپنت
+   231→   231→اعضای مجموعه
+   232→   232→_ اعضای مجموعه
+   233→   233→دکتر حامد کرمانی
+   234→   234→متخصص جراحی فک و صورت
+   235→   235→دکتر فاطمه رستم خانی
+   236→   236→متخصص پروتز های دندانی
+   237→   237→خانم منیره کاظمی
+   238→   238→سوپروایزر
+   239→   239→آقای پوریا هاشم پور
+   240→   240→تولید محتوا
+   241→   241→مشاوره تلفنی در تمام ایام هفته
+   242→   242→_ ساعات کاری
+   243→   243→شنبه ، دکتر رستم خانی ۱۵:۰۰ تا ۱۹:۰۰
+   244→   244→یکشنبه ، دکتر کرمانی ۱۵:۰۰ تا ۱۹:۰۰
+   245→   245→دوشنبه ، دکتر رستم خانی ۱۵:۰۰ تا ۱۹:۰۰
+   246→   246→سه شنبه ، دکتر کرمانی ۱۵:۰۰ تا ۱۹:۰۰
+   247→   247→چهارشنبه ، دکتر کرمانی ۱۵:۰۰ تا ۱۹:۰۰
+   248→   248→پنج شنبه و جمعه تعطیل
+   249→   249→رزرو نوبت: 02166921500 رزرو نوبت: 02166921500
+   250→   250→تماس اینستگرام لوکیشن
+   251→   251→
+   252→   252→IMAGES:
+   253→   253→https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png
+   254→   254→http://dromfs.com/wp-content/uploads/2022/04/dr-kermani-omfs-xl.png
+   255→   255→https://dromfs.com/wp-content/uploads/2022/04/dr-kermani-omfs-xl.png
+   256→   256→https://dromfs.com/wp-content/plugins/codevz-plus/assets/img/p.svg
+   257→   257→//dromfs.com/wp-content/uploads/2021/07/DSC_0476-scaled.jpg
+   258→   258→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-bimax-surgery-1.jpg
+   259→   259→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-omfs-bimax-surgery-2-1.jpg
+   260→   260→https://dromfs.com/wp-content/uploads/2022/08/JHNAJAFZADEH-600x600.jpg
+   261→   261→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_-600x600.jpg
+   262→   262→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_11-600x600.jpg
+   263→   263→https://dromfs.com/wp-content/uploads/2021/10/axsa508-600x600.jpg
+   264→   264→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_5-600x600.jpg
+   265→   265→https://dromfs.com/wp-content/uploads/2022/01/جراحی-فک-و-صورت-قبل-و-بعد-600x600.jpg
+   266→   266→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-omfs-بلفاروپلاستی-۱.jpg
+   267→   267→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-omfs-بلفاروپلاستی-۲.jpg
+   268→   268→https://dromfs.com/wp-content/uploads/2021/11/فول-ایمپلنت-300x300.jpg
+   269→   269→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_37-300x300.jpg
+   270→   270→https://dromfs.com/wp-content/uploads/2021/11/hgjhgjhg508-300x300.jpg
+   271→   271→https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--300x300.jpg
+   272→   272→https://dromfs.com/wp-content/uploads/2021/11/کاشت-دندان-بدون-برش-جراحی-300x300.jpg
+   273→   273→https://dromfs.com/wp-content/uploads/2021/11/کاشت-دندان-های-جلو-300x300.jpg
+   274→   274→https://dromfs.com/wp-content/uploads/2021/11/کاشت-دندان-در-بهترین-مطب-تهران-300x300.jpg
+   275→   275→https://dromfs.com/wp-content/uploads/2021/11/بازسازی-کامل-فک-بالا-با-ایمپلنت-300x300.jpg
+   276→   276→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_.jpg
+   277→   277→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_39.jpg
+   278→   278→https://dromfs.com/wp-content/uploads/2021/10/dr.hamedkermani.omfs_20211003_37.jpg
+   279→   279→https://dromfs.com/wp-content/uploads/2021/11/هزینه-کاشت-دندان-802x1024.jpg
+   280→   280→https://dromfs.com/wp-content/uploads/2022/01/DSC_0149-Recovered-scaled.jpg
+   281→   281→
+   282→   282→======================================================================
+   283→   283→PAGE: contact  |  TITLE: تماس با ما - دکتر حامد کرمانی
+   284→   284→======================================================================
+   285→   285→تماس با ما - دکتر حامد کرمانی
+   286→   286→خانه
+   287→   287→خدمات
+   288→   288→گالری
+   289→   289→تماس با ما
+   290→   290→وبلاگ
+   291→   291→درباره ما
+   292→   292→خانه
+   293→   293→خدمات
+   294→   294→گالری
+   295→   295→تماس با ما
+   296→   296→وبلاگ
+   297→   297→درباره ما
+   298→   298→Facebook Twitter Instagram Linkedin aparat
+   299→   299→کپی رایت © 2026
+   300→   300→تماس با ما
+   301→   301→صفحه اصلی تماس با ما
+   302→   302→واتسپ
+   303→   303→09382080270
+   304→   304→شماره تماس
+   305→   305→02166921500
+   306→   306→آدرس
+   307→   307→بلوار کشاورز ، تقاطع جمالزاده ، ساختمان پزشکان کوثر ، طبقه ۳ واحد ۱۲
+   308→   308→پیام های خود را از طریق فرم زیر ارسال کنید
+   309→   309→Your name
+   310→   310→Your email
+   311→   311→Subject
+   312→   312→Your message (optional)
+   313→   313→نقشه مطب
+   314→   314→امروز با ما تماس بگیرید: 02166921500 امروز با ما تماس بگیرید: 02166921500
+   315→   315→div{position:relative;}#cz_18825 > div{position:relative;}#cz_94775 > div{position:relative;}#cz_61242 > div{position:relative;}#cz_57313 > div{position:relative;}#cz_108345 > div{position:relative;}#cz_107285 > div{position:relative;}#cz_85238 > div{position:relative;}#cz_64558 .cz_shape_1{font-size:70px;color:#f5f5f5;font-family:Roboto;font-weight:700;z-index:-1;top:40px}#cz_64558 .cz_shape_2{color:rgba(0,0,0,0.33);background-color:rgba(255,255,255,0.22)}#cz_64558 .cz_title_line{height:4px;top:5px}#cz_64558 .cz_title_line span,#cz_64558 .cz_line_side_solo{background-color:#323333;width:150px;height:4px;top:4px;left:1px}#cz_14429 h4{font-size:42px;color:#ffffff;font-weight:700;letter-spacing:0px;padding-top:30%;text-shadow:1px 1px 2px rgba(0,0,0,0.41)}#cz_14429 figure{background-color:#323333;border-radius:0px}#cz_14429 img{opacity:0.2}#cz_14429:hover img{opacity:0.5}#cz_40607 h4{font-size:42px;color:#ffffff;font-weight:700;letter-spacing:0px;padding-top:30%;text-shadow:1px 1px 2px rgba(0,0,0,0.41)}#cz_40607 figure{background-color:#323333;border-radius:0px}#cz_40607 img{opacity:0.2}#cz_40607:hover img{opacity:0.5}#cz_73774 h4{font-size:42px;color:#ffffff;font-weight:700;letter-spacing:0px;padding-top:30%;text-shadow:2px 2px 5px rgba(43,43,43,0.41)}#cz_73774 figure{background-color:#323333;border-radius:0px}#cz_73774 img{opacity:0.5}#cz_73774:hover img{opacity:0.5}#cz_14507{animation:fadeInLeft}#cz_14507 h3,#cz_14507 h3 a{font-size:24px}#cz_31543{animation:fadeInLeft}#cz_31543 h3,#cz_31543 h3 a{font-size:24px}#cz_89913{animation:fadeInLeft}#cz_89913 h3,#cz_89913 h3 a{font-size:24px}#cz_25696{animation:fadeInLeft}#cz_25696 h3,#cz_25696 h3 a{font-size:24px}#cz_89063 > div{position:relative;}#cz_87161{animation:fadeInLeft}#cz_87161 h3,#cz_87161 h3 a{font-size:24px}#cz_56376{animation:fadeInLeft}#cz_56376 h3,#cz_56376 h3 a{font-size:24px}#cz_59344{animation:fadeInLeft}#cz_59344 h3,#cz_59344 h3 a{font-size:24px}#cz_42569{animation:fadeInLeft}#cz_42569 h3,#cz_42569 h3 a{font-size:24px}#cz_75575 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_49634 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_49634 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_45448 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_37057 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_37057 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_90451 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_92007 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_92007 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_90793 .cz_box_front_inner{padding-bottom:40px;padding-top:20px;background-color:rgba(0,0,0,0.16);animation:flipInY}#cz_38342 .cz_counter_num_wrap{font-size:50px;color:#ffffff;text-shadow:1px 1px 2px rgba(0,0,0,0.3)}#cz_38342 .cz_counter_after{font-size:18px;color:rgba(255,255,255,0.54);letter-spacing:1px;text-shadow:1px 1px 1px rgba(0,0,0,0.4)}#cz_54819 .cz_shape_1{font-size:70px;color:#f5f5f5;font-family:Roboto;font-weight:700;z-index:-1;top:40px}#cz_54819 .cz_title_line{height:4px;top:5px}#cz_54819 .cz_title_line span,#cz_54819 .cz_line_side_solo{background-color:#323333;width:150px;height:4px;top:4px;left:1px}#cz_94616 .cz_team_social a{color:#000000}#cz_94616 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_94616:hover .cz_team_img img{opacity:0.3}#cz_47903 .cz_team_social a{color:#000000}#cz_47903 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_47903:hover .cz_team_img img{opacity:0.3}#cz_29142 .cz_team_social a{color:#000000}#cz_29142 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_29142:hover .cz_team_img img{opacity:0.3}#cz_108379 .cz_team_social a{color:#000000}#cz_108379 .cz_team_img img{border-style:solid;border-width:5px;border-color:#323333}#cz_108379:hover .cz_team_img img{opacity:0.3}#cz_27153 .cz_shape_1{font-size:70px;color:#f5f5f5;font-family:Roboto;font-weight:700;z-index:-1;top:40px}#cz_27153 .cz_title_line{height:4px;top:5px}#cz_27153 .cz_title_line span,#cz_27153 .cz_line_side_solo{background-color:#323333;width:150px;height:4px;top:4px;left:1px}#cz_26543 .cz_wh_left{font-size:18px;color:#323333;font-weight:700;padding-top:0px;padding-bottom:0px;margin-top:0px;margin-bottom:0px}#cz_26543 .cz_wh_right{font-weight:400;color:#323333}#cz_26543 small{background-color:rgba(0,0,0,0.25);padding-bottom:0px;padding-top:0px;font-size:11px}#cz_26543 .cz_wh_line{border-color:rgba(0,0,0,0.19)}#cz_103093, #cz_103093:before{font-size:24px;color:#323333;text-align:center;letter-spacing:1px;background-color:rgba(50,51,51,0.1);padding-top:30px;padding-bottom:30px}#cz_103093:hover, #cz_103093:after{color:#ffffff;letter-spacing:6px;background-color:rgba(50,51,51,0.85)}#cz_103093 i{color:#262626;background-color:#ffffff;padding:10px;border-radius:100px}@media screen and (max-width:768px){#cz_43872 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_50087 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_67979 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_87620 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_23027 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_95305 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_43872 .cz_box_front_inner{padding:30px}}@media screen and (max-width:768px){#cz_54397 .cz_title_icon_before{margin-bottom:15px}}@media screen and (max-width:768px){#cz_14429 h4{font-size:30px;line-height:36px;padding-top:30px}}@media screen and (max-width:768px){#cz_40607 h4{font-size:30px;line-height:36px;padding-top:50px}}@media screen and (max-width:768px){#cz_73774 h4{font-size:32px;line-height:36px;padding-top:30px}}@media screen and (max-width:768px){#cz_103093, #cz_103093:before{font-size:18px}}@media screen and (max-width:480px){#cz_43872 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_50087 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_67979 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_87620 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_23027 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_95305 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_43872 .cz_box_front_inner{padding:20px}}@media screen and (max-width:480px){#cz_54397 .cz_title_icon_before{margin-top:10px;margin-bottom:10px}}@media screen and (max-width:480px){#cz_14429 h4{font-size:42px;line-height:42px;padding-top:30%}#cz_14429 figure{margin-bottom:30px}}@media screen and (max-width:480px){#cz_40607 h4{font-size:42px;line-height:42px;padding-top:30%}#cz_40607 figure{margin-bottom:30px}}@media screen and (max-width:480px){#cz_73774 h4{font-size:42px;line-height:42px;padding-top:30%}}@media screen and (max-width:480px){#cz_103093, #cz_103093:before{font-size:14px}}">
+   316→   316→dr-hamed-kermani-surger
+   317→   317→پروتز مفصل فک
+   318→   318→و پروتز های شخصی سازی شد
+   319→   319→جراحی های فک
+   320→   320→ارتروسرجری (جراحی یک فک و دو فک) جراحی چانه
+   321→   321→ایمپلنت های زایگوماتیک
+   322→   322→اشترومن ، ایمپلنت سوییس و ...
+   323→   323→جراحی های داخل دهان
+   324→   324→ایمپلنت ، دندان های نهفته ، دندان عقل
+   325→   325→دکتر حامد کرمانی
+   326→   326→متخصص جراحی فک و صورت
+   327→   327→فلوشیپ جراحی های کرانیوفیشال
+   328→   328→نمونه جراحی های انجام شده
+   329→   329→After Before
+   330→   330→جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید
+   331→   331→تجربیات آکادمیک
+   332→   332→مدرک دندانپزشکی از دانشگاه علوم پزشکی مشهد
+   333→   333→مدرک تخصص جراحی فک و صورت از دانشگاه علوم پزشکی مشهد
+   334→   334→مدرک فلوشیپ جراحی کرانیوفاسیال از دانشگاه علوم پزشکی تهران
+   335→   335→اطلاعات بیشتر اطلاعات بیشتر
+   336→   336→گالری جراحی های فک (ارتوسرجری)
+   337→   337→انجام درمان موفق منوط به تجربیات آکادمیک  و میدانی مناسب ، پایداری به اصول علمی، و فارغ از توجه به زوایای مالی میباشد
+   338→   338→دکتر حامد کرمانی متخصص جراحی فک و صورت
+   339→   339→نمونه بلفاروپلاستی های انجام شده
+   340→   340→After Before
+   341→   341→جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید جهت مشاهده قبل و بعد دایره وسط عکس را به طرفین بکشید
+   342→   342→هزینه جراحی های فک و صورت
+   343→   343→جراحی چانه (‌جنیوپلاستی) 90 تا 110 میلیون تومان
+   344→   344→جراحی یک فک   170 تا 180 میلیون تومان
+   345→   345→جراحی یک فک و چانه (مونو مکس + جنیوپلاستی) 180 تا 190 میلیون تومان
+   346→   346→جراحی دو فک ( جراحی بایمکس) 190 تا 200 میلیون تومان
+   347→   347→جراحی دو فک و چانه ( بایمکس + جنیوپلاستی) 210 تا 240 میلیون تومان
+   348→   348→جراحی رویژن (مجدد ) فک ...
+   349→   349→اطلاعات بیشتر اطلاعات بیشتر
+
+[showing lines 50-349 of 427; use offset=350 with limit to continue reading]

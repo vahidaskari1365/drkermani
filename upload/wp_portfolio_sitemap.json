@@ -1,0 +1,27 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><title>Sitemap</title><meta name=\"description\" content=\"\"></head><body><div><a href=\"https://dromfs.com/projects/\">https://dromfs.com/projects/</a><br /><time>2017-06-12T21:36:15+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/personal-gift/\">https://dromfs.com/projects/personal-gift/</a><br /><time>2017-06-12T21:36:15+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/tick-tock/\">https://dromfs.com/projects/tick-tock/</a><br /><time>2017-06-12T21:33:31+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/chair-design/\">https://dromfs.com/projects/chair-design/</a><br /><time>2017-06-10T13:53:35+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/project-stamp/\">https://dromfs.com/projects/project-stamp/</a><br /><time>2017-06-10T13:52:42+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/shelf-of-arts/\">https://dromfs.com/projects/shelf-of-arts/</a><br /><time>2017-06-10T13:51:46+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/infinity-brand/\">https://dromfs.com/projects/infinity-brand/</a><br /><time>2017-06-10T13:49:54+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/typewriter/\">https://dromfs.com/projects/typewriter/</a><br /><time>2017-06-10T13:42:41+00:00</time></div>\n<div><a href=\"https://dromfs.com/projects/wooden-bench/\">https://dromfs.com/projects/wooden-bench/</a><br /><time>2017-06-10T13:40:43+00:00</time></div></body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "metadata": {},
+    "title": "Sitemap",
+    "url": "https://dromfs.com/portfolio-sitemap.xml",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 526,
+      "tokens": 526
+    }
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 526,
+      "tokens": 526
+    }
+  },
+  "status": 20000
+}

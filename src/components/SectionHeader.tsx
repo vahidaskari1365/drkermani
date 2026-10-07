@@ -14,9 +14,9 @@ export default function SectionHeader({
   return (
     <div className="mb-14 md:mb-20">
       <Reveal>
-        <div className="mb-8 flex items-center gap-4 text-[11px] tracking-[0.3em] text-white/60">
+        <div className="mb-8 flex items-center gap-4 text-[11px] tracking-[0.3em] text-white/70">
           <span className="label-num">{index}</span>
-          <span className="h-px w-12 bg-white/35" />
+          <span className="h-px w-12 bg-white/40" />
           <span>{label}</span>
         </div>
       </Reveal>
@@ -27,7 +27,7 @@ export default function SectionHeader({
       </Reveal>
       {lead ? (
         <Reveal delay={180}>
-          <p className="mt-7 max-w-xl text-sm font-light leading-8 text-white/70">
+          <p className="mt-7 max-w-xl text-sm font-normal leading-8 text-white/85">
             {lead}
           </p>
         </Reveal>

@@ -55,3 +55,23 @@ Work Log:
 Stage Summary:
 - Homepage is now ONE continuous cinematic scroll: film everywhere, glass cards on top
 - Scrub engine preserved (lerp + preloader + DPR canvas), only its mapping extended page-wide per user request
+
+---
+Task ID: 5
+Agent: main (Super Z)
+Task: صحت‌سنجی کامل اطلاعات dromfs.com، ساخت صفحه مستقل برای هر دسته‌بندی خدمت، و رفع خوانایی فونت/رنگ متن‌ها روی فیلم
+
+Work Log:
+- Crawled dromfs.com via page_reader: sitemap index → page-sitemap (12 pages) + post-sitemap; fetched /about/, /orthosurgery/, /faq/, 3 blog posts; extracted full doctor bio (متولد ۱۳۵۹، سمپاد، مشهد ۱۳۸۲/۱۳۸۹، فلوشیپ تهران ۱۳۹۷، استادیار بهشتی/مشهد، تجربه بلژیک/آلمان/چین), real counters (۱۰۶۷ جراحی فک، ۲۴۸ چانه، ۳۴۷ پیوند استخوان، +۵۰۰۰ ایمپلنت), pre/post-op care protocol, team roles (کاظمی=سوپروایزر، هاشم‌پور=تولید محتوا), address detail (پلاک ۱۱۹), price row جراحی رویژن
+- Direct image download still geo-blocked (curl timeout) → kept curated watermark-free imagery
+- Built src/lib/services-data.ts: 6 category entries (jaw-one, jaw-two, genioplasty, blepharoplasty, implant, reconstruction) with intro, body sections, prices, facts, jaw care guides, related links
+- Built ServicePage.tsx: cinematic glass category page (breadcrumb, display headline, intro+facts glass-28, image panel, body sections, before/after care guide, sticky price rail, golden CTA, related rows)
+- Added hash router (src/lib/router.ts + page.tsx client shell): #/services/<slug> views over the SAME film layer (frames never reload); deep links, back/forward, 404 fallback; plain anchors = home+scroll; ScrollVideoHero gained heroCopy prop (film always mounts, hero copy only on home)
+- Wired navigation: Services rows + MINOR pills → category pages; Navbar/Footer/Hero «مشاهده خدمات» via goSection; ServicePage related rows + breadcrumb
+- Readability fix (user complaint): body text-shadow 3-layer stronger (0.9/0.5/0.45), display shadow stronger, glass-28 bg 0.42→0.58, glass-18 0.3→0.48, glass-gold alphas up, row-blur hover 0.55; swept all sections: font-light→font-normal on body copy, text opacities raised (white/45-60 → white/60-90)
+- Data corrections: Team roles, About bio + credentials timeline + 4 stat panels, Contact address پلاک ۱۱۹, Pricing + رویژن row + link to jaw-one page
+- QA (agent-browser): desktop 1440×900 — home hero, services→jaw-one click, jaw-two prices/care/sticky rail, about stats/credentials, pricing, gallery, home scrub --p=0.9@90%, footer; mobile 390×844 — deep-link #/services/implant, menu → home services (svcTop=88px), 404 view; all 6 slugs render titles; console clean (Fast Refresh only), errors none, lint clean, dev.log 200s
+
+Stage Summary:
+- هر ۶ دسته‌بندی خدمت صفحه مستقل سینمایی دارد (#/services/…) روی همان لایه ویدیو؛ اسکراب دست‌نخورده
+- تمام محتوای متن‌ها از dromfs.com استخراج و صحت‌سنجی شد؛ خوانایی متن روی فریم‌های روشن و تاریک با سایه سه‌لایه + شیشه تیره‌تر حل شد

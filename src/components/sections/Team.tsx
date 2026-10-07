@@ -14,12 +14,12 @@ const TEAM = [
   },
   {
     name: 'خانم منیره کاظمی',
-    role: 'همکار مطب',
+    role: 'سوپروایزر مطب',
     initial: 'ک',
   },
   {
     name: 'آقای پوریا هاشم‌پور',
-    role: 'همکار مطب',
+    role: 'تولید محتوا و رسانه',
     initial: 'ه',
   },
 ];
@@ -56,11 +56,11 @@ export default function Team() {
                   <span className="display text-xl text-white transition-transform duration-700 group-hover:-translate-x-2 md:text-3xl">
                     {m.name}
                   </span>
-                  <span className="text-[12px] font-light text-white/55">
+                  <span className="text-[12px] font-normal text-white/75">
                     {m.role}
                   </span>
                 </div>
-                <span className="label-num hidden text-[11px] text-white/35 md:inline">
+                <span className="label-num hidden text-[11px] text-white/50 md:inline">
                   {String(i + 1).padStart(2, '0')}
                 </span>
               </div>

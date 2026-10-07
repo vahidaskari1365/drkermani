@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { goSection } from '@/lib/router';
 
 const LINKS = [
   { href: '#about', label: 'درباره', num: '01' },
@@ -40,7 +41,14 @@ export default function Navbar() {
       >
         <nav className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-5 md:px-10">
           {/* wordmark */}
-          <a href="#hero" className="group flex items-baseline gap-2 text-white">
+          <a
+            href="#hero"
+            onClick={(e) => {
+              e.preventDefault();
+              goSection('hero');
+            }}
+            className="group flex items-baseline gap-2 text-white"
+          >
             <span className="display text-lg md:text-xl">دکتر حامد کرمانی</span>
             <span className="hidden text-[10px] tracking-[0.25em] text-white/50 md:inline">
               OMFS
@@ -53,7 +61,11 @@ export default function Navbar() {
               <a
                 key={l.href}
                 href={l.href}
-                className="u-link text-[13px] text-white/80 transition-colors duration-300 hover:text-white"
+                onClick={(e) => {
+                  e.preventDefault();
+                  goSection(l.href.slice(1));
+                }}
+                className="u-link text-[13px] text-white/85 transition-colors duration-300 hover:text-white"
               >
                 {l.label}
               </a>
@@ -103,13 +115,17 @@ export default function Navbar() {
             <a
               key={l.href}
               href={l.href}
-              onClick={() => setOpen(false)}
+              onClick={(e) => {
+                e.preventDefault();
+                setOpen(false);
+                goSection(l.href.slice(1));
+              }}
               className={`group flex items-baseline gap-5 border-b border-white/10 py-5 transition-all duration-700 ${
                 open ? 'translate-y-0 opacity-100' : 'translate-y-6 opacity-0'
               }`}
               style={{ transitionDelay: `${120 + i * 60}ms` }}
             >
-              <span className="label-num text-[11px] text-white/40">{l.num}</span>
+              <span className="label-num text-[11px] text-white/60">{l.num}</span>
               <span className="display text-3xl transition-colors duration-300 group-hover:text-accent-soft">
                 {l.label}
               </span>

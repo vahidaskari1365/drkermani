@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "dental implant titanium screw model macro"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "dental implant titanium screw model macro",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 6,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d5adabf06047.png",
+      "caption": "",
+      "source": "",
+      "original_width": "1080px",
+      "original_height": "1300px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/769c1bf92594.png",
+      "caption": "Technical cross-section diagram of a dental implant screw with labeled dimensions D, L, P, d, T, thread angle details CSA, ASA, tw.",
+      "source": "",
+      "original_width": "1688px",
+      "original_height": "2363px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/06327c3dc445.png",
+      "caption": "3D dental implant models labeled (a)-(g) compared with photos of metallic mini-implants; ball-top screws, no watermark.",
+      "source": "",
+      "original_width": "1200px",
+      "original_height": "676px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f0c8b9c52c1a.jpg",
+      "caption": "A dark threaded titanium dental implant screw with star-shaped internal socket, shown vertically on a clean white background.",
+      "source": "",
+      "original_width": "2000px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/39282dad2d91.jpg",
+      "caption": "Seven labeled dental implant components (a–g) displayed on gray background; scientific figure, not suitable for background.",
+      "source": "",
+      "original_width": "1200px",
+      "original_height": "921px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/71e49ce77c3b.png",
+      "caption": "",
+      "source": "",
+      "original_width": "1887px",
+      "original_height": "1813px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/412f3dd9efbe.png",
+      "caption": "A labeled diagram of Implant One precision dental implants showing wide and standard thread designs with components like Morse Taper, hex screw, gold anodization, and microthreads.",
+      "source": "",
+      "original_width": "4167px",
+      "original_height": "3417px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1fa7201a7b49.jpg",
+      "caption": "Dental implant model with forceps placing a crown; blue background, Alamy watermarks and text present, so not suitable.",
+      "source": "",
+      "original_width": "1300px",
+      "original_height": "832px"
+    }
+  ]
+}

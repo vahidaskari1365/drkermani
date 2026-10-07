@@ -20,3 +20,22 @@ Stage Summary:
 - Single scrub system lives ONLY in ScrollVideoHero.tsx; no nested scroll containers anywhere
 - Content: all dromfs.com info (services, prices in Toman, hours, team, 02166921500, 09382080270, address, Instagram, Aparat, Google Maps)
 - Dev server running on port 3000; production-ready
+
+---
+Task ID: 3
+Agent: main (Super Z)
+Task: Finalize scroll-scrubbed video homepage — verify scrub logic, fix watermarked imagery, re-verify desktop/mobile
+
+Work Log:
+- Re-initialized fullstack env; confirmed all assets (151 frames, fonts, images) and components exist
+- Verified scrub engine (ScrollVideoHero): scroll→frame mapping, rAF lerp, --p CSS var, sticky viewport — forward AND reverse scrub confirmed via agent-browser
+- Built contact sheet of all 25 images; found watermarked/non-premium images in use (Turkish clinic branding on jaw-1/3/4, TABAN watermark on blepharo-1, alamy watermarks, blurred faces, Pinterest graphics)
+- Ran 8 new image searches (z-ai image-search); downloaded 64 candidates; visually reviewed contact sheets
+- Installed 18 clean replacements under descriptive names (profile-f/m, chin, eyes, eyes-profile, implant-hand, implant-macro, or-surgery, or-team, clinic-dark/dark2/wood/bright, consult-xray/tablet/talk); deleted 16 watermarked/bad files
+- Updated Services.tsx + Gallery.tsx image refs and captions (added "در اتاق عمل" OR shot)
+- Verified: lint clean, dev.log clean (GET / 200), gallery/services/about/pricing/contact render, mobile 390x844 hero stacked layout + scrub OK, console errors none
+
+Stage Summary:
+- Site fully verified end-to-end in browser at desktop 1440x900 and mobile 390x844
+- All public/img assets now watermark-free; components reference descriptive filenames
+- Scrub logic untouched since its original implementation (per user constraint)

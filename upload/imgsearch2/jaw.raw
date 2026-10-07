@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "orthognathic surgery before after profile jaw"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "orthognathic surgery before after profile jaw",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 8,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/65502b7146d0.jpg",
+      "caption": "Side-by-side before-and-after profile comparison of a woman, likely showing cosmetic procedure results; no text.",
+      "source": "Reddit",
+      "original_width": "1283px",
+      "original_height": "1310px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/305af8480a90.jpg",
+      "caption": "Before-and-after side profile comparison of a young man's jawline, likely showing jaw surgery or orthodontic treatment results.",
+      "source": "www.facejawsurgery.com",
+      "original_width": "1280px",
+      "original_height": "846px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/623aa3a4f0a5.jpg",
+      "caption": "Before-and-after surgical profile comparison infographic with watermarks, logos, clinic contact details; promotional content, not suitable for background.",
+      "source": "Pandit Clinic",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a3a61ad48ae8.png",
+      "caption": "A side-by-side collage showing a woman's profile before and after treatment, with eyes intentionally blurred for privacy.",
+      "source": "note",
+      "original_width": "1280px",
+      "original_height": "670px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/82f55bdf7d60.png",
+      "caption": "Medical illustration titled \"Lower Jaw (Mandibular) Correction\" showing three conditions: \"Receding lower jaw,\" \"Underbite,\" \"Jaw imbalance.\"",
+      "source": "Carolinas Center for Oral & Facial Surgery",
+      "original_width": "1536px",
+      "original_height": "726px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/0a53dfe94509.png",
+      "caption": "A collage comparing before and after photos of a person's face and teeth. Text: BEFORE, AFTER.",
+      "source": "Bangsar Utama Dental Specialist Clinic",
+      "original_width": "700px",
+      "original_height": "1200px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cd51fe029607.jpg",
+      "caption": "A collage of five photos showing a woman's jaw surgery recovery, with facial swelling and braces, including one wearing a pink \"LotFancy\" neck brace.",
+      "source": "Reddit",
+      "original_width": "1284px",
+      "original_height": "2282px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2719a69ce5b0.jpg",
+      "caption": "Before-and-after facial surgery comparison of a man, with \"BEFORE,\" \"AFTER,\" logos, \"RICHARDSONS FACE HOSPITALS,\" and \"www.facesurgeon.in\" text.",
+      "source": "Plastic Surgery",
+      "original_width": "942px",
+      "original_height": "976px"
+    }
+  ]
+}

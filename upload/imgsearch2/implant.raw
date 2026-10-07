@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "dental implant model closeup dentist"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "dental implant model closeup dentist",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 8,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/4b8e10bb00fe.jpg",
+      "caption": "A gloved hand holds 3D-printed dental models, with dental tools blurred in the background. Contains Dreamstime watermarks, not suitable for background image.",
+      "source": "",
+      "original_width": "1600px",
+      "original_height": "1157px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/27a1a6459073.jpg",
+      "caption": "Gloved hand holding a dental implant with metallic screw and translucent crown; white background. Contains Alamy watermarks, logo, and \"alamy\" text.",
+      "source": "",
+      "original_width": "1170px",
+      "original_height": "1390px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/36be92c67afd.jpg",
+      "caption": "A smiling woman's mouth beside a hand holding a dental implant model, on blue background. Contains \"123RF\" watermarks and logos; not suitable for background image.",
+      "source": "",
+      "original_width": "1300px",
+      "original_height": "694px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/aeb774f90fbb.jpg",
+      "caption": "Dental models showing teeth implant, crowns, and dentures with metal dental tweezers; watermarked stock photo (dreamstime.com, ID 392150464).",
+      "source": "",
+      "original_width": "1600px",
+      "original_height": "1004px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/849aac734feb.png",
+      "caption": "Gloved hands holding a dental implant model showing titanium screw, crown, and natural teeth cross-section; high clarity, no watermark, suitable for background image",
+      "source": "",
+      "original_width": "1200px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e78ea87b34b1.jpg",
+      "caption": "Dental implant model showing titanium screw, crown, and natural tooth cross-section on red gums; contains Alamy watermarks, not suitable for background.",
+      "source": "",
+      "original_width": "1300px",
+      "original_height": "1117px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e7072b2b93d2.jpeg",
+      "caption": "A dentist in blue scrubs and purple gloves holding a dental implant model with teeth, gums, and titanium screw.",
+      "source": "",
+      "original_width": "2016px",
+      "original_height": "1344px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a700300949d0.jpg",
+      "caption": "Hands holding pink dental jaw model demonstrating tooth implant placement; contains Dreamstime watermarks and ID 204198861 © Ronstik.",
+      "source": "",
+      "original_width": "1600px",
+      "original_height": "1157px"
+    }
+  ]
+}

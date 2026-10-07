@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "maxillofacial surgeon in operating room"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "maxillofacial surgeon in operating room",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 8,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/239b08281d98.jpg",
+      "caption": "Surgeons in masks and gloves performing an operation on a patient in an operating room.",
+      "source": "BIMC Hospital",
+      "original_width": "1200px",
+      "original_height": "798px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8779a873bf45.png",
+      "caption": "Two surgeons in blue surgical gowns, masks, and caps performing an operation in a hospital operating room with medical equipment.",
+      "source": "www.fvhospital.com",
+      "original_width": "1602px",
+      "original_height": "891px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b04baeab3c3a.jpeg",
+      "caption": "Two dental surgeons in surgical caps, masks, and gloves performing a procedure with instruments under an overhead operating light.",
+      "source": "Pressbooks.pub",
+      "original_width": "1497px",
+      "original_height": "1500px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a1ca9d495747.jpg",
+      "caption": "Surgeons in blue scrubs, masks, and caps performing surgery with instruments in an operating room, no text, high clarity.",
+      "source": "Toledo Blade",
+      "original_width": "1140px",
+      "original_height": "798px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/3179374a4fd5.jpg",
+      "caption": "Two masked surgeons in patterned surgical caps perform an operation. Text on cap: \"BY COTTON PTD #\". Suitable for background image",
+      "source": "LinkedIn",
+      "original_width": "1277px",
+      "original_height": "720px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/689c6769ac30.jpg",
+      "caption": "A masked surgeon in green scrubs performs a facial procedure on a patient in an operating room; clear, no text, suitable for background image.",
+      "source": "Dr. Larry Wolford",
+      "original_width": "1500px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f4226e6a3930.jpg",
+      "caption": "Two smiling surgeons in scrubs kneel beside a metal cart, pointing at silver \"150\" mylar balloons celebrating a milestone in an operating room.",
+      "source": "MesMaxillos",
+      "original_width": "1200px",
+      "original_height": "1600px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5323a1811e10.jpg",
+      "caption": "Two dental/medical professionals in blue gowns, masks, caps, and face shields working together in a bright clinic.",
+      "source": "Texas A&M College of Dentistry - Texas A&M University",
+      "original_width": "4500px",
+      "original_height": "1680px"
+    }
+  ]
+}

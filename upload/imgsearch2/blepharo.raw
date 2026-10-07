@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "blepharoplasty eyelid surgery elegant eyes woman"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "blepharoplasty eyelid surgery elegant eyes woman",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 8,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/48532804bd4b.png",
+      "caption": "Medical infographic titled \"UPPER BLEPHAROPLASTY PROCEDURE\" showing before/after eye illustrations with explanatory text annotations.",
+      "source": "Victoria House Clinic",
+      "original_width": "1024px",
+      "original_height": "1024px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/d25d457f4b22.jpg",
+      "caption": "Before-and-after cosmetic comparison of a blonde woman, split side-by-side, with repeated \"BIANCA\" watermarks.",
+      "source": "bianca clinic",
+      "original_width": "1000px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/1716be8a793e.jpg",
+      "caption": "Before/after comparison of a woman's face showing eyelid surgery results; text reads \"Before\".",
+      "source": "John Kang, MD",
+      "original_width": "1024px",
+      "original_height": "932px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/33f2491579b7.jpg",
+      "caption": "Close-up collage comparing blue eyes with mascara before and after, with a small \"glitz daily\" watermark.",
+      "source": "Judith Gurley Plastic Surgery",
+      "original_width": "1500px",
+      "original_height": "753px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f601a3a4b375.png",
+      "caption": "Side-by-side before-and-after comparison of a middle-aged woman's facial profile, showing skin improvement after cosmetic treatment, against a black background.",
+      "source": "Guess Clinic",
+      "original_width": "1024px",
+      "original_height": "1536px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6c1458f54000.jpg",
+      "caption": "A side-by-side before-and-after comparison of a woman's face, likely showing a cosmetic procedure result, on a pink background.",
+      "source": "Emily Ley | Substack",
+      "original_width": "1200px",
+      "original_height": "800px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/b57867c12666.jpg",
+      "caption": "Before-and-after facial comparison of a woman on blue background, with \"sbps\" logo watermark; medical imagery, unsuitable for background.",
+      "source": "South Bay Plastic Surgeons",
+      "original_width": "1700px",
+      "original_height": "566px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/6888aa804c45.png",
+      "caption": "Before-and-after close-up of a woman's eyes showing eyelid change, watermarked \"BIANCA - lifestyle with smiles\" repeatedly.",
+      "source": "BIANCA CLINIC",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    }
+  ]
+}

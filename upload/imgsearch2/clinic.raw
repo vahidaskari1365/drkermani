@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "luxury dental clinic interior modern minimal"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "luxury dental clinic interior modern minimal",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 8,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e0110ef086eb.jpg",
+      "caption": "A minimalist narrow home workspace with white desk, black stools, dark cabinetry, and terrazzo floor, viewed toward a bright window. Suitable for background image.",
+      "source": "Pinterest",
+      "original_width": "736px",
+      "original_height": "1472px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e90ee299d4bf.jpg",
+      "caption": "A modern dental clinic with black treatment chair, marble flooring, and framed text: \"YOU DON'T HAVE TO BRUSH ALL YOUR TEETH, JUST THE ONES YOU WANT.\"",
+      "source": "The Architects Diary",
+      "original_width": "1280px",
+      "original_height": "853px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/14a2c6c18a13.jpg",
+      "caption": "A modern dental clinic interior with dental chair, equipment, TV displaying \"Dr. Chokshi's Dental Clinic & Implantodontic Centre,\" consultation room door. Clear, visually appealing—suitable for background image",
+      "source": "The Architects Diary",
+      "original_width": "1280px",
+      "original_height": "853px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5b5d9bc7ea1a.jpg",
+      "caption": "Minimalist interior with wooden chairs by large windows, wall art, pendant lamp, TV, and wooden table.",
+      "source": "knot",
+      "original_width": "1500px",
+      "original_height": "1000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2b62e874ea7b.jpg",
+      "caption": "Modern dental office reception with \"DELIZ DENTAL STUDIO\" and \"WELCOME\" signs, suitable for background image.",
+      "source": "Design Ergonomics",
+      "original_width": "2000px",
+      "original_height": "1335px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a43b9de9e33b.png",
+      "caption": "Warm minimalist dental clinic reception with wooden slats, \"SMILE DENTAL CLINIC\" sign, waiting chairs, plants, and treatment room.",
+      "source": "Pinterest",
+      "original_width": "1254px",
+      "original_height": "1254px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f9c97f8097ee.jpg",
+      "caption": "Bright 3D-rendered dental clinic interior with white dental chairs, equipment, framed posters, and a glass partition. Contains a large \"SketchUp cgtips\" watermark, not suitable for background image.",
+      "source": "Sketchup CGtips",
+      "original_width": "1600px",
+      "original_height": "1014px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/cfd651037fd4.jpg",
+      "caption": "Modern dental clinic reception with marble desk, tooth logo, plants, and Buddha statue. Text: \"Global Dental Care.\"",
+      "source": "Orchid Digitals",
+      "original_width": "1024px",
+      "original_height": "768px"
+    }
+  ]
+}

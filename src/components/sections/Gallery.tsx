@@ -2,12 +2,12 @@ import Reveal from '@/components/Reveal';
 import SectionHeader from '@/components/SectionHeader';
 
 const ITEMS = [
-  { src: '/img/jaw-1.jpg', cap: 'ارتوسرجری — قبل و بعد', span: 'md:col-span-7', ratio: 'aspect-[16/10]' },
-  { src: '/img/jaw-3.jpg', cap: 'جراحی دو فک', span: 'md:col-span-5', ratio: 'aspect-[4/5]' },
-  { src: '/img/jaw-5.jpg', cap: 'اصلاح پروفایل', span: 'md:col-span-5', ratio: 'aspect-[4/5]' },
-  { src: '/img/implant-2.jpg', cap: 'ایمپلنت و بازسازی', span: 'md:col-span-7', ratio: 'aspect-[16/10]' },
-  { src: '/img/blepharo-1.jpg', cap: 'بلفاروپلاستی — روند بهبودی', span: 'md:col-span-4', ratio: 'aspect-square' },
-  { src: '/img/jaw-6.jpg', cap: 'ارتوگناتیک سرجری', span: 'md:col-span-4', ratio: 'aspect-square' },
+  { src: '/img/profile-m.jpg', cap: 'ارتوسرجری — قبل و بعد', span: 'md:col-span-7', ratio: 'aspect-[16/10]' },
+  { src: '/img/profile-f.jpg', cap: 'جراحی دو فک', span: 'md:col-span-5', ratio: 'aspect-[4/5]' },
+  { src: '/img/chin.jpg', cap: 'اصلاح پروفایل', span: 'md:col-span-5', ratio: 'aspect-[4/5]' },
+  { src: '/img/or-surgery.jpg', cap: 'در اتاق عمل', span: 'md:col-span-7', ratio: 'aspect-[16/10]' },
+  { src: '/img/eyes.jpg', cap: 'بلفاروپلاستی', span: 'md:col-span-4', ratio: 'aspect-square' },
+  { src: '/img/implant-macro.jpg', cap: 'ایمپلنت و بازسازی', span: 'md:col-span-4', ratio: 'aspect-square' },
   { src: '/img/implant-3.jpg', cap: 'کاشت دندان', span: 'md:col-span-4', ratio: 'aspect-square' },
 ];
 

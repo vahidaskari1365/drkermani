@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "chin jawline profile woman side view beauty"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "chin jawline profile woman side view beauty",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 7,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/363b2b54639c.jpg",
+      "caption": "A woman's profile portrait with glowing skin, hair in a bun, against a soft pink background. No text or watermarks. Suitable for background image",
+      "source": "Dr Nina Bal",
+      "original_width": "1333px",
+      "original_height": "2000px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/286c6fcebfce.jpg",
+      "caption": "Side-by-side before-and-after facial treatment comparison of a blonde woman, labeled \"BEFORE\" and \"AFTER\".",
+      "source": "Allure",
+      "original_width": "4160px",
+      "original_height": "2340px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/73cdaadc8089.jpg",
+      "caption": "Before-and-after profile comparison of a woman's chin/neck surgery, watermark \"LEONG FACIAL PLASTIC SURGERY\" present.",
+      "source": "Leong Facial Plastic Surgery",
+      "original_width": "1200px",
+      "original_height": "800px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5920639c4ad9.jpg",
+      "caption": "Close-up portrait of a woman with vitiligo, striking blue-green eyes, hands on head, glossy lips, no text, high clarity, suitable for background image",
+      "source": "British Vogue",
+      "original_width": "2560px",
+      "original_height": "3840px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/f3acb31edd0d.jpg",
+      "caption": "Vector illustration titled \"Double Chin\" comparing a woman's profile before and after treatment; text: \"Double Chin\", \"Before\", \"After\". Contains Dreamstime watermarks and logo; not suitable for background image.",
+      "source": "Dreamstime",
+      "original_width": "1600px",
+      "original_height": "1690px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/28c5d032fd3e.jpg",
+      "caption": "Close-up of a middle-aged woman's chin and neck profile with sagging skin, on gray background; contains Alamy watermarks and text: \"Image ID: 3D5F90K\", \"www.alamy.com\".",
+      "source": "Alamy",
+      "original_width": "1300px",
+      "original_height": "956px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/54accc18777f.png",
+      "caption": "A four-image collage of before-and-after cosmetic procedure profiles, watermarked \"COSMETIC CONNECTION\".",
+      "source": "Cosmetic Connection",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/80e910c9d48a.png",
+      "caption": "",
+      "source": "Hera Clinic",
+      "original_width": "1536px",
+      "original_height": "1024px"
+    }
+  ]
+}

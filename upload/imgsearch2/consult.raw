@@ -1,0 +1,68 @@
+🚀 Initializing Z-AI SDK...
+🔎 Searching images: "dentist patient consultation xray treatment plan"
+✅ Got 8 images
+{
+  "success": true,
+  "query": "dentist patient consultation xray treatment plan",
+  "count": 8,
+  "ranked": true,
+  "captioned_count": 6,
+  "results": [
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/8381f10cf8cb.png",
+      "caption": "",
+      "source": "Allisone - Allisone AI",
+      "original_width": "1360px",
+      "original_height": "760px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2b660c11c256.jpg",
+      "caption": "A masked dentist examines a female patient in a bright clinic while a monitor displays a panoramic dental X-ray; high clarity, no watermark — suitable for background image.",
+      "source": "Dr. Tanmoy Das Dental Clinic",
+      "original_width": "1200px",
+      "original_height": "675px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/2b77354d8387.jpg",
+      "caption": "A gloved hand holds a dental X-ray showing teeth, with dental tools and X-ray films on a white table. Suitable for background image.",
+      "source": "Vitrin Clinic",
+      "original_width": "1500px",
+      "original_height": "780px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/c8e38b5473b0.jpg",
+      "caption": "A young girl with long dark hair undergoes a dental X-ray scan, biting a positioner while gripping the machine's handles.",
+      "source": "UCSF Benioff Children's Hospitals",
+      "original_width": "1416px",
+      "original_height": "1112px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/e635428544ba.jpg",
+      "caption": "A dentist points at a dental X-ray on a monitor while explaining to a female patient in a modern dental clinic.",
+      "source": "Tarasha Dental Clinic",
+      "original_width": "1200px",
+      "original_height": "900px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/a7fcf2fa7ff1.webp",
+      "caption": "A smiling female patient in a dental chair while a gloved dentist shows teeth X-rays on a tablet.",
+      "source": "luxdent.ie",
+      "original_width": "1063px",
+      "original_height": "911px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/fb149b859f62.png",
+      "caption": "",
+      "source": "Alps Dental Clinic",
+      "original_width": "1080px",
+      "original_height": "1080px"
+    },
+    {
+      "original_url": "https://z-cdn.chatglm.cn/image-search-mcp/images-ppt/5494d991848b.jpg",
+      "caption": "A smiling male dentist in navy scrubs shows a patient a tooth-shaped mirror in a bright dental clinic. suitable for background image",
+      "source": "bluClinic | Dental implants, veneers, and full rehabilitation in Chisinau",
+      "original_width": "2560px",
+      "original_height": "1707px"
+    }
+  ]
+}

@@ -9,7 +9,7 @@ const SERVICES = [
     title: 'جراحی یک فک',
     en: 'SINGLE JAW',
     desc: 'ارتوسرجری فک بالا یا پایین برای اصلاح گازگیر، تقارن و تنفس.',
-    img: '/img/jaw-2.jpg',
+    img: '/img/ba-bimax-before.jpg',
   },
   {
     num: '02',
@@ -17,7 +17,7 @@ const SERVICES = [
     title: 'جراحی دو فک',
     en: 'BIMAX SURGERY',
     desc: 'جراحی هم‌زمان دو فک برای بازسازی کامل تعادل چهره و عملکرد.',
-    img: '/img/profile-f.jpg',
+    img: '/img/ba-bimax-after.jpg',
   },
   {
     num: '03',
@@ -33,7 +33,7 @@ const SERVICES = [
     title: 'بلفاروپلاستی',
     en: 'BLEPHAROPLASTY',
     desc: 'جوان‌سازی و فرم‌دهی پلک‌ها با ظریف‌ترین خطوط جراحی.',
-    img: '/img/eyes.jpg',
+    img: '/img/ba-blepharo-after.jpg',
   },
   {
     num: '05',
@@ -41,7 +41,7 @@ const SERVICES = [
     title: 'ایمپلنت دندان',
     en: 'IMPLANT',
     desc: 'کاشت دندان با سیستم‌های اشترومن، SPI، BICON، DXL و Cis.',
-    img: '/img/implant-hand.jpg',
+    img: '/img/work-implant-parallel.jpg',
   },
   {
     num: '06',
@@ -49,7 +49,7 @@ const SERVICES = [
     title: 'بازسازی فک',
     en: 'RECONSTRUCTION',
     desc: 'بازسازی ساختاری فک با گرافت استخوانی و پروتزهای سفارشی.',
-    img: '/img/implant-macro.jpg',
+    img: '/img/work-upper-recon.jpg',
   },
 ];
 

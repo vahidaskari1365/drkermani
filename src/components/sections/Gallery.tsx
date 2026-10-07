@@ -1,14 +1,54 @@
 import Reveal from '@/components/Reveal';
 import SectionHeader from '@/components/SectionHeader';
+import { WorksWheel } from '@/components/ui/works-wheel';
 
-const ITEMS = [
-  { src: '/img/profile-m.jpg', cap: 'ارتوسرجری — قبل و بعد', span: 'md:col-span-7', ratio: 'aspect-[16/10]' },
-  { src: '/img/profile-f.jpg', cap: 'جراحی دو فک', span: 'md:col-span-5', ratio: 'aspect-[4/5]' },
-  { src: '/img/chin.jpg', cap: 'اصلاح پروفایل', span: 'md:col-span-5', ratio: 'aspect-[4/5]' },
-  { src: '/img/or-surgery.jpg', cap: 'در اتاق عمل', span: 'md:col-span-7', ratio: 'aspect-[16/10]' },
-  { src: '/img/eyes.jpg', cap: 'بلفاروپلاستی', span: 'md:col-span-4', ratio: 'aspect-square' },
-  { src: '/img/implant-macro.jpg', cap: 'ایمپلنت و بازسازی', span: 'md:col-span-4', ratio: 'aspect-square' },
-  { src: '/img/implant-3.jpg', cap: 'کاشت دندان', span: 'md:col-span-4', ratio: 'aspect-square' },
+/**
+ * نمونه‌کارها — the real clinical index, built as a wheel you turn.
+ * Every card is an authentic case from dromfs.com (before/after and
+ * intraoperative frames) and links to its matching category page,
+ * so the drum doubles as the entry point to each service view.
+ */
+const WORKS = [
+  {
+    title: 'جراحی دو فک (بایمکس)',
+    image: '/img/ba-bimax-after.jpg',
+    href: '#/services/jaw-two',
+  },
+  {
+    title: 'بلفاروپلاستی',
+    image: '/img/ba-blepharo-after.jpg',
+    href: '#/services/blepharoplasty',
+  },
+  {
+    title: 'بازسازی فک بالا با ایمپلنت',
+    image: '/img/work-upper-recon.jpg',
+    href: '#/services/implant',
+  },
+  {
+    title: 'ایمپلنت موازی (پارالل)',
+    image: '/img/work-implant-parallel.jpg',
+    href: '#/services/implant',
+  },
+  {
+    title: 'ایمپلنت ناحیه قدام',
+    image: '/img/work-implant-front.jpg',
+    href: '#/services/implant',
+  },
+  {
+    title: 'ایمپلنت بدون برش (فلپلس)',
+    image: '/img/work-implant-flapless.jpg',
+    href: '#/services/implant',
+  },
+  {
+    title: 'لیفت سینوس',
+    image: '/img/work-sinus-lift.jpg',
+    href: '#/services/implant',
+  },
+  {
+    title: 'در اتاق عمل',
+    image: '/img/dr-kermani-or.jpg',
+    href: '#/services/jaw-one',
+  },
 ];
 
 export default function Gallery() {
@@ -19,42 +59,29 @@ export default function Gallery() {
           index="03"
           label="نمونه‌کارها"
           title="نمونه جراحی‌های انجام شده"
-          lead="گزیده‌ای از نتایج درمانی؛ برای مشاهده جزئیات، تصویر را لمس یا نگه دارید."
+          lead="چرخ نمونه‌کارها را بچرخانید؛ هر کارت یک مورد درمانی واقعی است و به صفحه همان دسته‌بندی وصل می‌شود."
         />
 
-        {/* floating glass-framed stills over the film */}
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-12">
-          {ITEMS.map((it, i) => (
-            <Reveal
-              key={it.src + i}
-              delay={(i % 3) * 90}
-              className={`group relative ${it.span}`}
-            >
-              <figure className="glass-18 rounded-2xl p-2 transition-transform duration-700 group-hover:-translate-y-1">
-                <div className={`${it.ratio} overflow-hidden rounded-xl`}>
-                  <img
-                    src={it.src}
-                    alt={it.cap}
-                    loading="lazy"
-                    className="cine-img h-full w-full object-cover"
-                  />
-                </div>
-                <figcaption className="pointer-events-none absolute inset-x-3 bottom-3 flex items-center justify-between rounded-xl bg-black/55 px-4 py-2.5 text-[11px] font-normal tracking-wider text-white opacity-0 backdrop-blur-md transition-opacity duration-700 group-hover:opacity-100">
-                  <span>{it.cap}</span>
-                  <span className="label-num text-white/70">
-                    {String(i + 1).padStart(2, '0')}
-                  </span>
-                </figcaption>
-              </figure>
-            </Reveal>
-          ))}
-        </div>
+        {/* the wheel — a framed stage floating over the film; the drum's cards
+            run off the top/bottom of the frame by design, so the frame clips
+            them (no backdrop blur here: 3D transforms stay crisp) */}
+        <Reveal delay={100}>
+          <div className="relative mt-10 h-[74vh] overflow-hidden rounded-2xl border border-white/15 bg-black/25 shadow-[0_40px_120px_-40px_rgb(0_0_0/0.8)] md:h-[88vh]">
+            <WorksWheel items={WORKS} label="نمونه‌کارها" action="مشاهده" />
+          </div>
+        </Reveal>
 
         <Reveal delay={150}>
-          <p className="mt-8 text-[11px] font-normal leading-6 text-white/65">
-            تصاویر گالری صرفاً جهت نمایش الگوی نتایج درمانی است؛ نتیجه هر جراحی به
-            شرایط فردی بیمار بستگی دارد و پس از معاینه تعیین می‌شود.
-          </p>
+          <div className="mt-6 flex flex-wrap items-center justify-between gap-4">
+            <p className="text-[11px] font-normal leading-6 text-white/65">
+              با چرخ ماوس یا کشیدن، چرخ را بچرخانید؛ با کلیک روی هر کارت، صفحه
+              همان دسته‌بندی باز می‌شود.
+            </p>
+            <p className="max-w-md text-[11px] font-normal leading-6 text-white/65">
+              تصاویر صرفاً جهت نمایش الگوی نتایج درمانی است؛ نتیجه هر جراحی به
+              شرایط فردی بیمار بستگی دارد و پس از معاینه تعیین می‌شود.
+            </p>
+          </div>
         </Reveal>
       </div>
     </section>

@@ -1,0 +1,31 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "external": {},
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"><meta charset=\"utf-8\"></head><body><pre>{\"code\":\"rest_post_invalid_id\",\"message\":\"\\u0634\\u0646\\u0627\\u0633\\u0647\\u0654 \\u0646\\u0648\\u0634\\u062a\\u0647 \\u0646\\u0627\\u0645\\u0639\\u062a\\u0628\\u0631 \\u0627\\u0633\\u062a.\",\"data\":{\"status\":404}}</pre><div class=\"json-formatter-container\"></div></body></html>",
+    "httpStatus": 404,
+    "httpStatusText": "",
+    "metadata": {
+      "color-scheme": "light dark"
+    },
+    "title": "",
+    "url": "https://dromfs.com/wp-json/wp/v2/pages/242",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 128,
+      "tokens": 128
+    },
+    "warning": "Target URL returned error 404: Not Found"
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 128,
+      "tokens": 128
+    }
+  },
+  "status": 20000
+}

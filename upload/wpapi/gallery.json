@@ -1,0 +1,26 @@
+{
+  "code": 200,
+  "data": {
+    "description": "",
+    "html": "<html><head><meta name=\"color-scheme\" content=\"light dark\"></head><body><pre style=\"word-wrap: break-word; white-space: pre-wrap;\">{\"id\":560,\"date\":\"2018-01-13T11:56:43\",\"date_gmt\":\"2018-01-13T08:26:43\",\"guid\":{\"rendered\":\"http:\\/\\/xtratheme.com\\/barber\\/?page_id=555\"},\"modified\":\"2018-01-13T11:56:43\",\"modified_gmt\":\"2018-01-13T08:26:43\",\"slug\":\"gallery\",\"status\":\"publish\",\"type\":\"page\",\"link\":\"https:\\/\\/dromfs.com\\/gallery\\/\",\"title\":{\"rendered\":\"\\u06af\\u0627\\u0644\\u0631\\u06cc\"},\"content\":{\"rendered\":\"<div class=\\\"wpb-content-wrapper\\\">[vc_row][vc_column]<div id=\\\"cz_46211\\\" class=\\\"cz_grid_p cz_46211\\\"><div class=\\\"cz_grid cz_grid_1 clr cz_metro_9 cz_grid_c6 cz_grid_1_no_title cz_grid_1_mid tac\\\"><div class=\\\"cz_grid_item cz_grid_first\\\"><\\/div><\\/div><\\/div>[\\/vc_column][\\/vc_row]\\n<\\/div>\",\"protected\":false},\"excerpt\":{\"rendered\":\"<p>[vc_row][vc_column][\\/vc_column][\\/vc_row] &#8230; <\\/p>\\n\",\"protected\":false},\"author\":1,\"featured_media\":0,\"parent\":0,\"menu_order\":0,\"comment_status\":\"closed\",\"ping_status\":\"closed\",\"template\":\"\",\"meta\":{\"footnotes\":\"\"},\"class_list\":[\"post-560\",\"page\",\"type-page\",\"status-publish\",\"hentry\"],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/pages\\/560\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/pages\"}],\"about\":[{\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/types\\/page\"}],\"author\":[{\"embeddable\":true,\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/users\\/1\"}],\"replies\":[{\"embeddable\":true,\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/comments?post=560\"}],\"version-history\":[{\"count\":0,\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/pages\\/560\\/revisions\"}],\"wp:attachment\":[{\"href\":\"https:\\/\\/dromfs.com\\/wp-json\\/wp\\/v2\\/media?parent=560\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}}</pre></body></html>",
+    "httpStatus": 200,
+    "httpStatusText": "",
+    "title": "",
+    "url": "https://dromfs.com/wp-json/wp/v2/pages/560",
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 604,
+      "tokens": 604
+    }
+  },
+  "meta": {
+    "usage": {
+      "measuredTokens": 0,
+      "outputTokens": 0,
+      "scaledTokens": 604,
+      "tokens": 604
+    }
+  },
+  "status": 20000
+}

@@ -17,6 +17,13 @@ const STATS = [
   { n: '+۵۰۰۰', v: 'واحد ایمپلنت' },
 ];
 
+/* success rates — «آمار نتایج درمان‌ها» from dromfs.com/about */
+const RATES = [
+  { n: '۹۳٪', v: 'ارتوگنیک — ۱۶۹ جراحی موفق' },
+  { n: '۹۷٪', v: 'بازسازی فک و ایمپلنت — +۵۰۰۰ درمان' },
+  { n: '۹۰٪', v: 'سایر جراحی‌ها — ۴۹۲ جراحی موفق' },
+];
+
 export default function About() {
   return (
     <section id="about" className="relative z-10">
@@ -83,7 +90,7 @@ export default function About() {
               <figure className="glass-18 group relative z-10 ml-auto w-[82%] rounded-2xl p-2">
                 <div className="overflow-hidden rounded-xl">
                   <img
-                    src="/img/doctor-1.jpg"
+                    src="/img/dr-kermani-portrait.jpg"
                     alt="دکتر حامد کرمانی، متخصص جراحی فک و صورت"
                     loading="lazy"
                     className="cine-img aspect-[3/4] w-full object-cover"
@@ -98,8 +105,8 @@ export default function About() {
               <figure className="glass-18 group relative z-20 -mt-14 w-[52%] rounded-2xl p-2 md:-mt-20">
                 <div className="overflow-hidden rounded-xl">
                   <img
-                    src="/img/clinic-interior.jpg"
-                    alt="فضای درمانی مطب"
+                    src="/img/dr-kermani-or.jpg"
+                    alt="دکتر کرمانی در اتاق عمل"
                     loading="lazy"
                     className="cine-img aspect-[4/3] w-full object-cover"
                   />
@@ -111,6 +118,24 @@ export default function About() {
             </span>
           </div>
         </div>
+
+        {/* success rates — real outcome statistics from the clinic */}
+        <Reveal delay={80}>
+          <div className="mt-8 flex flex-wrap items-center gap-4 rounded-2xl glass-18 px-6 py-5">
+            <span className="text-[11px] tracking-[0.25em] text-white/60">
+              آمار نتایج درمان‌ها
+            </span>
+            {RATES.map((r) => (
+              <span
+                key={r.n}
+                className="flex items-baseline gap-2 rounded-xl border border-white/10 px-4 py-2"
+              >
+                <span className="label-num text-lg font-bold text-gold">{r.n}</span>
+                <span className="text-[11px] font-normal text-white/85">{r.v}</span>
+              </span>
+            ))}
+          </div>
+        </Reveal>
 
         {/* treatment statistics — real counters from the clinic */}
         <Reveal delay={120}>

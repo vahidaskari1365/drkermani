@@ -1,0 +1,2483 @@
+{
+ "posts": [
+  {
+   "id": 1003,
+   "date": "2022-09-03T14:26:48",
+   "date_gmt": "2022-09-03T09:56:48",
+   "guid": {
+    "rendered": "https://dromfs.com/?p=1003"
+   },
+   "modified": "2022-09-04T02:09:15",
+   "modified_gmt": "2022-09-03T21:39:15",
+   "slug": "%d9%85%d9%82%d8%a7%d9%84%d8%a7%d8%aa-%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d8%a7%d9%85%d8%af-%da%a9%d8%b1%d9%85%d8%a7%d9%86%db%8c",
+   "status": "publish",
+   "type": "post",
+   "link": "https://dromfs.com/%d9%85%d9%82%d8%a7%d9%84%d8%a7%d8%aa-%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d8%a7%d9%85%d8%af-%da%a9%d8%b1%d9%85%d8%a7%d9%86%db%8c/",
+   "title": {
+    "rendered": "مقالات جراحی فک و صورت دکتر حامد کرمانی"
+   },
+   "content": {
+    "rendered": "<p>در لینک گوگل اسکولار زیر میتوانید ۱۸ مقاله بنده را در مورد جراحی فک و صورت مشاهده و مطالعه فرمایید، ممنون می شوم نظرات ارزشمندتان را با من به اشتراک بزارید</p>\n<p>جهت مشاهده مقالات لینک زیر را باز کنید👇</p>\n<p><span style=\"color: #0000ff;\"><a style=\"color: #0000ff;\" href=\"https://scholar.google.ca/citations?user=ljMZZLAAAAAJ&amp;hl=en\" target=\"_blank\" rel=\"noopener\">مقالات دکتر حامد کرمانی متخصص جراحی فک و صورت</a>  </span></p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "<p>در لینک گوگل اسکولار زیر میتوانید ۱۸ مقاله بنده را در مورد جراحی فک و صورت مشاهده و مطالعه فرمایید، &#8230; <a class=\"cz_readmore\" href=\"https://dromfs.com/%d9%85%d9%82%d8%a7%d9%84%d8%a7%d8%aa-%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d8%a7%d9%85%d8%af-%da%a9%d8%b1%d9%85%d8%a7%d9%86%db%8c/\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i><span>ادامه مطلب</span></a></p>\n",
+    "protected": false
+   },
+   "author": 1,
+   "featured_media": 1004,
+   "comment_status": "open",
+   "ping_status": "open",
+   "sticky": false,
+   "template": "",
+   "format": "standard",
+   "meta": {
+    "footnotes": ""
+   },
+   "categories": [
+    17
+   ],
+   "tags": [
+    22,
+    28
+   ],
+   "class_list": [
+    "post-1003",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-tutorial",
+    "tag-dr_hamed_kermani",
+    "tag-omfs_articles"
+   ],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/1003",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/post"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1003"
+     }
+    ],
+    "version-history": [
+     {
+      "count": 4,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/1003/revisions"
+     }
+    ],
+    "predecessor-version": [
+     {
+      "id": 1009,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/1003/revisions/1009"
+     }
+    ],
+    "wp:featuredmedia": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1004"
+     }
+    ],
+    "wp:attachment": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media?parent=1003"
+     }
+    ],
+    "wp:term": [
+     {
+      "taxonomy": "category",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/categories?post=1003"
+     },
+     {
+      "taxonomy": "post_tag",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/tags?post=1003"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 989,
+   "date": "2022-04-30T16:15:24",
+   "date_gmt": "2022-04-30T11:45:24",
+   "guid": {
+    "rendered": "http://dromfs.com/?p=989"
+   },
+   "modified": "2022-04-30T16:15:24",
+   "modified_gmt": "2022-04-30T11:45:24",
+   "slug": "%d8%af%d9%88%d8%b1%d8%a7%d9%86-%d9%86%d9%82%d8%a7%d9%87%d8%aa-%d8%a8%d8%b9%d8%af-%d8%a7%d8%b2-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84",
+   "status": "publish",
+   "type": "post",
+   "link": "https://dromfs.com/%d8%af%d9%88%d8%b1%d8%a7%d9%86-%d9%86%d9%82%d8%a7%d9%87%d8%aa-%d8%a8%d8%b9%d8%af-%d8%a7%d8%b2-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84/",
+   "title": {
+    "rendered": "دوران نقاهت بعد از جراحی دندان عقل"
+   },
+   "content": {
+    "rendered": "<h2>چقدر زمان لازم است تا بیماران <a href=\"https://dromfs.com/2022/04/25/%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%db%8c%d9%86-%d8%b1%db%8c%d8%b4%d9%87-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84-%db%8c%d8%a7-%d8%af%db%8c%da%af%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86/\">دوران نقاهت بعد از جراحی دندان عقل</a> را سپری کنند؟</h2>\n<p>3 الی 4 روز بعد از جراحی دندان عقل میزان التهاب افزایش پیدا می کند و گاها برای بیماران نگران کننده است اما بعد از 4 روز میزان التهاب کاهش می یابد.</p>\n<p>در صورتی که بعد از روز سه الی چهارم میزان التهاب در ناحیه صورت همراه با درد افزایش یافت لازم است که بیمار جهت ویزیت مجدد به پزشک خود مراجعه کند زیرا ممکن است <a href=\"https://dromfs.com/\">عفونت بعد از جراحی</a> اتفاق افتاده باشد.</p>\n<p>ورمی که در روزهای اول بیماران مشاهده می کنند نگران کننده نیست زیرا این ورم ناشی از عفونت نمی باشد و عکس العمل نرمال و طبیعی بعد از جراحی است.</p>\n<h3>راهکارهای لازم برای کاهش التهاب بعد از عمل:</h3>\n<ul>\n<li>روز اول و دوم بعد از جراحی از کمپرس سرد استفاده شود.</li>\n<li>روز سوم به بعد از کمپرس گرم استفاده شود.</li>\n<li>در صورت امکان برای تسریع کاهش میزان التهاب یک هفته بعد از جراحی هنگام خواب دو بالشت زیر سر بگذاریم تا از این طریق سر و قسمت فوقانی بدن زاویه لازم را بدست آورد و سر کمی بالاتر از بدن قرار می گیرد.</li>\n</ul>\n<h3>پیشنهاد<a href=\"https://dromfs.com/\"> دکتر حامد کرمانی</a>:</h3>\n<p>در صورتی که بعد از <a href=\"https://dromfs.com/blog/\">جراحی دندان عقل</a> بیمار نتوانست دهان و <a href=\"https://dromfs.com/blog/\">دندان</a> های خود را به حالت نرمال و طبیعی باز نگه دارد می تواند با تمرین در زمینه صحبت کردن، غذا خوردن و باز و بسته کردن دهان به بهبودی هرچه سریعتر خود کمک کند. ترس ناشی از درد منجر به تاخیر در باز شدن دهان میشود و گاهی باعث میشود بیمار به اجبار به جراح مراجعه کند تا جراح با فشار زیاد به برگشت نرمال دهان و دندان کمک کند. البته بیماران باید توجه داشته باشند که این مسئله جز عوارض طبیعی بعد از جراحی می باشد.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "<p>چقدر زمان لازم است تا بیماران دوران نقاهت بعد از جراحی دندان عقل را سپری کنند؟ 3 الی 4 روز &#8230; <a class=\"cz_readmore\" href=\"https://dromfs.com/%d8%af%d9%88%d8%b1%d8%a7%d9%86-%d9%86%d9%82%d8%a7%d9%87%d8%aa-%d8%a8%d8%b9%d8%af-%d8%a7%d8%b2-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84/\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i><span>ادامه مطلب</span></a></p>\n",
+    "protected": false
+   },
+   "author": 1,
+   "featured_media": 990,
+   "comment_status": "open",
+   "ping_status": "open",
+   "sticky": false,
+   "template": "",
+   "format": "standard",
+   "meta": {
+    "footnotes": ""
+   },
+   "categories": [
+    84
+   ],
+   "tags": [],
+   "class_list": [
+    "post-989",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-84"
+   ],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/989",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/post"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=989"
+     }
+    ],
+    "version-history": [
+     {
+      "count": 2,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/989/revisions"
+     }
+    ],
+    "predecessor-version": [
+     {
+      "id": 992,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/989/revisions/992"
+     }
+    ],
+    "wp:featuredmedia": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/media/990"
+     }
+    ],
+    "wp:attachment": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media?parent=989"
+     }
+    ],
+    "wp:term": [
+     {
+      "taxonomy": "category",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/categories?post=989"
+     },
+     {
+      "taxonomy": "post_tag",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/tags?post=989"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 979,
+   "date": "2022-04-25T14:21:07",
+   "date_gmt": "2022-04-25T09:51:07",
+   "guid": {
+    "rendered": "http://dromfs.com/?p=979"
+   },
+   "modified": "2022-04-30T16:39:56",
+   "modified_gmt": "2022-04-30T12:09:56",
+   "slug": "979",
+   "status": "publish",
+   "type": "post",
+   "link": "https://dromfs.com/979/",
+   "title": {
+    "rendered": "ارتباط ریشه دندان عقل با عصب فک"
+   },
+   "content": {
+    "rendered": "<h3>در صورتی که دندانپزشک تشخیص داد<a href=\"https://dromfs.com/blog/\"> ریشه دندان عقل</a> با<a href=\"https://dromfs.com/\"> عصب فک</a> در ارتباط است و خارج کردن دندان عقل با ریسک همراه است باید چه تصمیمی بگیریم؟</h3>\n<p>بطور معمول اولین رادیوگرافی برای بررسی دندان عقل، رادیوگرافی OPG و یا پانورامیک است که بعنوان مهمترین مدرک برای تمام کارهای اولیه دندانپزشکی از مراجعین داخل کلینیک دندانپزشکی خواسته می شود که همراه خود داشته باشند.</p>\n<h2><a href=\"https://dromfs.com/\">عکس های OPG</a> بطور اولیه چه چیزی را نمایش می دهند:</h2>\n<ul>\n<li>وضعیت دندان های عقل</li>\n<li><a href=\"https://dromfs.com/blog/\">ارتباط ریشه دندان با عصب تحتانی</a></li>\n<li>پوسیدگی دندان ها و یا عدم پوسیدگی آنها</li>\n<li>عفونت در ناحیه پوسیدگی و یا عدم پوسیدگی در ناحیه</li>\n<li>تمام اینها در درمان دندان عقل موثر می باشد.</li>\n</ul>\n<h3>نکته مهم:</h3>\n<p>عکس OPG یک <a href=\"https://dromfs.com/\">رادیوگرافی</a> دو بعدی است و ارتباط واقعی ریشه دندان و عصب را به ما نشان نمی دهد به همین دلیل در صورتی که داخل عکس OPG نشان داده شود که ریشه دندان با عصب فک تحتانی در ارتباط است برای تشخیص این ارتباط به طور واقعی نیاز به یک رادیوگرافی سه بعدی، <a href=\"https://dromfs.com/blog/\">سی تی اسکن</a> و یا <a href=\"https://dromfs.com/\">CBCT</a> است.</p>\n<p>بعد از بررسی عکس OPG  و یا سی تی اسکن جراح تشخیص می دهد که چه درمانی برای ندان عقل شما مناسب است.</p>\n<h3>پیام<a href=\"https://dromfs.com/about/\"> کلینیک دکتر حامد کرمانی</a> به مراجعین محترم:</h3>\n<p>تلاش کلینیک دکترحامد کرمانی در وهله اول عدم آسیب رسانی به بیماران و در مرحله دوم بکارگیری بهترین متد برای به حداقل رساندن استرس شما عزیزان است.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "<p>در صورتی که دندانپزشک تشخیص داد ریشه دندان عقل با عصب فک در ارتباط است و خارج کردن دندان عقل &#8230; <a class=\"cz_readmore\" href=\"https://dromfs.com/979/\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i><span>ادامه مطلب</span></a></p>\n",
+    "protected": false
+   },
+   "author": 1,
+   "featured_media": 870,
+   "comment_status": "open",
+   "ping_status": "open",
+   "sticky": false,
+   "template": "",
+   "format": "standard",
+   "meta": {
+    "footnotes": ""
+   },
+   "categories": [
+    84
+   ],
+   "tags": [],
+   "class_list": [
+    "post-979",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-84"
+   ],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/979",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/post"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=979"
+     }
+    ],
+    "version-history": [
+     {
+      "count": 3,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/979/revisions"
+     }
+    ],
+    "predecessor-version": [
+     {
+      "id": 995,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/979/revisions/995"
+     }
+    ],
+    "wp:featuredmedia": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/media/870"
+     }
+    ],
+    "wp:attachment": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media?parent=979"
+     }
+    ],
+    "wp:term": [
+     {
+      "taxonomy": "category",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/categories?post=979"
+     },
+     {
+      "taxonomy": "post_tag",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/tags?post=979"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 973,
+   "date": "2022-04-25T13:16:31",
+   "date_gmt": "2022-04-25T08:46:31",
+   "guid": {
+    "rendered": "http://dromfs.com/?p=973"
+   },
+   "modified": "2022-04-30T16:35:41",
+   "modified_gmt": "2022-04-30T12:05:41",
+   "slug": "%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%db%8c%d9%86-%d8%b1%db%8c%d8%b4%d9%87-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84-%db%8c%d8%a7-%d8%af%db%8c%da%af%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86",
+   "status": "publish",
+   "type": "post",
+   "link": "https://dromfs.com/%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%db%8c%d9%86-%d8%b1%db%8c%d8%b4%d9%87-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84-%db%8c%d8%a7-%d8%af%db%8c%da%af%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86/",
+   "title": {
+    "rendered": "ارتباط بین ریشه دندان عقل و یا دیگر دندان ها با عصب فک"
+   },
+   "content": {
+    "rendered": "<h2>ارتباط بین <a href=\"https://dromfs.com/\">ریشه دندان عقل</a> یا دیگر دندان ها با <a href=\"https://dromfs.com/\">عصب فک</a> به چه معناست؟</h2>\n<p>در صورت و بدن انسان به طور نرمال و روتین دونوع عصب وجود دارد:</p>\n<ul>\n<li>\n<h3>عصب حسی</h3>\n</li>\n<li>\n<h3><a href=\"https://dromfs.com/\">عصب حرکتی</a></h3>\n</li>\n</ul>\n<h3><strong>وظایف <a href=\"https://dromfs.com/blog/\">عصب حسی</a></strong></h3>\n<p>عصب حسی مسئول دریافت حس نواحی مختلف بدن می باشد که در این مورد خاص یعنی ناحیه فک، عصبی که از داخل استخوان عبور می کند بعد از انتقال حس به دندان های موجود در آن قسمت، از یک حفره یا سوراخ که <a href=\"https://dromfs.com/\">فورامن تال</a> نامیده می شود خارج می گردد. به این ترتیب حس ناحیه لب پایین، چانه و لثه دندان ها یعنی از ناحیه وسط لب تا گوشه دهان دقیقا در محل عبور عصب را تامین می نماید.</p>\n<p>زمانی که انسان لب، چانه و لثه خود را لمس می کند حس موجود در آن قسمت را که شامل گرما سرما و غیره است را دریافت می نماید.</p>\n<p>آسیب رسانی به عصب موجب اختلال در حس این ناحیه می شود. به این ترتیب افراد گرما، سرما، فشار، درد و غیره را به درستی در این ناحیه حس نمی کنند. با این وجود این مسئله اختلالی در حرکت لب ایجاد نمی کند زیرا عصب مربوطه عصب حسی است و عصب حرکتی نمی باشد.</p>\n<p>بنابراین در صورتی که فردی ادعا کند بوسیله <a href=\"https://dromfs.com/2022/04/30/%d8%af%d9%88%d8%b1%d8%a7%d9%86-%d9%86%d9%82%d8%a7%d9%87%d8%aa-%d8%a8%d8%b9%d8%af-%d8%a7%d8%b2-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84/\">جراحی دندان عقل</a> لب فلج خواهد شد باید بدانید که ادعای فرد یک خطای علمی است. زیرا این یک مشکل حسی است و نه حرکتی.</p>\n<p>به این ترتیب<a href=\"https://dromfs.com/\"> حس لب</a> مختل می شود اما این اختلال ممکن است برگشت پذیر یا برگشت ناپذیر باشد. که در مقالات بعدی به آن می پردازیم.</p>\n",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "<p>ارتباط بین ریشه دندان عقل یا دیگر دندان ها با عصب فک به چه معناست؟ در صورت و بدن انسان &#8230; <a class=\"cz_readmore\" href=\"https://dromfs.com/%d8%a7%d8%b1%d8%aa%d8%a8%d8%a7%d8%b7-%d8%a8%db%8c%d9%86-%d8%b1%db%8c%d8%b4%d9%87-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84-%db%8c%d8%a7-%d8%af%db%8c%da%af%d8%b1-%d8%af%d9%86%d8%af%d8%a7%d9%86/\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i><span>ادامه مطلب</span></a></p>\n",
+    "protected": false
+   },
+   "author": 1,
+   "featured_media": 981,
+   "comment_status": "open",
+   "ping_status": "open",
+   "sticky": false,
+   "template": "",
+   "format": "standard",
+   "meta": {
+    "footnotes": ""
+   },
+   "categories": [
+    84
+   ],
+   "tags": [],
+   "class_list": [
+    "post-973",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "has-post-thumbnail",
+    "hentry",
+    "category-84"
+   ],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/973",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/post"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=973"
+     }
+    ],
+    "version-history": [
+     {
+      "count": 5,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/973/revisions"
+     }
+    ],
+    "predecessor-version": [
+     {
+      "id": 982,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/973/revisions/982"
+     }
+    ],
+    "wp:featuredmedia": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/media/981"
+     }
+    ],
+    "wp:attachment": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media?parent=973"
+     }
+    ],
+    "wp:term": [
+     {
+      "taxonomy": "category",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/categories?post=973"
+     },
+     {
+      "taxonomy": "post_tag",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/tags?post=973"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 143,
+   "date": "2017-06-10T20:44:01",
+   "date_gmt": "2017-06-10T20:44:01",
+   "guid": {
+    "rendered": "http://xtratheme.combarber/?p=143"
+   },
+   "modified": "2021-11-16T05:31:26",
+   "modified_gmt": "2021-11-16T02:01:26",
+   "slug": "do_not_implant",
+   "status": "publish",
+   "type": "post",
+   "link": "https://dromfs.com/do_not_implant/",
+   "title": {
+    "rendered": "ایمپلنت نکنید اگر &#8230;"
+   },
+   "content": {
+    "rendered": "<div class=\"wpb-content-wrapper\">[vc_row][vc_column]<div id=\"cz_110199\" class=\"cz_110199 cz_image clr cz_image_no_fx center_on_mobile\"><div class=\"\" ><div class=\"cz_image_in\"><div class=\"cz_main_image\"><img decoding=\"async\" width=\"300\" height=\"300\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;300&#39;%20viewBox%3D&#39;0%200%20300%20300&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--300x300.jpg\" class=\"attachment-medium\" alt=\"\" title=\"dr-hamed-kermani-\" data-srcset=\"https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--300x300.jpg 300w, https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--1024x1024.jpg 1024w, https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--150x150.jpg 150w, https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--768x768.jpg 768w, https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--600x600.jpg 600w, https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani--100x100.jpg 100w, https://dromfs.com/wp-content/uploads/2021/11/dr-hamed-kermani-.jpg 1080w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></div></div></div></div>[vc_column_text]<strong>ایمپلنت نکنید</strong> اگر&#8230;</p>\n<p>۱.لطفاً و لطفاً اگر دندان های طبیعی شما به هر روش علمی دیگر قابل نگهداریست به پزشک درمانگر خود اعتماد کنید و ایمپلنت انجام ندهید<br />\n✴️دلیل اصلی مربوط به این موضوع : ریشه های دندانهای طبیعی به دلیل ساختار خاص بافت شناسی خود باعث حفظ استخوان فک می شود و حس فضایی فکین را به مراتب بهتر انتقال میدهد، کاری که ایمپلنت قادر به انجام آن نیست.</p>\n<p>❗️نکته مهم : البته در بعضی موارد دندان های طبیعی به هیچ روش علمی قابلیت نگهداری ندارد و در آن صورت ایمپلنت بهترین روش درمان است</p>\n<p>۲. بیماری دیابت کنترل نشده دارید<br />\n(البته دیابت قابلیت کنترل دارد و پس از کنترل و مشاوره با پزشک معالج میتوان ایمپلنت را انجام داد)</p>\n<p>۳.داروهای ضدپوکی استخوان و یا شیمی درمانی استفاده می کنید ولی از پزشک معالج خود تایید امکان جراحی ایمپلنت ندارید</p>\n<p>۴.مصرف کننده زیاد دخانیات (در اصطلاح هِوی اِسموکر) هستید</p>\n<p>.<br />\nهمکاران محترم اگر مورد دیگری مد نظرتون هست در کامنت به اشتراک بزارید<br />\n.<br />\nممنون از همراهیتان<br />\nدکتر حامد کرمانی[/vc_column_text][/vc_column][/vc_row]\n</div>",
+    "protected": false
+   },
+   "excerpt": {
+    "rendered": "<p>[vc_row][vc_column][vc_column_text]ایمپلنت نکنید اگر&#8230; ۱.لطفاً و لطفاً اگر دندان های طبیعی شما به هر روش علمی دیگر قابل نگهداریست به پزشک &#8230; <a class=\"cz_readmore\" href=\"https://dromfs.com/do_not_implant/\"><i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i><span>ادامه مطلب</span></a></p>\n",
+    "protected": false
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "open",
+   "sticky": false,
+   "template": "",
+   "format": "standard",
+   "meta": {
+    "footnotes": ""
+   },
+   "categories": [
+    17,
+    19
+   ],
+   "tags": [
+    24,
+    22,
+    21,
+    38
+   ],
+   "class_list": [
+    "post-143",
+    "post",
+    "type-post",
+    "status-publish",
+    "format-standard",
+    "hentry",
+    "category-tutorial",
+    "category-updates",
+    "tag-omfs_tuts",
+    "tag-dr_hamed_kermani",
+    "tag-implant",
+    "tag-article"
+   ],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/143",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/post"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=143"
+     }
+    ],
+    "version-history": [
+     {
+      "count": 2,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/143/revisions"
+     }
+    ],
+    "predecessor-version": [
+     {
+      "id": 883,
+      "href": "https://dromfs.com/wp-json/wp/v2/posts/143/revisions/883"
+     }
+    ],
+    "wp:attachment": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media?parent=143"
+     }
+    ],
+    "wp:term": [
+     {
+      "taxonomy": "category",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/categories?post=143"
+     },
+     {
+      "taxonomy": "post_tag",
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/tags?post=143"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  }
+ ],
+ "categories": [
+  {
+   "id": 17,
+   "count": 2,
+   "description": "",
+   "link": "https://dromfs.com/category/tutorial/",
+   "name": "آموزش",
+   "slug": "tutorial",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/17",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=17"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 18,
+   "count": 0,
+   "description": "",
+   "link": "https://dromfs.com/category/news/",
+   "name": "اخبار",
+   "slug": "news",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/18",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=18"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 16,
+   "count": 0,
+   "description": "",
+   "link": "https://dromfs.com/category/implantatio/",
+   "name": "ایمپلنت",
+   "slug": "implantatio",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/16",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=16"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 19,
+   "count": 1,
+   "description": "",
+   "link": "https://dromfs.com/category/updates/",
+   "name": "بروزرسانی",
+   "slug": "updates",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/19",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=19"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 1,
+   "count": 0,
+   "description": "",
+   "link": "https://dromfs.com/category/%d8%af%d8%b3%d8%aa%d9%87%e2%80%8c%d8%a8%d9%86%d8%af%db%8c-%d9%86%d8%b4%d8%af%d9%87/",
+   "name": "دسته‌بندی نشده",
+   "slug": "%d8%af%d8%b3%d8%aa%d9%87%e2%80%8c%d8%a8%d9%86%d8%af%db%8c-%d9%86%d8%b4%d8%af%d9%87",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/1",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=1"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 20,
+   "count": 0,
+   "description": "",
+   "link": "https://dromfs.com/category/interview/",
+   "name": "مصاحبه",
+   "slug": "interview",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/20",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=20"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 84,
+   "count": 3,
+   "description": "",
+   "link": "https://dromfs.com/category/%d9%88%d8%a8%d9%84%d8%a7%da%af/",
+   "name": "وبلاگ",
+   "slug": "%d9%88%d8%a8%d9%84%d8%a7%da%af",
+   "taxonomy": "category",
+   "parent": 0,
+   "meta": [],
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories/84",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/categories"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/taxonomies/category"
+     }
+    ],
+    "wp:post_type": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/posts?categories=84"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  }
+ ],
+ "media": [
+  {
+   "id": 1182,
+   "date": "2025-07-14T01:51:23",
+   "date_gmt": "2025-07-13T22:21:23",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1.png"
+   },
+   "modified": "2025-07-14T01:51:23",
+   "modified_gmt": "2025-07-13T22:21:23",
+   "slug": "dr-hamed-kermani-profile-2",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/home/dr-hamed-kermani-profile-2/",
+   "title": {
+    "rendered": "dr-hamed-kermani-profile-"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1182",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1.png'><img decoding=\"async\" width=\"300\" height=\"300\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;300&#39;%20viewBox%3D&#39;0%200%20300%20300&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1-300x300.png\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1-300x300.png 300w, https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1.png 1080w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/png",
+   "media_details": {
+    "width": 1080,
+    "height": 1080,
+    "file": "2025/07/dr-hamed-kermani-profile-1-1.png",
+    "filesize": 1235797,
+    "sizes": {
+     "medium": {
+      "file": "dr-hamed-kermani-profile-1-1-300x300.png",
+      "width": 300,
+      "height": 300,
+      "filesize": 36710,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1-300x300.png"
+     },
+     "full": {
+      "file": "dr-hamed-kermani-profile-1-1.png",
+      "width": 1080,
+      "height": 1080,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1.png"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": 574,
+   "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-1-1.png",
+   "filename": "dr-hamed-kermani-profile-1-1.png",
+   "filesize": 1235797,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1182",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1182"
+     }
+    ],
+    "wp:attached-to": [
+     {
+      "embeddable": true,
+      "post_type": "page",
+      "id": 574,
+      "href": "https://dromfs.com/wp-json/wp/v2/pages/574"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 1179,
+   "date": "2025-07-14T01:44:12",
+   "date_gmt": "2025-07-13T22:14:12",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-.png"
+   },
+   "modified": "2025-07-14T01:44:12",
+   "modified_gmt": "2025-07-13T22:14:12",
+   "slug": "dr-hamed-kermani-profile",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/home/dr-hamed-kermani-profile/",
+   "title": {
+    "rendered": "dr-hamed-kermani-profile-"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1179",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-.png'><img decoding=\"async\" width=\"300\" height=\"300\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;300&#39;%20viewBox%3D&#39;0%200%20300%20300&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--300x300.png\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--300x300.png 300w, https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--1024x1024.png 1024w, https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--150x150.png 150w, https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-.png 1080w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/png",
+   "media_details": {
+    "width": 1080,
+    "height": 1080,
+    "file": "2025/07/dr-hamed-kermani-profile-.png",
+    "filesize": 1235797,
+    "sizes": {
+     "medium": {
+      "file": "dr-hamed-kermani-profile--300x300.png",
+      "width": 300,
+      "height": 300,
+      "filesize": 36710,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--300x300.png"
+     },
+     "large": {
+      "file": "dr-hamed-kermani-profile--1024x1024.png",
+      "width": 1024,
+      "height": 1024,
+      "filesize": 333020,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--1024x1024.png"
+     },
+     "thumbnail": {
+      "file": "dr-hamed-kermani-profile--150x150.png",
+      "width": 150,
+      "height": 150,
+      "filesize": 11100,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile--150x150.png"
+     },
+     "full": {
+      "file": "dr-hamed-kermani-profile-.png",
+      "width": 1080,
+      "height": 1080,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-.png"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": 574,
+   "source_url": "https://dromfs.com/wp-content/uploads/2025/07/dr-hamed-kermani-profile-.png",
+   "filename": "dr-hamed-kermani-profile-.png",
+   "filesize": 1235797,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1179",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1179"
+     }
+    ],
+    "wp:attached-to": [
+     {
+      "embeddable": true,
+      "post_type": "page",
+      "id": 574,
+      "href": "https://dromfs.com/wp-json/wp/v2/pages/574"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 1169,
+   "date": "2023-09-24T03:42:11",
+   "date_gmt": "2023-09-24T00:12:11",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک.jpg"
+   },
+   "modified": "2023-09-24T03:42:11",
+   "modified_gmt": "2023-09-24T00:12:11",
+   "slug": "%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d8%a7%d9%85%d8%af-%da%a9%d8%b1%d9%85%d8%a7%d9%86%db%8c-%d8%8c-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d9%81%da%a9",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/%d8%af%da%a9%d8%aa%d8%b1-%d8%ad%d8%a7%d9%85%d8%af-%da%a9%d8%b1%d9%85%d8%a7%d9%86%db%8c-%d8%8c-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d9%81%da%a9/",
+   "title": {
+    "rendered": "دکتر-حامد-کرمانی-،-جراحی-فک"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1169",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک.jpg'><img decoding=\"async\" width=\"300\" height=\"180\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;180&#39;%20viewBox%3D&#39;0%200%20300%20180&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-300x180.jpg\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-300x180.jpg 300w, https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-768x461.jpg 768w, https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-600x360.jpg 600w, https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک.jpg 1000w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/jpeg",
+   "media_details": {
+    "width": 1000,
+    "height": 600,
+    "file": "2023/09/دکتر-حامد-کرمانی-،-جراحی-فک.jpg",
+    "filesize": 70974,
+    "sizes": {
+     "medium": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-300x180.jpg",
+      "width": 300,
+      "height": 180,
+      "filesize": 15528,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-300x180.jpg"
+     },
+     "thumbnail": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-150x150.jpg",
+      "width": 150,
+      "height": 150,
+      "filesize": 8525,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-150x150.jpg"
+     },
+     "medium_large": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-768x461.jpg",
+      "width": 768,
+      "height": 461,
+      "filesize": 67995,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-768x461.jpg"
+     },
+     "codevz_360_320": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-360x320.jpg",
+      "width": 360,
+      "height": 320,
+      "filesize": 29233,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-360x320.jpg"
+     },
+     "codevz_600_600": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 63303,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-600x600.jpg"
+     },
+     "codevz_1200_200": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-1000x200.jpg",
+      "width": 1000,
+      "height": 200,
+      "filesize": 36309,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-1000x200.jpg"
+     },
+     "codevz_1200_500": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-1000x500.jpg",
+      "width": 1000,
+      "height": 500,
+      "filesize": 91981,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-1000x500.jpg"
+     },
+     "codevz_600_1000": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 63303,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-600x600.jpg"
+     },
+     "codevz_600_9999": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک-600x360.jpg",
+      "width": 600,
+      "height": 360,
+      "filesize": 45916,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک-600x360.jpg"
+     },
+     "full": {
+      "file": "دکتر-حامد-کرمانی-،-جراحی-فک.jpg",
+      "width": 1000,
+      "height": 600,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک.jpg"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": null,
+   "source_url": "https://dromfs.com/wp-content/uploads/2023/09/دکتر-حامد-کرمانی-،-جراحی-فک.jpg",
+   "filename": "دکتر-حامد-کرمانی-،-جراحی-فک.jpg",
+   "filesize": 70974,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1169",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1169"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1148,
+   "date": "2023-09-03T13:56:31",
+   "date_gmt": "2023-09-03T09:26:31",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی.jpg"
+   },
+   "modified": "2023-09-03T13:56:31",
+   "modified_gmt": "2023-09-03T09:26:31",
+   "slug": "%d8%b1%d8%b2%d8%b1%d9%88-%d9%86%d9%88%d8%a8%d8%aa-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/appointment/%d8%b1%d8%b2%d8%b1%d9%88-%d9%86%d9%88%d8%a8%d8%aa-%d8%ac%d8%b1%d8%a7%d8%ad%db%8c/",
+   "title": {
+    "rendered": "رزرو نوبت جراحی"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1148",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی.jpg'><img decoding=\"async\" width=\"300\" height=\"180\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;180&#39;%20viewBox%3D&#39;0%200%20300%20180&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-300x180.jpg\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-300x180.jpg 300w, https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-768x461.jpg 768w, https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-600x360.jpg 600w, https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی.jpg 1000w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/jpeg",
+   "media_details": {
+    "width": 1000,
+    "height": 600,
+    "file": "2023/09/رزرو-نوبت-جراحی.jpg",
+    "filesize": 79692,
+    "sizes": {
+     "medium": {
+      "file": "رزرو-نوبت-جراحی-300x180.jpg",
+      "width": 300,
+      "height": 180,
+      "filesize": 10541,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-300x180.jpg"
+     },
+     "thumbnail": {
+      "file": "رزرو-نوبت-جراحی-150x150.jpg",
+      "width": 150,
+      "height": 150,
+      "filesize": 5628,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-150x150.jpg"
+     },
+     "medium_large": {
+      "file": "رزرو-نوبت-جراحی-768x461.jpg",
+      "width": 768,
+      "height": 461,
+      "filesize": 45763,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-768x461.jpg"
+     },
+     "codevz_360_320": {
+      "file": "رزرو-نوبت-جراحی-360x320.jpg",
+      "width": 360,
+      "height": 320,
+      "filesize": 17581,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-360x320.jpg"
+     },
+     "codevz_600_600": {
+      "file": "رزرو-نوبت-جراحی-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 49145,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-600x600.jpg"
+     },
+     "codevz_1200_200": {
+      "file": "رزرو-نوبت-جراحی-1000x200.jpg",
+      "width": 1000,
+      "height": 200,
+      "filesize": 24511,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-1000x200.jpg"
+     },
+     "codevz_1200_500": {
+      "file": "رزرو-نوبت-جراحی-1000x500.jpg",
+      "width": 1000,
+      "height": 500,
+      "filesize": 63540,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-1000x500.jpg"
+     },
+     "codevz_600_1000": {
+      "file": "رزرو-نوبت-جراحی-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 49145,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-600x600.jpg"
+     },
+     "codevz_600_9999": {
+      "file": "رزرو-نوبت-جراحی-600x360.jpg",
+      "width": 600,
+      "height": 360,
+      "filesize": 30646,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی-600x360.jpg"
+     },
+     "full": {
+      "file": "رزرو-نوبت-جراحی.jpg",
+      "width": 1000,
+      "height": 600,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی.jpg"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": 1140,
+   "source_url": "https://dromfs.com/wp-content/uploads/2023/09/رزرو-نوبت-جراحی.jpg",
+   "filename": "رزرو-نوبت-جراحی.jpg",
+   "filesize": 79692,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1148",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1148"
+     }
+    ],
+    "wp:attached-to": [
+     {
+      "embeddable": true,
+      "post_type": "page",
+      "id": 1140,
+      "href": "https://dromfs.com/wp-json/wp/v2/pages/1140"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 1141,
+   "date": "2023-09-02T23:22:30",
+   "date_gmt": "2023-09-02T18:52:30",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته.jpg"
+   },
+   "modified": "2023-09-02T23:22:30",
+   "modified_gmt": "2023-09-02T18:52:30",
+   "slug": "%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84-%d9%86%d9%87%d9%81%d8%aa%d9%87",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/appointment/%d8%ac%d8%b1%d8%a7%d8%ad%db%8c-%d8%af%d9%86%d8%af%d8%a7%d9%86-%d8%b9%d9%82%d9%84-%d9%86%d9%87%d9%81%d8%aa%d9%87/",
+   "title": {
+    "rendered": "جراحی-دندان-عقل-نهفته"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1141",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته.jpg'><img decoding=\"async\" width=\"300\" height=\"300\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;300&#39;%20viewBox%3D&#39;0%200%20300%20300&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-300x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-300x300.jpg 300w, https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-1024x1024.jpg 1024w, https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-150x150.jpg 150w, https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-768x768.jpg 768w, https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-600x600.jpg 600w, https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته.jpg 1080w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/jpeg",
+   "media_details": {
+    "width": 1080,
+    "height": 1080,
+    "file": "2023/09/جراحی-دندان-عقل-نهفته.jpg",
+    "filesize": 88287,
+    "sizes": {
+     "medium": {
+      "file": "جراحی-دندان-عقل-نهفته-300x300.jpg",
+      "width": 300,
+      "height": 300,
+      "filesize": 18913,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-300x300.jpg"
+     },
+     "large": {
+      "file": "جراحی-دندان-عقل-نهفته-1024x1024.jpg",
+      "width": 1024,
+      "height": 1024,
+      "filesize": 128261,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-1024x1024.jpg"
+     },
+     "thumbnail": {
+      "file": "جراحی-دندان-عقل-نهفته-150x150.jpg",
+      "width": 150,
+      "height": 150,
+      "filesize": 6609,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-150x150.jpg"
+     },
+     "medium_large": {
+      "file": "جراحی-دندان-عقل-نهفته-768x768.jpg",
+      "width": 768,
+      "height": 768,
+      "filesize": 83652,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-768x768.jpg"
+     },
+     "codevz_360_320": {
+      "file": "جراحی-دندان-عقل-نهفته-360x320.jpg",
+      "width": 360,
+      "height": 320,
+      "filesize": 23198,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-360x320.jpg"
+     },
+     "codevz_600_600": {
+      "file": "جراحی-دندان-عقل-نهفته-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 57634,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-600x600.jpg"
+     },
+     "codevz_1200_200": {
+      "file": "جراحی-دندان-عقل-نهفته-1080x200.jpg",
+      "width": 1080,
+      "height": 200,
+      "filesize": 27100,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-1080x200.jpg"
+     },
+     "codevz_1200_500": {
+      "file": "جراحی-دندان-عقل-نهفته-1080x500.jpg",
+      "width": 1080,
+      "height": 500,
+      "filesize": 76463,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-1080x500.jpg"
+     },
+     "codevz_600_1000": {
+      "file": "جراحی-دندان-عقل-نهفته-600x1000.jpg",
+      "width": 600,
+      "height": 1000,
+      "filesize": 79389,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-600x1000.jpg"
+     },
+     "codevz_600_9999": {
+      "file": "جراحی-دندان-عقل-نهفته-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 57634,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته-600x600.jpg"
+     },
+     "full": {
+      "file": "جراحی-دندان-عقل-نهفته.jpg",
+      "width": 1080,
+      "height": 1080,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته.jpg"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": 1140,
+   "source_url": "https://dromfs.com/wp-content/uploads/2023/09/جراحی-دندان-عقل-نهفته.jpg",
+   "filename": "جراحی-دندان-عقل-نهفته.jpg",
+   "filesize": 88287,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1141",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1141"
+     }
+    ],
+    "wp:attached-to": [
+     {
+      "embeddable": true,
+      "post_type": "page",
+      "id": 1140,
+      "href": "https://dromfs.com/wp-json/wp/v2/pages/1140"
+     }
+    ],
+    "curies": [
+     {
+      "name": "wp",
+      "href": "https://api.w.org/{rel}",
+      "templated": true
+     }
+    ]
+   }
+  },
+  {
+   "id": 1086,
+   "date": "2023-08-09T19:57:36",
+   "date_gmt": "2023-08-09T15:27:36",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png"
+   },
+   "modified": "2023-08-09T19:57:36",
+   "modified_gmt": "2023-08-09T15:27:36",
+   "slug": "_dr-hamed-kermani-logo",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/_dr-hamed-kermani-logo/",
+   "title": {
+    "rendered": "_dr-hamed-kermani-logo"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1086",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png'><img decoding=\"async\" width=\"296\" height=\"300\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;296&#39;%20height=&#39;300&#39;%20viewBox%3D&#39;0%200%20296%20300&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-296x300.png\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-296x300.png 296w, https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-1011x1024.png 1011w, https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-768x777.png 768w, https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-1517x1536.png 1517w, https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-600x607.png 600w, https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png 1779w\" data-sizes=\"(max-width: 296px) 100vw, 296px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/png",
+   "media_details": {
+    "width": 1779,
+    "height": 1801,
+    "file": "2023/08/dr-hamed-kermani-logo.png",
+    "filesize": 42204,
+    "sizes": {
+     "medium": {
+      "file": "dr-hamed-kermani-logo-296x300.png",
+      "width": 296,
+      "height": 300,
+      "filesize": 30519,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-296x300.png"
+     },
+     "large": {
+      "file": "dr-hamed-kermani-logo-1011x1024.png",
+      "width": 1011,
+      "height": 1024,
+      "filesize": 121711,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-1011x1024.png"
+     },
+     "thumbnail": {
+      "file": "dr-hamed-kermani-logo-150x150.png",
+      "width": 150,
+      "height": 150,
+      "filesize": 12656,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-150x150.png"
+     },
+     "medium_large": {
+      "file": "dr-hamed-kermani-logo-768x777.png",
+      "width": 768,
+      "height": 777,
+      "filesize": 92166,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-768x777.png"
+     },
+     "1536x1536": {
+      "file": "dr-hamed-kermani-logo-1517x1536.png",
+      "width": 1517,
+      "height": 1536,
+      "filesize": 177964,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-1517x1536.png"
+     },
+     "codevz_360_320": {
+      "file": "dr-hamed-kermani-logo-360x320.png",
+      "width": 360,
+      "height": 320,
+      "filesize": 35535,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-360x320.png"
+     },
+     "codevz_600_600": {
+      "file": "dr-hamed-kermani-logo-600x600.png",
+      "width": 600,
+      "height": 600,
+      "filesize": 69205,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-600x600.png"
+     },
+     "codevz_1200_200": {
+      "file": "dr-hamed-kermani-logo-1200x200.png",
+      "width": 1200,
+      "height": 200,
+      "filesize": 22429,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-1200x200.png"
+     },
+     "codevz_1200_500": {
+      "file": "dr-hamed-kermani-logo-1200x500.png",
+      "width": 1200,
+      "height": 500,
+      "filesize": 65691,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-1200x500.png"
+     },
+     "codevz_600_1000": {
+      "file": "dr-hamed-kermani-logo-600x1000.png",
+      "width": 600,
+      "height": 1000,
+      "filesize": 86786,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-600x1000.png"
+     },
+     "codevz_600_9999": {
+      "file": "dr-hamed-kermani-logo-600x607.png",
+      "width": 600,
+      "height": 607,
+      "filesize": 69310,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo-600x607.png"
+     },
+     "full": {
+      "file": "dr-hamed-kermani-logo.png",
+      "width": 1779,
+      "height": 1801,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": null,
+   "source_url": "https://dromfs.com/wp-content/uploads/2023/08/dr-hamed-kermani-logo.png",
+   "filename": "dr-hamed-kermani-logo.png",
+   "filesize": 42204,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1086",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1086"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1054,
+   "date": "2022-11-29T02:29:04",
+   "date_gmt": "2022-11-28T22:59:04",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani.png"
+   },
+   "modified": "2022-11-29T02:29:04",
+   "modified_gmt": "2022-11-28T22:59:04",
+   "slug": "photo-of-dr-hamed-kermani",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/photo-of-dr-hamed-kermani/",
+   "title": {
+    "rendered": "photo-of-dr-hamed-kermani"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1054",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani.png'><img decoding=\"async\" width=\"300\" height=\"150\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;150&#39;%20viewBox%3D&#39;0%200%20300%20150&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-300x150.png\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-300x150.png 300w, https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-1024x512.png 1024w, https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-768x384.png 768w, https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-600x300.png 600w, https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani.png 1200w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/png",
+   "media_details": {
+    "width": 1200,
+    "height": 600,
+    "file": "2022/11/photo-of-dr-hamed-kermani.png",
+    "filesize": 254113,
+    "sizes": {
+     "medium": {
+      "file": "photo-of-dr-hamed-kermani-300x150.png",
+      "width": 300,
+      "height": 150,
+      "filesize": 22326,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-300x150.png"
+     },
+     "large": {
+      "file": "photo-of-dr-hamed-kermani-1024x512.png",
+      "width": 1024,
+      "height": 512,
+      "filesize": 179269,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-1024x512.png"
+     },
+     "thumbnail": {
+      "file": "photo-of-dr-hamed-kermani-150x150.png",
+      "width": 150,
+      "height": 150,
+      "filesize": 21518,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-150x150.png"
+     },
+     "medium_large": {
+      "file": "photo-of-dr-hamed-kermani-768x384.png",
+      "width": 768,
+      "height": 384,
+      "filesize": 110293,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-768x384.png"
+     },
+     "codevz_360_320": {
+      "file": "photo-of-dr-hamed-kermani-360x320.png",
+      "width": 360,
+      "height": 320,
+      "filesize": 77530,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-360x320.png"
+     },
+     "codevz_600_600": {
+      "file": "photo-of-dr-hamed-kermani-600x600.png",
+      "width": 600,
+      "height": 600,
+      "filesize": 234274,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-600x600.png"
+     },
+     "codevz_1200_200": {
+      "file": "photo-of-dr-hamed-kermani-1200x200.png",
+      "width": 1200,
+      "height": 200,
+      "filesize": 91097,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-1200x200.png"
+     },
+     "codevz_1200_500": {
+      "file": "photo-of-dr-hamed-kermani-1200x500.png",
+      "width": 1200,
+      "height": 500,
+      "filesize": 227190,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-1200x500.png"
+     },
+     "codevz_600_1000": {
+      "file": "photo-of-dr-hamed-kermani-600x600.png",
+      "width": 600,
+      "height": 600,
+      "filesize": 234274,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-600x600.png"
+     },
+     "codevz_600_9999": {
+      "file": "photo-of-dr-hamed-kermani-600x300.png",
+      "width": 600,
+      "height": 300,
+      "filesize": 71169,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani-600x300.png"
+     },
+     "full": {
+      "file": "photo-of-dr-hamed-kermani.png",
+      "width": 1200,
+      "height": 600,
+      "mime_type": "image/png",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani.png"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": null,
+   "source_url": "https://dromfs.com/wp-content/uploads/2022/11/photo-of-dr-hamed-kermani.png",
+   "filename": "photo-of-dr-hamed-kermani.png",
+   "filesize": 254113,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1054",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1054"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1053,
+   "date": "2022-11-29T02:26:53",
+   "date_gmt": "2022-11-28T22:56:53",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2022/11/dr-hamed-kermani-omfs-surgon.png"
+   },
+   "modified": "2022-11-29T02:27:09",
+   "modified_gmt": "2022-11-28T22:57:09",
+   "slug": "dr-hamed-kermani-omfs-surgon",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/dr-hamed-kermani-omfs-surgon/",
+   "title": {
+    "rendered": "dr-hamed-kermani-omfs-surgon"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1053",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2022/11/dr-hamed-kermani-omfs-surgon.png'><img decoding=\"async\" width=\"112\" height=\"112\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;112&#39;%20height=&#39;112&#39;%20viewBox%3D&#39;0%200%20112%20112&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2022/11/dr-hamed-kermani-omfs-surgon.png\" class=\"attachment-medium size-medium\" alt=\"لوگو دکتر حامد کرمانی\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "لوگو دکتر حامد کرمانی",
+   "media_type": "image",
+   "mime_type": "image/png",
+   "media_details": {
+    "width": 112,
+    "height": 112,
+    "file": "2022/11/dr-hamed-kermani-omfs-surgon.png",
+    "filesize": 12417,
+    "sizes": {},
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": null,
+   "source_url": "https://dromfs.com/wp-content/uploads/2022/11/dr-hamed-kermani-omfs-surgon.png",
+   "filename": "dr-hamed-kermani-omfs-surgon.png",
+   "filesize": 12417,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1053",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1053"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1030,
+   "date": "2022-09-24T04:44:08",
+   "date_gmt": "2022-09-24T01:14:08",
+   "guid": {
+    "rendered": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1.jpg"
+   },
+   "modified": "2022-09-24T04:44:08",
+   "modified_gmt": "2022-09-24T01:14:08",
+   "slug": "img_20210425_141541-2",
+   "status": "inherit",
+   "type": "attachment",
+   "link": "https://dromfs.com/img_20210425_141541-2/",
+   "title": {
+    "rendered": "IMG_20210425_141541"
+   },
+   "author": 1,
+   "featured_media": 0,
+   "comment_status": "open",
+   "ping_status": "closed",
+   "template": "",
+   "meta": [],
+   "class_list": [
+    "post-1030",
+    "attachment",
+    "type-attachment",
+    "status-inherit",
+    "hentry"
+   ],
+   "description": {
+    "rendered": "<p class=\"attachment\"><a href='https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1.jpg'><img decoding=\"async\" width=\"300\" height=\"300\" src=\"data:image/svg+xml,%3Csvg%20xmlns%3D&#39;http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg&#39;%20width=&#39;300&#39;%20height=&#39;300&#39;%20viewBox%3D&#39;0%200%20300%20300&#39;%2F%3E\" data-czlz data-src=\"https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-300x300.jpg\" class=\"attachment-medium size-medium\" alt=\"\" data-srcset=\"https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-300x300.jpg 300w, https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-1024x1024.jpg 1024w, https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-150x150.jpg 150w, https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-768x768.jpg 768w, https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-1536x1536.jpg 1536w, https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-2048x2048.jpg 2048w, https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-600x600.jpg 600w\" data-sizes=\"(max-width: 300px) 100vw, 300px\" /></a></p>\n"
+   },
+   "caption": {
+    "rendered": ""
+   },
+   "alt_text": "",
+   "media_type": "image",
+   "mime_type": "image/jpeg",
+   "media_details": {
+    "width": 2429,
+    "height": 2429,
+    "file": "2022/09/IMG_20210425_141541-1.jpg",
+    "filesize": 236824,
+    "sizes": {
+     "medium": {
+      "file": "IMG_20210425_141541-1-300x300.jpg",
+      "width": 300,
+      "height": 300,
+      "filesize": 10099,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-300x300.jpg"
+     },
+     "large": {
+      "file": "IMG_20210425_141541-1-1024x1024.jpg",
+      "width": 1024,
+      "height": 1024,
+      "filesize": 87564,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-1024x1024.jpg"
+     },
+     "thumbnail": {
+      "file": "IMG_20210425_141541-1-150x150.jpg",
+      "width": 150,
+      "height": 150,
+      "filesize": 3792,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-150x150.jpg"
+     },
+     "medium_large": {
+      "file": "IMG_20210425_141541-1-768x768.jpg",
+      "width": 768,
+      "height": 768,
+      "filesize": 52084,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-768x768.jpg"
+     },
+     "1536x1536": {
+      "file": "IMG_20210425_141541-1-1536x1536.jpg",
+      "width": 1536,
+      "height": 1536,
+      "filesize": 175174,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-1536x1536.jpg"
+     },
+     "2048x2048": {
+      "file": "IMG_20210425_141541-1-2048x2048.jpg",
+      "width": 2048,
+      "height": 2048,
+      "filesize": 275989,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-2048x2048.jpg"
+     },
+     "codevz_360_320": {
+      "file": "IMG_20210425_141541-1-360x320.jpg",
+      "width": 360,
+      "height": 320,
+      "filesize": 12338,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-360x320.jpg"
+     },
+     "codevz_600_600": {
+      "file": "IMG_20210425_141541-1-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 33335,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-600x600.jpg"
+     },
+     "codevz_1200_200": {
+      "file": "IMG_20210425_141541-1-1200x200.jpg",
+      "width": 1200,
+      "height": 200,
+      "filesize": 25192,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-1200x200.jpg"
+     },
+     "codevz_1200_500": {
+      "file": "IMG_20210425_141541-1-1200x500.jpg",
+      "width": 1200,
+      "height": 500,
+      "filesize": 58391,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-1200x500.jpg"
+     },
+     "codevz_600_1000": {
+      "file": "IMG_20210425_141541-1-600x1000.jpg",
+      "width": 600,
+      "height": 1000,
+      "filesize": 73851,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-600x1000.jpg"
+     },
+     "codevz_600_9999": {
+      "file": "IMG_20210425_141541-1-600x600.jpg",
+      "width": 600,
+      "height": 600,
+      "filesize": 33335,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1-600x600.jpg"
+     },
+     "full": {
+      "file": "IMG_20210425_141541-1.jpg",
+      "width": 2429,
+      "height": 2429,
+      "mime_type": "image/jpeg",
+      "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1.jpg"
+     }
+    },
+    "image_meta": {
+     "aperture": "0",
+     "credit": "",
+     "camera": "",
+     "caption": "",
+     "created_timestamp": "0",
+     "copyright": "",
+     "focal_length": "0",
+     "iso": "0",
+     "shutter_speed": "0",
+     "title": "",
+     "orientation": "0",
+     "keywords": []
+    }
+   },
+   "post": null,
+   "source_url": "https://dromfs.com/wp-content/uploads/2022/09/IMG_20210425_141541-1.jpg",
+   "filename": "IMG_20210425_141541-1.jpg",
+   "filesize": 236824,
+   "_links": {
+    "self": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media/1030",
+      "targetHints": {
+       "allow": [
+        "GET"
+       ]
+      }
+     }
+    ],
+    "collection": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/media"
+     }
+    ],
+    "about": [
+     {
+      "href": "https://dromfs.com/wp-json/wp/v2/types/attachment"
+     }
+    ],
+    "author": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/users/1"
+     }
+    ],
+    "replies": [
+     {
+      "embeddable": true,
+      "href": "https://dromfs.com/wp-json/wp/v2/comments?post=1030"
+     }
+    ]
+   }
+  }
+ ]
+}

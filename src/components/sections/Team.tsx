@@ -5,7 +5,7 @@ const TEAM = [
   {
     name: 'دکتر حامد کرمانی',
     role: 'متخصص جراحی فک و صورت — فلوشیپ جراحی‌های کرانیوفیشال',
-    img: '/img/doctor-1.jpg',
+    img: '/img/dr-kermani-white.jpg',
   },
   {
     name: 'دکتر فاطمه رستم‌خانی',

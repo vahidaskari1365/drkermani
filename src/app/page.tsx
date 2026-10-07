@@ -1,31 +1,29 @@
-'use client'
+import Navbar from '@/components/Navbar';
+import ScrollVideoHero from '@/components/ScrollVideoHero';
+import Footer from '@/components/Footer';
+import About from '@/components/sections/About';
+import Services from '@/components/sections/Services';
+import Gallery from '@/components/sections/Gallery';
+import Pricing from '@/components/sections/Pricing';
+import Team from '@/components/sections/Team';
+import Contact from '@/components/sections/Contact';
 
 export default function Home() {
   return (
-    <div style={{
-      display: 'flex',
-      flexDirection: 'column',
-      alignItems: 'center',
-      justifyContent: 'center',
-      minHeight: '100vh',
-      gap: '2rem',
-      padding: '1rem'
-    }}>
-      <div style={{
-        position: 'relative',
-        width: '6rem',
-        height: '6rem'
-      }}>
-        <img
-          src="/logo.svg"
-          alt="Z.ai Logo"
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'contain'
-          }}
-        />
-      </div>
-    </div>
-  )
+    <>
+      <Navbar />
+      <main className="min-h-screen">
+        {/* scroll-scrubbed cinematic video — the single scrub system of the page */}
+        <ScrollVideoHero />
+        {/* editorial content flows below; no nested scroll containers anywhere */}
+        <About />
+        <Services />
+        <Gallery />
+        <Pricing />
+        <Team />
+        <Contact />
+      </main>
+      <Footer />
+    </>
+  );
 }

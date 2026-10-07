@@ -26,20 +26,20 @@ const TEAM = [
 
 export default function Team() {
   return (
-    <section id="team" className="relative border-t border-ink/10 bg-paper">
-      <div className="mx-auto max-w-[1440px] px-5 py-28 md:px-10 md:py-44">
+    <section id="team" className="relative z-10">
+      <div className="mx-auto max-w-[1440px] px-5 py-24 md:px-10 md:py-40">
         <SectionHeader
           index="05"
           label="تیم"
           title="کسانی که مسیر درمان را کنار شما می‌سازند"
         />
 
-        <div className="border-t border-ink/10">
+        <div className="border-t border-white/15">
           {TEAM.map((m, i) => (
             <Reveal key={m.name} delay={i * 70}>
-              <div className="group flex items-center gap-6 border-b border-ink/10 py-7 transition-colors duration-500 md:gap-10 md:py-9">
+              <div className="row-blur group flex items-center gap-6 rounded-xl px-3 py-6 md:gap-10 md:py-7">
                 {m.img ? (
-                  <span className="relative block h-16 w-16 shrink-0 overflow-hidden md:h-20 md:w-20">
+                  <span className="glass-18 relative block h-16 w-16 shrink-0 overflow-hidden rounded-xl md:h-20 md:w-20">
                     <img
                       src={m.img}
                       alt={m.name}
@@ -48,19 +48,19 @@ export default function Team() {
                     />
                   </span>
                 ) : (
-                  <span className="flex h-16 w-16 shrink-0 items-center justify-center border border-ink/20 text-xl font-light text-ink/50 transition-colors duration-500 group-hover:border-accent group-hover:text-accent md:h-20 md:w-20">
+                  <span className="glass-18 flex h-16 w-16 shrink-0 items-center justify-center rounded-xl text-xl font-light text-white/60 transition-colors duration-500 group-hover:text-gold md:h-20 md:w-20">
                     {m.initial}
                   </span>
                 )}
                 <div className="flex flex-1 flex-col gap-1 md:flex-row md:items-baseline md:justify-between">
-                  <span className="display text-xl text-ink transition-transform duration-700 group-hover:-translate-x-2 md:text-3xl">
+                  <span className="display text-xl text-white transition-transform duration-700 group-hover:-translate-x-2 md:text-3xl">
                     {m.name}
                   </span>
-                  <span className="text-[12px] font-light text-ink/50">
+                  <span className="text-[12px] font-light text-white/55">
                     {m.role}
                   </span>
                 </div>
-                <span className="label-num hidden text-[11px] text-ink/30 md:inline">
+                <span className="label-num hidden text-[11px] text-white/35 md:inline">
                   {String(i + 1).padStart(2, '0')}
                 </span>
               </div>

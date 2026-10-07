@@ -12,10 +12,11 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen">
-        {/* scroll-scrubbed cinematic video — the single scrub system of the page */}
+      {/* the scrubbed film is a fixed full-page layer (z-0) inside ScrollVideoHero;
+          every section below floats above it (z-10) as glass panels — one single
+          page scroll drives frames 1→151 across the whole document. */}
+      <main className="relative min-h-screen">
         <ScrollVideoHero />
-        {/* editorial content flows below; no nested scroll containers anywhere */}
         <About />
         <Services />
         <Gallery />

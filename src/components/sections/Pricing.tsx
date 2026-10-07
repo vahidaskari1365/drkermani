@@ -32,23 +32,23 @@ function PriceList({
 }) {
   return (
     <Reveal delay={delay}>
-      <div>
-        <div className="mb-4 flex items-baseline justify-between">
-          <h3 className="text-xl font-medium text-ink">{title}</h3>
-          <span className="label-num text-[10px] tracking-[0.35em] text-ink/35">
+      <div className="glass-28 rounded-2xl p-6 md:p-9">
+        <div className="mb-5 flex items-baseline justify-between px-2">
+          <h3 className="text-xl font-medium text-white">{title}</h3>
+          <span className="label-num text-[10px] tracking-[0.35em] text-white/45">
             {en}
           </span>
         </div>
-        <ul className="border-t border-ink/10">
+        <ul className="border-t border-white/15">
           {rows.map(([name, price]) => (
             <li
               key={name}
-              className="group flex items-baseline justify-between gap-6 border-b border-ink/10 py-5 transition-colors duration-500 hover:border-accent/40"
+              className="row-blur group flex items-baseline justify-between gap-6 rounded-lg px-3 py-4 last:border-b-0"
             >
-              <span className="text-[13px] font-light leading-7 text-ink/70 transition-colors duration-500 group-hover:text-ink">
+              <span className="text-[13px] font-light leading-7 text-white/70 transition-colors duration-500 group-hover:text-white">
                 {name}
               </span>
-              <span className="shrink-0 text-[13px] font-medium text-ink">
+              <span className="shrink-0 text-[13px] font-medium text-white">
                 {price}
               </span>
             </li>
@@ -61,8 +61,8 @@ function PriceList({
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="relative bg-paper-dim">
-      <div className="mx-auto max-w-[1440px] px-5 py-28 md:px-10 md:py-44">
+    <section id="pricing" className="relative z-10">
+      <div className="mx-auto max-w-[1440px] px-5 py-24 md:px-10 md:py-40">
         <SectionHeader
           index="04"
           label="هزینه‌ها"
@@ -70,22 +70,23 @@ export default function Pricing() {
           lead="هزینه‌های تقریبی جراحی‌های فک و صورت و ایمپلنت بر اساس آخرین اطلاعات مطب؛ قیمت نهایی پس از معاینه اعلام می‌شود."
         />
 
-        <div className="grid grid-cols-1 gap-16 lg:grid-cols-2 lg:gap-12">
+        <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
           <PriceList title="جراحی‌های فک و صورت" en="JAW SURGERY" rows={SURGERY} />
           <PriceList title="ایمپلنت و جراحی‌های دندانی" en="IMPLANT & DENTAL" rows={IMPLANT} delay={120} />
         </div>
 
+        {/* special offer — golden glass */}
         <Reveal delay={200}>
-          <div className="mt-20 flex flex-col items-start justify-between gap-8 border-t border-ink/15 pt-10 md:flex-row md:items-center">
-            <p className="max-w-xl text-sm font-light leading-8 text-ink/60">
+          <div className="glass-gold mt-8 flex flex-col items-start justify-between gap-7 rounded-2xl p-7 md:flex-row md:items-center md:p-10">
+            <p className="max-w-xl text-sm font-light leading-8 text-white/85">
               برای دریافت برآورد دقیق و طرح درمان اختصاصی، یک نوبت مشاوره رزرو
               کنید؛ مشاوره تلفنی در تمام ایام هفته پاسخ‌گوست.
             </p>
             <a
               href="tel:02166921500"
-              className="u-link shrink-0 text-sm font-medium text-ink"
+              className="u-link shrink-0 text-sm font-medium text-white"
             >
-              رزرو مشاوره — 021 6692 1500
+              رزرو مشاوره — <span className="label-num" dir="ltr">021 6692 1500</span>
             </a>
           </div>
         </Reveal>

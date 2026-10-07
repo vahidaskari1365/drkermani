@@ -2,16 +2,19 @@
 
 /**
  * ============================================================================
- * SCROLL-SCRUBBED VIDEO HERO  —  single source of truth for the scrub logic.
+ * FULL-PAGE SCROLL-SCRUBBED VIDEO LAYER — single source of truth for scrub.
  * ----------------------------------------------------------------------------
- * · The outer <section> is the scrub track (h-[320vh] / md:h-[430vh]).
- * · The inner viewport is `sticky top-0 h-screen` — it NEVER scrolls on its
- *   own; there is no nested scroll container anywhere in the Hero.
- * · Page scroll position (0→1) maps linearly onto video frames 1→151.
- * · A rAF loop lerps the rendered frame toward the scroll target so the
+ * · The film is a `fixed inset-0` layer BEHIND all page content (z-0):
+ *   the video stays visible for the ENTIRE page scroll, frame 1 → 151.
+ * · Overall document scroll position (0→1) maps linearly onto the frames;
+ *   a rAF loop lerps the rendered frame toward the scroll target so the
  *   scrub feels cinematic and butter-smooth on wheel, touch and keyboard.
- * · Progress is exported to CSS as `--p` on the section element so overlay
- *   copy can fade/rise WITHOUT React re-renders during scrolling.
+ * · Progress is exported to the document root as `--p` (whole page) and
+ *   `--hp` (hero-local 0→1) so overlay copy can fade/rise WITHOUT React
+ *   re-renders during scrolling.
+ * · All sections float above the film as glass panels (see globals.css):
+ *   glass-28 text panels, glass-18 cards, glass-gold feature card and
+ *   row-blur hover rows. No opaque section backgrounds anywhere.
  * ⚠ Nothing outside this component should mutate its DOM or scroll behavior.
  * ============================================================================
  */
@@ -22,12 +25,12 @@ const FRAME_COUNT = 151;
 const frameSrc = (i: number) => `/frames/f_${String(i + 1).padStart(3, '0')}.jpg`;
 
 export default function ScrollVideoHero() {
-  const sectionRef = useRef<HTMLElement | null>(null);
+  const heroRef = useRef<HTMLElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
 
   const imagesRef = useRef<HTMLImageElement[]>([]);
-  const targetRef = useRef(0); // scroll target  0..(N-1)
-  const currentRef = useRef(0); // rendered frame
+  const targetRef = useRef(0); // scroll target  0..1 (whole page)
+  const currentRef = useRef(0); // rendered frame position 0..(N-1)
   const drawnRef = useRef(-1);
 
   const [pct, setPct] = useState(0);
@@ -98,7 +101,7 @@ export default function ScrollVideoHero() {
     else imgs[0].addEventListener('load', boot, { once: true });
   }, [draw]);
 
-  /* ---------------- scrub engine (scroll → frame mapping) -------------- */
+  /* ---------------- scrub engine (page scroll → frame mapping) --------- */
   useEffect(() => {
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const ease = reduced ? 1 : 0.14; // lerp factor (1 = direct, no smoothing)
@@ -118,13 +121,19 @@ export default function ScrollVideoHero() {
     };
 
     const compute = () => {
-      const el = sectionRef.current;
-      if (!el) return;
-      const rect = el.getBoundingClientRect();
-      const total = rect.height - window.innerHeight;
-      const p = total > 0 ? Math.min(1, Math.max(0, -rect.top / total)) : 0;
+      const doc = document.documentElement;
+      const max = Math.max(1, doc.scrollHeight - window.innerHeight);
+      const p = Math.min(1, Math.max(0, window.scrollY / max));
       targetRef.current = p;
-      el.style.setProperty('--p', p.toFixed(4));
+      doc.style.setProperty('--p', p.toFixed(4));
+
+      // hero-local progress (0 → 1 while the first viewport scrolls away)
+      const hero = heroRef.current;
+      if (hero) {
+        const top = hero.getBoundingClientRect().top;
+        const hp = Math.min(1, Math.max(0, -top / Math.max(1, window.innerHeight)));
+        doc.style.setProperty('--hp', hp.toFixed(4));
+      }
     };
 
     const onResize = () => {
@@ -148,74 +157,94 @@ export default function ScrollVideoHero() {
   }, [draw, sizeCanvas]);
 
   return (
-    <section
-      ref={sectionRef}
-      id="hero"
-      aria-label="نمایش سینمایی جراحی‌های فک و صورت دکتر حامد کرمانی — ویدیو با اسکرول صفحه کنترل می‌شود"
-      style={{ '--p': 0 } as React.CSSProperties}
-      className="relative h-[320vh] md:h-[430vh]"
-    >
-      {/* sticky viewport — the only full-screen surface, never scrolls itself */}
-      <div className="sticky top-0 h-screen w-full overflow-hidden bg-ink">
+    <>
+      {/* ================= fixed film layer — visible on every scroll ===== */}
+      <div
+        aria-hidden="true"
+        className="pointer-events-none fixed inset-0 z-0 select-none"
+      >
         {/* SSR first paint */}
         <img
           src="/frames/poster.jpg"
           alt=""
-          aria-hidden="true"
           className="absolute inset-0 h-full w-full object-cover"
           draggable={false}
         />
         {/* scrubbed video surface */}
-        <canvas
-          ref={canvasRef}
-          aria-hidden="true"
-          className="absolute inset-0 h-full w-full"
-        />
+        <canvas ref={canvasRef} className="absolute inset-0 h-full w-full" />
 
-        {/* cinematic scrims */}
-        <div className="pointer-events-none absolute inset-0 bg-ink/25" />
-        <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_30%,rgba(0,0,0,0.42)_100%)]" />
-        <div className="pointer-events-none absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-black/55 via-black/20 to-transparent" />
-        <div className="pointer-events-none absolute inset-x-0 bottom-0 h-[38vh] bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
-
-        {/* ---- overlay copy (floats with the scene, driven by --p) ---- */}
+        {/* barely-there cinematic treatment — never an opaque cover */}
         <div
-          className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center text-white"
+          className="absolute inset-0"
           style={{
-            opacity: 'calc(1 - min(1, var(--p) * 2.4))',
-            transform: 'translateY(calc(var(--p) * -9vh))',
+            background:
+              'radial-gradient(120% 90% at 50% 45%, transparent 55%, rgba(0,0,0,0.26) 100%)',
+          }}
+        />
+        <div className="absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/40 to-transparent" />
+        <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/40 to-transparent" />
+
+        {/* minimal film-style loader */}
+        <div
+          className={`absolute inset-x-0 bottom-0 flex items-end justify-center pb-7 transition-opacity duration-700 ${
+            ready ? 'opacity-0' : 'opacity-100'
+          }`}
+        >
+          <div className="flex w-56 flex-col items-center gap-3">
+            <div className="h-px w-full bg-white/25">
+              <div
+                className="h-px bg-white transition-[width] duration-300 ease-out"
+                style={{ width: `${pct}%` }}
+              />
+            </div>
+            <span className="label-num text-[10px] tracking-[0.3em] text-white/70">
+              {pct}%
+            </span>
+          </div>
+        </div>
+      </div>
+
+      {/* ================= hero copy — floats over the film ============== */}
+      <section
+        ref={heroRef}
+        id="hero"
+        aria-label="نمایش سینمایی جراحی‌های فک و صورت دکتر حامد کرمانی — ویدیو با اسکرول صفحه کنترل می‌شود"
+        className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 text-center text-white"
+      >
+        <div
+          className="flex flex-col items-center"
+          style={{
+            opacity: 'calc(1 - var(--hp, 0) * 1.25)',
+            transform: 'translateY(calc(var(--hp, 0) * -10vh))',
           }}
         >
-          <p className="mb-7 border border-white/30 bg-white/5 px-4 py-2 text-[11px] font-medium tracking-[0.18em] text-white/85 backdrop-blur-sm md:text-xs">
+          <p className="glass-18 mb-7 rounded-full px-5 py-2.5 text-[11px] font-medium tracking-[0.18em] text-white/90 md:text-xs">
             فلوشیپ جراحی‌های کرانیوفیشال
           </p>
-          <h1 className="display text-[clamp(2.6rem,8.5vw,7.5rem)] text-white drop-shadow-[0_2px_24px_rgba(0,0,0,0.35)]">
+          <h1 className="display text-[clamp(2.6rem,8.5vw,7.5rem)] text-white">
             دکتر حامد کرمانی
           </h1>
           <div className="mt-6 flex items-center gap-4 md:gap-6">
-            <span className="hidden h-px w-10 bg-white/50 md:block" />
-            <p className="text-lg font-light text-white/90 md:text-2xl">
+            <span className="hidden h-px w-10 bg-white/60 md:block" />
+            <p className="text-lg font-light text-white/95 md:text-2xl">
               متخصص جراحی فک و صورت
             </p>
-            <span className="hidden h-px w-10 bg-white/50 md:block" />
+            <span className="hidden h-px w-10 bg-white/60 md:block" />
           </div>
-          <p className="mt-8 max-w-xl text-[13px] font-light leading-7 text-white/65 md:text-sm">
+          <p className="mt-8 max-w-xl text-[13px] font-light leading-7 text-white/80 md:text-sm">
             ارتوسرجری · جراحی دو فک · جنیوپلاستی · بلفاروپلاستی · ایمپلنت و بازسازی فک
           </p>
 
-          <div
-            className="mt-12 flex flex-col items-center gap-5 sm:flex-row"
-            style={{ opacity: 'calc(1 - min(1, var(--p) * 3.2))' }}
-          >
+          <div className="mt-12 flex flex-col items-center gap-5 sm:flex-row">
             <a
               href="tel:02166921500"
-              className="bg-white px-9 py-3.5 text-sm font-medium text-ink transition-colors duration-500 hover:bg-accent hover:text-white"
+              className="ts-none rounded-full bg-white px-9 py-3.5 text-sm font-medium text-ink transition-all duration-500 hover:bg-gold hover:text-white"
             >
               رزرو نوبت
             </a>
             <a
               href="#services"
-              className="u-link px-2 py-3 text-sm text-white/85"
+              className="glass-18 rounded-full px-8 py-3.5 text-sm text-white/90 transition-all duration-500 hover:border-white/35 hover:bg-white/15"
             >
               مشاهده خدمات
             </a>
@@ -225,12 +254,10 @@ export default function ScrollVideoHero() {
         {/* vertical editorial side label (desktop) */}
         <div
           className="pointer-events-none absolute left-6 top-1/2 hidden -translate-y-1/2 lg:block"
-          style={{
-            opacity: 'calc(0.55 - min(0.55, var(--p) * 1.4))',
-          }}
+          style={{ opacity: 'calc(0.55 - var(--hp, 0) * 0.55)' }}
         >
           <span
-            className="block text-[10px] tracking-[0.5em] text-white/70"
+            className="block text-[10px] tracking-[0.5em] text-white/75"
             style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)' }}
           >
             HAMED KERMANI — ORAL &amp; MAXILLOFACIAL SURGERY
@@ -240,33 +267,12 @@ export default function ScrollVideoHero() {
         {/* scroll cue */}
         <div
           className="pointer-events-none absolute inset-x-0 bottom-10 flex flex-col items-center gap-4"
-          style={{
-            opacity: 'calc(1 - min(1, var(--p) * 14))',
-          }}
+          style={{ opacity: 'calc(1 - var(--hp, 0) * 1.6)' }}
         >
-          <span className="text-[11px] tracking-[0.35em] text-white/70">اسکرول</span>
+          <span className="text-[11px] tracking-[0.35em] text-white/80">اسکرول</span>
           <span className="scroll-cue" aria-hidden="true" />
         </div>
-
-        {/* minimal film-style loader */}
-        <div
-          className={`pointer-events-none absolute inset-x-0 bottom-0 flex items-end justify-center pb-8 transition-opacity duration-700 ${
-            ready ? 'opacity-0' : 'opacity-100'
-          }`}
-        >
-          <div className="flex w-56 flex-col items-center gap-3">
-            <div className="h-px w-full bg-white/20">
-              <div
-                className="h-px bg-white transition-[width] duration-300 ease-out"
-                style={{ width: `${pct}%` }}
-              />
-            </div>
-            <span className="label-num text-[10px] tracking-[0.3em] text-white/60">
-              {pct}%
-            </span>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

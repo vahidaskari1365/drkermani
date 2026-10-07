@@ -39,3 +39,19 @@ Stage Summary:
 - Site fully verified end-to-end in browser at desktop 1440x900 and mobile 390x844
 - All public/img assets now watermark-free; components reference descriptive filenames
 - Scrub logic untouched since its original implementation (per user constraint)
+
+---
+Task ID: 4
+Agent: main (Super Z)
+Task: Full-page cinematic scroll — video visible everywhere, all content as glass panels per user request
+
+Work Log:
+- Rewrote ScrollVideoHero: video is now a fixed inset-0 layer (z-0) behind ALL content; scrub maps WHOLE document scroll (0→1) to frames 1→151; exports global --p and hero-local --hp to root (no React re-renders)
+- Removed every opaque section background (bg-paper/bg-ink etc.); body now ink-dark, all sections transparent (z-10)
+- Added glass system to globals.css: .glass-28 (text panels), .glass-18 (cards/pills), .glass-gold (special offer), .row-blur (hover blur rows), .ts-none; strong text-shadow on body + .display
+- Restyled About/Services/Gallery/Pricing/Team/Contact/Footer/SectionHeader as floating glass over the film; golden glass = pricing CTA + contact booking card
+- Browser-verified: video visible behind every section (frames scrub continuously; p=1.000→frame 151 at page bottom, 11.7 viewports); hover blur on service rows via real mouse; desktop 1440×900 + mobile 390×844; console clean; lint clean
+
+Stage Summary:
+- Homepage is now ONE continuous cinematic scroll: film everywhere, glass cards on top
+- Scrub engine preserved (lerp + preloader + DPR canvas), only its mapping extended page-wide per user request

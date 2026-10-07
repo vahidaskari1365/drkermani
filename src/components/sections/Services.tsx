@@ -56,8 +56,8 @@ const MINOR = [
 
 export default function Services() {
   return (
-    <section id="services" className="relative border-t border-ink/10 bg-paper">
-      <div className="mx-auto max-w-[1440px] px-5 py-28 md:px-10 md:py-44">
+    <section id="services" className="relative z-10">
+      <div className="mx-auto max-w-[1440px] px-5 py-24 md:px-10 md:py-40">
         <SectionHeader
           index="02"
           label="خدمات"
@@ -65,29 +65,29 @@ export default function Services() {
           lead="فهرست زیر، نقشه کامل درمان‌های تخصصی مطب است؛ از اصلاح اسکلتی فک تا ظریف‌ترین جزئیات اطراف چشم."
         />
 
-        {/* editorial index list — floating rows, no cards */}
-        <div className="border-t border-ink/10">
+        {/* editorial index — transparent rows that take glass blur on hover */}
+        <div className="border-t border-white/15">
           {SERVICES.map((s, i) => (
             <Reveal key={s.num} delay={i * 60}>
               <a
                 href="#pricing"
-                className="group relative grid grid-cols-[auto_1fr_auto] items-center gap-x-5 gap-y-3 border-b border-ink/10 py-8 transition-colors duration-500 md:grid-cols-[80px_1fr_1fr_180px] md:gap-x-10 md:py-10"
+                className="row-blur group relative grid grid-cols-[auto_1fr_auto] items-center gap-x-5 gap-y-3 px-3 py-8 md:grid-cols-[80px_1fr_1fr_180px] md:gap-x-10 md:py-9"
               >
-                <span className="label-num text-xs text-ink/35 transition-colors duration-500 group-hover:text-accent">
+                <span className="label-num text-xs text-white/45 transition-colors duration-500 group-hover:text-gold">
                   {s.num}
                 </span>
                 <span className="flex flex-col">
-                  <span className="display text-2xl text-ink transition-transform duration-700 group-hover:-translate-x-2 md:text-4xl">
+                  <span className="display text-2xl text-white transition-transform duration-700 group-hover:-translate-x-2 md:text-4xl">
                     {s.title}
                   </span>
-                  <span className="label-num mt-2 text-[10px] tracking-[0.35em] text-ink/30">
+                  <span className="label-num mt-2 text-[10px] tracking-[0.35em] text-white/40">
                     {s.en}
                   </span>
                 </span>
-                <span className="col-span-3 max-w-sm text-[13px] font-light leading-7 text-ink/55 md:col-span-1">
+                <span className="col-span-3 max-w-sm text-[13px] font-light leading-7 text-white/60 md:col-span-1">
                   {s.desc}
                 </span>
-                <span className="pointer-events-none relative hidden h-24 w-[180px] overflow-hidden md:block">
+                <span className="pointer-events-none relative hidden h-24 w-[180px] overflow-hidden rounded-xl border border-white/15 md:block">
                   <img
                     src={s.img}
                     alt={s.title}
@@ -102,12 +102,12 @@ export default function Services() {
 
         {/* secondary treatments — quiet inline flow */}
         <Reveal delay={120}>
-          <div className="mt-16 flex flex-wrap items-center gap-x-3 gap-y-4 text-[12px] font-light text-ink/45">
-            <span className="tracking-[0.25em] text-ink/35">همچنین:</span>
+          <div className="glass-28 mt-8 flex flex-wrap items-center gap-x-3 gap-y-4 rounded-2xl px-6 py-5 text-[12px] font-light text-white/60">
+            <span className="tracking-[0.25em] text-white/40">همچنین:</span>
             {MINOR.map((m) => (
               <span key={m} className="flex items-center gap-3">
                 <span>{m}</span>
-                <span className="h-1 w-1 rotate-45 bg-ink/25" />
+                <span className="h-1 w-1 rotate-45 bg-white/35" />
               </span>
             ))}
           </div>

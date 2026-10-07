@@ -13,26 +13,25 @@ const ITEMS = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="relative bg-ink text-white">
-      <div className="mx-auto max-w-[1440px] px-5 py-28 md:px-10 md:py-44">
+    <section id="gallery" className="relative z-10">
+      <div className="mx-auto max-w-[1440px] px-5 py-24 md:px-10 md:py-40">
         <SectionHeader
           index="03"
           label="نمونه‌کارها"
           title="نمونه جراحی‌های انجام شده"
           lead="گزیده‌ای از نتایج درمانی؛ برای مشاهده جزئیات، تصویر را لمس یا نگه دارید."
-          dark
         />
 
-        {/* hairline asymmetric grid — gaps read as fine dividers */}
-        <div className="grid grid-cols-1 gap-px border border-white/10 bg-white/10 sm:grid-cols-2 md:grid-cols-12">
+        {/* floating glass-framed stills over the film */}
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-12">
           {ITEMS.map((it, i) => (
             <Reveal
               key={it.src + i}
               delay={(i % 3) * 90}
-              className={`group relative overflow-hidden bg-ink ${it.span}`}
+              className={`group relative ${it.span}`}
             >
-              <figure className="relative">
-                <div className={`${it.ratio} overflow-hidden`}>
+              <figure className="glass-18 rounded-2xl p-2 transition-transform duration-700 group-hover:-translate-y-1">
+                <div className={`${it.ratio} overflow-hidden rounded-xl`}>
                   <img
                     src={it.src}
                     alt={it.cap}
@@ -40,9 +39,9 @@ export default function Gallery() {
                     className="cine-img h-full w-full object-cover"
                   />
                 </div>
-                <figcaption className="pointer-events-none absolute inset-x-0 bottom-0 flex items-center justify-between bg-gradient-to-t from-black/70 to-transparent px-5 pb-4 pt-14 text-[11px] font-light tracking-wider text-white/85 opacity-0 transition-opacity duration-700 group-hover:opacity-100">
+                <figcaption className="pointer-events-none absolute inset-x-3 bottom-3 flex items-center justify-between rounded-xl bg-black/45 px-4 py-2.5 text-[11px] font-light tracking-wider text-white/90 opacity-0 backdrop-blur-md transition-opacity duration-700 group-hover:opacity-100">
                   <span>{it.cap}</span>
-                  <span className="label-num text-white/50">
+                  <span className="label-num text-white/55">
                     {String(i + 1).padStart(2, '0')}
                   </span>
                 </figcaption>
@@ -52,7 +51,7 @@ export default function Gallery() {
         </div>
 
         <Reveal delay={150}>
-          <p className="mt-10 text-[11px] font-light leading-6 text-white/35">
+          <p className="mt-8 text-[11px] font-light leading-6 text-white/45">
             تصاویر گالری صرفاً جهت نمایش الگوی نتایج درمانی است؛ نتیجه هر جراحی به
             شرایط فردی بیمار بستگی دارد و پس از معاینه تعیین می‌شود.
           </p>

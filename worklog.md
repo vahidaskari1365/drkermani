@@ -97,3 +97,20 @@ Stage Summary:
 - تمام تصاویر نمونه‌کار اکنون موارد بالینی واقعی از dromfs.com است (قبل/بعد + اینتراپراتوری)
 - عکس دکتر اصلاح شد: پرتره رسمی ۲۰۲۵، روپوش سفید، اتاق عمل
 - چرخ نمونه‌کار (WorksWheel) هم ایندکس پورتفولیو است و هم ناوبر دسته‌بندی‌ها؛ اسکراب فیلم و سبک سینمایی دست‌نخورده
+
+---
+Task ID: 8
+Agent: Super Z (main)
+Task: Push the complete Dr. Kermani site (all code, images, content) to GitHub repo vahidaskari1365/drkermani
+
+Work Log:
+- Verified working tree clean, 497 files committed on main (last commit 652d1a4, includes Task 7 state: works-wheel.tsx, real doctor photos, 152 video frames, Vazirmatn fonts, scraped dromfs content)
+- Added remote origin https://github.com/vahidaskari1365/drkermani.git
+- Pushed main -> origin/main using user-provided PAT (one-time auth)
+- Scrubbed token from .git/config (remote URL now credential-free)
+- Verified via GitHub API: repo public, default branch main, public/img (14 files) confirmed live
+
+Stage Summary:
+- Site fully pushed to https://github.com/vahidaskari1365/drkermani (branch main, upstream set)
+- Token NOT persisted in any file; user advised to revoke/rotate it since it was shared in chat
+- .env, dev.log, node_modules, .next remain gitignored (correct)
